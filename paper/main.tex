@@ -1,0 +1,844 @@
+\documentclass[12pt,a4paper]{article}
+
+% ── Packages ──────────────────────────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{amsmath,amssymb}
+\usepackage[protrusion=false,expansion=false]{microtype}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{natbib}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{lineno}
+\usepackage{abstract}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+% ── Hyperref setup ────────────────────────────────────────────────────────
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!70!black,
+  citecolor=blue!70!black,
+  urlcolor=blue!70!black,
+  pdftitle={Beyond the Flight Recorder: A Cryptographic Biometric Framework for
+            Bridging Individual and Organizational Aviation Risk},
+  pdfauthor={Mete CANTEKİN},
+  pdfkeywords={Aviation Safety, CDSA, Cryptographic Privacy, Shamir Secret Sharing,
+               Differential Privacy, Wearable Biometric Sensors}
+}
+
+% ── Typography ────────────────────────────────────────────────────────────
+\onehalfspacing
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+
+% ── Section formatting ────────────────────────────────────────────────────
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection.}{0.5em}{}
+\titleformat{\subsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsection.}{0.5em}{}
+\titlespacing{\section}{0pt}{18pt}{6pt}
+\titlespacing{\subsection}{0pt}{12pt}{4pt}
+\titlespacing{\subsubsection}{0pt}{10pt}{2pt}
+
+% ── Caption setup ─────────────────────────────────────────────────────────
+\captionsetup{font=small, labelfont=bf, justification=justified, singlelinecheck=false}
+
+% ── arXiv preprint note ───────────────────────────────────────────────────
+\newcommand{\preprintnote}{%
+  \begin{center}
+    \fbox{\parbox{0.85\textwidth}{\centering\small
+      \textbf{Preprint} --- Submitted to \textit{Safety Science} (Elsevier, Q1).\\
+      This version has not yet undergone peer review.\\
+      \href{https://orcid.org/0009-0001-6990-6340}{ORCID: 0009-0001-6990-6340}
+      $\cdot$ Istanbul, 2026
+    }}
+  \end{center}
+  \vspace{1em}
+}
+
+% ══════════════════════════════════════════════════════════════════════════
+\begin{document}
+% ══════════════════════════════════════════════════════════════════════════
+
+% ── Title ─────────────────────────────────────────────────────────────────
+\begin{titlepage}
+\begin{center}
+\vspace*{2cm}
+
+{\LARGE\bfseries Beyond the Flight Recorder:\\[6pt]
+A Cryptographic Biometric Framework for Bridging\\[6pt]
+Individual and Organizational Aviation Risk}
+
+\vspace{1.5cm}
+
+{\large Mete CANTEKİN}\\[4pt]
+{\normalsize Istanbul Beykent University, Department of Computer Engineering (PhD)}\\[2pt]
+{\normalsize ORCID: \href{https://orcid.org/0009-0001-6990-6340}{0009-0001-6990-6340}}\\[2pt]
+{\normalsize Supervisor: Assoc.\ Prof.\ Dr.\ İbrahim Furkan İNCE}
+
+\vspace{1.5cm}
+
+\rule{0.7\textwidth}{0.4pt}
+
+\vspace{0.8cm}
+
+{\small\itshape Preprint submitted to \textbf{Safety Science} (Q1, Elsevier)\\
+Not yet peer-reviewed --- Istanbul, 2026}
+
+\vspace{0.8cm}
+\rule{0.7\textwidth}{0.4pt}
+
+\end{center}
+\end{titlepage}
+
+% ── Abstract ──────────────────────────────────────────────────────────────
+\begin{abstract}
+Every pilot error is an organizational failure \citep{reason2000,dekker2007}.
+Aviation safety has achieved remarkable maturity through the systematic development
+of reactive and proactive paradigms over the past half century. Yet the mechanical
+telemetry provided by flight data recorders (FDR) and cockpit voice recorders (CVR)
+cannot capture the cognitive and physiological state of the pilot at the moment of
+decision-making, creating a structural diagnostic gap in accident investigations.
+This study presents a two-phase cryptographic data processing architecture developed
+within the Complementary Diagnostic Safety Approach (CDSA) framework to address this gap.
+In the first phase, HRV, SpO\textsubscript{2}, and GSR data from smart pilot watches
+are encrypted at the device level using AES-256-GCM; the master key is then split
+into three shares via Shamir Secret Sharing and distributed to independent institutional parties.
+The 2-of-3 threshold scheme ensures that individual biometric data can only be accessed
+following an accident report with simultaneous authorization from at least two parties.
+In the second phase, macro biometric data anonymized through differential privacy
+mechanisms ($\varepsilon=1.0$, $k$-anonymity $k=5$) are integrated into Safety
+Management Systems (SMS) to enable proactive risk analysis.
+Validated at prototype level in Python, the architecture is compliant with the
+privacy-by-design principle under GDPR Article 25 and with Just Culture philosophy.
+All reported findings are derived from a literature-calibrated synthetic dataset
+($n=1{,}179$); real operational validation constitutes the primary agenda of future research.
+The study also proposes a Biometric Flight Data Declaration within ICAO Annex~13.
+\end{abstract}
+
+\noindent\textbf{Keywords:} Aviation Safety; Complementary Diagnostic Safety Approach (CDSA);
+Cryptographic Privacy; Shamir Secret Sharing; Differential Privacy; Wearable Biometric Sensors
+
+\vspace{1em}
+\hrule
+\vspace{1em}
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Introduction}
+% ══════════════════════════════════════════════════════════════════════════
+
+Aviation engineering has achieved an extraordinary level of mechanical reliability
+over the course of its history. According to data from the International Civil Aviation
+Organization (ICAO), the accident rate per million flights in commercial aviation has
+decreased approximately fortyfold since the early 1970s \citep{icao2022}. Yet behind
+this remarkable achievement in mechanical safety, a structural gap persists that has not
+been fully resolved: the inability to explain, at a diagnostic level, the human factors
+underlying aviation accidents.
+
+A review of the aviation safety literature reveals that existing approaches have coalesced
+around two fundamental paradigms. The reactive paradigm seeks to prevent the recurrence of
+similar events by conducting systematic analyses following accidents and incidents \citep{gerede2018}.
+The proactive paradigm aims to identify risks before they materialize, working to elevate
+operational safety through tools such as Safety Management Systems (SMS) and the Human
+Factors Analysis and Classification System (HFACS) \citep{shappell2000}. While the contributions
+of these two paradigms to aviation safety are undeniable, both are structurally incapable of
+objectively recording the pilot's cognitive and physiological state at the moment of an accident.
+
+The traditional accident investigation tools---the FDR and CVR---capture the aircraft's
+mechanical responses and cockpit conversations. Yet what the pilot was experiencing at those
+critical moments, the level of oxygen saturation, or how heart rate variability was evolving
+under acute stress, remains largely in the dark \citep{dehais2020}. This situation creates
+fertile ground for the proliferation of superficial causal attributions such as ``pilot error''
+in accident reports---attributions that simultaneously conceal genuine root causes and render
+systemic failures invisible \citep{reason2000}.
+
+Recent advances in wearable sensor technologies carry considerable potential for closing this
+diagnostic gap. Smart pilot watches and biometric sensors can measure parameters such as HRV,
+SpO\textsubscript{2}, and GSR in real time; when fused with traditional flight telemetry,
+these data offer the possibility of reconstructing the physiological state at the moment of
+an accident with mathematical precision \citep{cantekin2025a}. However, the obstacles to
+realizing this technological potential are less technical than ethical and legal. A pilot's
+biometric data---heart rate, stress level, sleep quality---are classified as special category
+personal data under the European Union's General Data Protection Regulation (GDPR), and
+questions of ownership and access rights over such data remain unresolved critical issues
+\citep{erdinc2020}.
+
+This study proposes the Complementary Diagnostic Safety Approach (CDSA)---a framework that
+addresses these ethical and technical challenges simultaneously---and presents in detail the
+cryptographic infrastructure underpinning this approach. CDSA is positioned as a third safety
+layer that goes beyond reactive and proactive paradigms. Its core innovation lies in a two-phase
+data processing architecture based on AES-256-GCM encryption and Shamir Secret Sharing protocol.
+Through this architecture, individual biometric data are protected by cryptographic guarantees
+while anonymized macro data contribute to proactive risk management.
+
+The original contributions of this study can be summarized across four dimensions:
+(1) the reconceptualization of aviation safety within a three-layer paradigm framework
+encompassing reactive, proactive, and diagnostic approaches;
+(2) the design of a cryptographic architecture integrating AES-256-GCM and Shamir Secret
+Sharing with Just Culture principles;
+(3) the adaptation of differential privacy mechanisms to aviation safety management; and
+(4) the operationalization of the CDSA ecosystem through publicly accessible prototype
+applications on the \href{https://cdsa.app}{cdsa.app} platform.
+The remainder of the paper is organized as follows: Section~\ref{sec:related} reviews the
+relevant literature; Section~\ref{sec:framework} presents the CDSA framework and cryptographic
+architecture; Section~\ref{sec:prototype} reports prototype implementation and validation findings;
+Section~\ref{sec:discussion} discusses ethical and regulatory dimensions; and
+Section~\ref{sec:conclusion} evaluates the study's contributions and future research directions.
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Related Work}
+\label{sec:related}
+% ══════════════════════════════════════════════════════════════════════════
+
+The following five axes of literature are reviewed: the evolution of safety paradigms in
+aviation, wearable biometric sensor applications, cryptographic privacy architectures, data
+privacy and Just Culture principles, and the identification of the gap that this study addresses.
+
+\subsection{The Evolution of Paradigms in Aviation Safety}
+
+A field's understanding of safety is directly linked to how the accidents within that field
+are interpreted. A review of the aviation safety literature reveals that the discipline's
+history of more than a century has been built on a reactive foundation. Early accident
+investigations relied on linear causality models in which events were attributed to a single
+cause---typically a mechanical failure or human error. \citet{reason2000}'s Swiss Cheese model
+fundamentally transformed this understanding, demonstrating that accidents arise from the
+simultaneous alignment of gaps across multiple defensive layers. This model established systemic
+thinking in aviation and formed the theoretical basis for proactive safety management.
+
+The operational counterpart of proactive safety approaches is ICAO's Safety Management System
+(SMS) framework \citep{icao2020}. SMS seeks to systematically integrate hazard identification,
+risk assessment, and safety assurance cycles into institutional operations. The HFACS model
+developed by \citet{shappell2000} classifies human factor-related accidents within a four-level
+hierarchical structure, providing accident investigators with a powerful analytical tool. Despite
+these advances, \citet{gerede2018} emphasizes that existing proactive tools remain structurally
+limited in their diagnostic capacity precisely because they cannot access the physiological data
+layer at the moment of an accident.
+
+\subsection{Wearable Biometric Sensors and Aviation Applications}
+
+The potential of wearable technologies in the aviation context has attracted growing interest
+over the past decade. Heart rate variability (HRV) serves as a direct indicator of autonomic
+nervous system activity, objectively reflecting the pilot's cognitive workload and stress level
+\citep{taskforce1996}. \citet{dehais2020}, in a study conducted from a neuroergonomics
+perspective, demonstrated that HRV reduction reliably predicts prefrontal cortex overload and
+consequent loss of situational awareness. Peripheral oxygen saturation (SpO\textsubscript{2})
+functions as a critical biomarker for the early detection of covert hypoxia risk, particularly
+under high-altitude conditions. \citet{denison1972} demonstrated that the pilot's reasoning
+capacity begins to deteriorate well before SpO\textsubscript{2} drops below 91\,\%.
+
+On the integration of biometric data with flight safety, \citet{ratti2021} showed that sensor
+fusion algorithms, when combined with FDR telemetry, can reconstruct the causal chain at the
+moment of an accident with mathematical accuracy. \citet{cantekin2025a} comprehensively examined
+the diagnostic potential of pilot watches evolving from the mechanical era to AI-assisted systems
+and laid out the first systematic framework of the CDSA concept.
+
+\subsection{Cryptographic Privacy Architectures}
+
+The most critical legal and ethical dimension of biometric data processing is the provision
+of data privacy guarantees at the design level. \citet{cavoukian2009}'s Privacy by Design
+principle advocates that personal data protection mechanisms be conceived as an integral part
+of the architecture rather than added to the system after the fact. This principle has been
+elevated to the status of a legal obligation under Article~25 of the GDPR \citep{gdpr2016}.
+
+In the field of threshold cryptography, \citet{shamir1979} developed a protocol enabling a
+secret value to be split into $n$ shares such that any $k \geq 2$ shares can reconstruct it
+via Lagrange interpolation. Differential privacy, formally defined by \citet{dwork2014}, renders
+individual re-identification statistically impossible by adding controlled random noise to a dataset.
+The application of cryptographic access control and threshold schemes to aviation data management
+finds very limited coverage in the literature; the NTSB's \citeyearpar{ntsb2023} projection report
+explicitly articulates the need for a regulatory framework in this area.
+
+The relationship between regulatory complexity and cryptographic data protection architecture is
+not unique to the aviation sector. In healthcare, HIPAA and GDPR mandate that patient data be
+protected through encryption, access control, and audit trail mechanisms; compliance must be
+grounded in direct technical safeguards rather than institutional trust alone \citep{conduah2025}.
+In the financial sector, SOX, MiFID~II, and Basel~III frameworks require comprehensive data
+governance infrastructures, and the compliance burden simultaneously creates structural barriers
+to market entry for new technological actors \citep{mcnulty2023}. In defense and intelligence,
+ITAR and FedRAMP~High certifications demand compliance processes spanning more than a decade.
+A common pattern emerges: regulatory cryptographic obligations strengthen the market position
+of compliant platforms; privacy-enhancing technologies are increasingly regarded not merely
+as compliance tools but as prerequisites for value creation in the data economy \citep{nitrd2022}.
+CDSA represents a sector-specific application of this cross-industry data protection paradigm.
+
+\subsection{Data Privacy, Just Culture, and Pilot Rights}
+
+The point at which biometric monitoring systems intersect with pilot rights constitutes the most
+contested axis in the literature. The Just Culture principle conceptualized by \citet{dekker2007}
+holds that errors should be reported not to be punished but to identify vulnerabilities in the system.
+The Air Line Pilots Association \citeyearpar{alpa2022} documented in its technical white paper that
+the absence of this guarantee would fundamentally undermine pilot trust and produce a counterproductive
+effect on safety culture. \citet{ustaomer2020} demonstrated that the institutional trust environment
+is the single most critical factor determining safety reporting behavior. \citet{erdinc2020}
+evaluated the legal requirements for processing biometric data under the special category personal
+data framework through the lenses of proportionality and informed consent.
+
+\subsection{The Gap in the Literature and the Position of This Study}
+
+Two fundamental observations emerge from the body of literature summarized above. First, studies
+addressing the integration of wearable biometric sensors into aviation diagnostic processes discuss
+the technical opportunity framework but fall short of proposing an end-to-end cryptographic
+architecture to secure this integration. Second, the data privacy and Just Culture literature
+evaluates the ethical framework broadly but cannot systematically demonstrate how these principles
+translate into engineering design. This study aims to close these gaps through the integrated
+application of AES-256-GCM real-time encryption, Shamir 2-of-3 threshold cryptography, and
+Laplace differential privacy.
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{CDSA Framework and Cryptographic Architecture}
+\label{sec:framework}
+% ══════════════════════════════════════════════════════════════════════════
+
+This section presents the conceptual foundation of CDSA and its two-phase cryptographic
+architecture in detail. Phase~1 addresses individual diagnostic access control;
+Phase~2 covers anonymized macro-level data analysis for proactive risk management.
+
+\subsection{Conceptual Framework: The Third Safety Paradigm}
+
+A system's diagnostic capacity is determined not only by the effectiveness of its preventive
+mechanisms but also by the extent to which it can illuminate the causal chain underlying events.
+Viewed from this perspective, the current reactive and proactive paradigms in aviation safety
+share a common blind spot: both are structurally incapable of objectively recording the pilot's
+physiological and cognitive state at the moment of an accident.
+
+The CDSA proposed in this study is positioned as a third safety layer targeting precisely this
+blind spot. The core thesis of CDSA can be stated as follows: when biometric data obtained from
+wearable sensors are fused with traditional flight telemetry at millisecond precision, accident
+investigations can move beyond superficial attributions such as ``pilot error'' and physiological
+root causes---covert hypoxia, acute stress, or startle effect---can be established with
+mathematical certainty. CDSA seeks to resolve the tension between individual privacy and diagnostic
+access not through legal regulation but through the architecture of cryptography itself.
+
+\subsection{Phase~1: Cryptographic Diagnostic Data Architecture}
+
+Phase~1 comprises a five-layer hierarchical architecture designed to make individual pilot
+biometric data accessible only following an accident or serious incident report and subject
+to simultaneous multi-party authorization.
+
+\subsubsection{System Overview}
+
+Phase~1 of CDSA is built on a five-layer hierarchical architecture: (1)~real-time biometric
+measurement and encryption, (2)~splitting of the master key into shares via threshold
+cryptography, (3)~distribution of key shares to independent institutional parties,
+(4)~unlocking of the locked box following an accident report and with threshold authorization,
+and (5)~decryption and sensor fusion with FDR/CVR data. Figure~\ref{fig:architecture}
+summarizes the architecture and data flow across these five layers.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{image1.png}
+  \caption{CDSA Two-Phase Cryptographic Architecture. Phase~1 (left): AES-256-GCM
+  encryption, Shamir 2/3 threshold key distribution, and locked-box access control.
+  Phase~2 (right): Differential privacy anonymization and SMS integration. Both phases
+  share the same hardware infrastructure while maintaining cryptographic separation of access.}
+  \label{fig:architecture}
+\end{figure}
+
+\subsubsection{Data Acquisition and Real-Time Encryption}
+
+The most effective form of data security is considered to be ensuring that sensitive information
+is never stored in plaintext. Accordingly, the design principle adopted is that HRV,
+SpO\textsubscript{2}, and GSR values continuously acquired from the smart pilot watch at
+millisecond precision are never written to device memory in raw form. Each measurement is
+encrypted in real time at the hardware level using the AES-256-GCM algorithm (NIST SP 800-38D).
+The 96-bit nonce value used in encryption is generated independently for each record by a
+cryptographically secure pseudorandom number generator (CSPRNG), ensuring that identical data
+never produce the same ciphertext. Each record additionally carries an Additional Authentication
+Data (AAD) field composed of the flight identifier, timestamp, and box identifier; this field
+is cryptographically bound to the GCM authentication tag.
+
+\subsubsection{Shamir Secret Sharing and 2-of-3 Threshold Cryptography}
+
+To eliminate the security vulnerability created by a single center's absolute control over the
+master key, the AES-256 master key ($k_0$) is split into $n=3$ shares using the Shamir Secret
+Sharing protocol \citep{shamir1979}. The mathematical foundation of the system is expressed as:
+%
+\begin{equation}
+  f(x) = k_0 + a_1 x \pmod{p}, \quad p = 2^{257} - 93
+  \label{eq:shamir_poly}
+\end{equation}
+\begin{equation}
+  S_i = \bigl(x_i,\, f(x_i)\bigr) \;\longrightarrow\; \text{Share } i
+  \text{ transmitted to Party } i
+  \label{eq:shamir_shares}
+\end{equation}
+%
+Here $p$ is a 257-bit prime compliant with NIST SP 800-57 standards. The threshold parameter
+$k=2$ means that any two of the three shares suffice to reconstruct the master key exactly
+via Lagrange interpolation. A single share held by one party is mathematically meaningless
+and cannot yield the original key even with unlimited computational power.
+Table~\ref{tab:crypto_params} summarizes the cryptographic parameters of the CDSA architecture.
+
+\begin{table}[H]
+  \centering
+  \caption{CDSA Cryptographic Architecture Parameter Summary.}
+  \label{tab:crypto_params}
+  \begin{tabularx}{\textwidth}{lX}
+    \toprule
+    \textbf{Parameter} & \textbf{Value / Description} \\
+    \midrule
+    Symmetric encryption      & AES-256-GCM (NIST SP 800-38D) \\
+    Nonce length              & 96-bit (CSPRNG, independent per record) \\
+    Secret sharing protocol   & Shamir Secret Sharing \citep{shamir1979} \\
+    Finite field              & $p = 2^{257} - 93$ (257-bit prime, NIST SP 800-57) \\
+    Threshold parameters      & $k=2$, $n=3$ (2-of-3 threshold scheme) \\
+    AAD field                 & Flight ID + Timestamp + Box ID \\
+    Integrity control         & GCM authentication tag \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+Within the parameter framework summarized in Table~\ref{tab:crypto_params},
+Figure~\ref{fig:shamir} illustrates the protocol flow through which Shamir Secret Sharing
+splits the master key into three independent shares and reconstructs it when the threshold
+number of shares is combined.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{image2.png}
+  \caption{Shamir Secret Sharing: 2-of-3 Threshold Cryptography Protocol. The AES-256
+  master key $k_0$ is split into $n=3$ shares using a polynomial over a finite field
+  ($p=2^{257}-93$). Any 2 shares allow reconstruction via Lagrange interpolation; a
+  single share alone reveals zero information.}
+  \label{fig:shamir}
+\end{figure}
+
+\subsubsection{Independent Key Holders and Institutional Balance}
+
+The effectiveness of cryptographic systems is measured not only by their mathematical strength
+but also by the institutional independence of their key holders. Accordingly, the three key
+shares are distributed to three independent institutional parties whose interests are structurally opposed:
+
+\begin{itemize}[leftmargin=1.5cm]
+  \item \textbf{Share A --- Accident Investigation Authority (NTSB/JTSB):} Submits the key
+    share upon completion of accident reporting. Its legal status, independent of commercial
+    pressures, constitutes the primary safeguard.
+  \item \textbf{Share B --- Pilot Union (IFALPA/ALPA):} Represents pilot consent in its
+    capacity as the guardian of labor rights. Retains veto power over the use of data in
+    disciplinary proceedings.
+  \item \textbf{Share C --- Judicial Authority:} Activated solely upon court order and upon
+    presentation of legal justification.
+\end{itemize}
+
+This tripartite structure renders it mathematically impossible for any single party to unlock
+the system alone, while simultaneously aligning with Just Culture principles \citep{dekker2007}.
+
+\subsubsection{Locked Box Access Control and Decryption Protocol}
+
+During routine flight operations, encrypted biometric data accumulate in hardware units referred
+to as the locked box. After the flight concludes and the box is sealed, the master key is
+cryptographically deleted from device memory. At this stage, even if the airline or aircraft
+manufacturer physically possesses the encrypted data, they cannot access its contents. The
+decryption mechanism can only be triggered by the simultaneous fulfillment of two conditions:
+the filing of an accident or serious incident report, and the simultaneous submission of key
+shares by at least two parties. The decrypted HRV, SpO\textsubscript{2}, and GSR time series
+are synchronized with FDR telemetry at millisecond precision and presented to the accident
+investigation board.
+
+\subsection{Phase~2: Macro Data Analysis with Differential Privacy}
+
+Phase~2 shares the same biometric hardware infrastructure as Phase~1 but is fully decoupled from
+it through cryptographic access control. In this phase, anonymized macro data containing no
+individual identity are processed for proactive risk management.
+
+\subsubsection{Anonymization Architecture}
+
+While Phase~1 of CDSA serves a diagnostic function, Phase~2 leverages the same biometric data
+infrastructure for proactive risk management purposes. Data stripped of individual pilot identity
+pass through two complementary privacy mechanisms. The first mechanism is based on the
+$k$-anonymity ($k=5$) principle \citep{sweeney2002}. The second mechanism is Laplace
+differential privacy ($\varepsilon=1.0$) \citep{dwork2014}:
+%
+\begin{equation}
+  \mathcal{M}(x) = x + \mathrm{Lap}\!\left(\frac{\Delta f}{\varepsilon}\right),
+  \quad \Delta f = \text{sensitivity},\quad \varepsilon = \text{privacy budget}
+  \label{eq:dp}
+\end{equation}
+%
+The sensitivity values applied are $\Delta f = 5.0$\,ms for HRV, $\Delta f = 1.0\%$ for
+SpO\textsubscript{2}, and $\Delta f = 2.0\,\mu$S for GSR.
+
+\subsubsection{SMS Integration and Proactive Risk Outputs}
+
+Anonymized macro data are integrated with SMS to produce two types of operational output:
+(1)~evidence-based justification for shift optimization in route and shift combinations where
+high SRS values are concentrated; and (2)~support for ICAO Annex~6 FDP limitations through the
+finding that night shifts produce statistically significantly higher risk profiles across all routes.
+In neither output does individual pilot data enter the processing pipeline.
+
+\subsection{Comparative Summary of the Architecture}
+
+Figure~\ref{fig:comparison} below presents a visual comparative summary of the two phases across
+data type, encryption mechanism, access condition, authorized users, primary goal, and GDPR basis.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{image3.png}
+  \caption{CDSA Phase~1 vs Phase~2: Comparative Data Flow. Key distinctions across data type,
+  privacy mechanism, access trigger, authorized users, primary goal, GDPR basis, and operational
+  output. Both phases share the same biometric hardware infrastructure.}
+  \label{fig:comparison}
+\end{figure}
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Prototype Implementation and Validation}
+\label{sec:prototype}
+% ══════════════════════════════════════════════════════════════════════════
+
+This section validates the functionality of the CDSA architecture at two complementary levels:
+a Python-based cryptographic prototype implementation and publicly accessible user interfaces
+deployed on the \href{https://cdsa.app}{cdsa.app} platform.
+
+\subsection{Validation Strategy and Prototype Scope}
+
+The scientific value of a theoretical framework depends in large part on the extent to which
+its practical feasibility can be concretely demonstrated. The former establishes mathematical
+correctness; the latter demonstrates operational feasibility.
+
+A synthetic covert hypoxia scenario formed the basis of the prototype development process:
+SpO\textsubscript{2}\,=\,91\%, HRV\,=\,33.2\,ms, GSR\,=\,13.96\,$\mu$S, SRS\,=\,0.457
+(above the critical threshold of 0.40). These parameters are consistent with the
+literature-calibrated synthetic dataset (seed\,=\,42).
+
+\subsection{Cryptographic Prototype --- Python Implementation}
+
+The cryptographic prototype was developed and validated at two levels: the implementation
+environment and components are described in Section~\ref{sec:421}, while the Phase~1 validation
+findings are reported in Section~\ref{sec:422}.
+
+\subsubsection{Implementation Environment and Components}
+\label{sec:421}
+
+\sloppy The cryptographic prototype was developed in Python~3.10 using the \texttt{cryptography} library for encryption operations. The prototype consists of three modules: (1)~data generation
+and real-time encryption, (2)~key management via Shamir Secret Sharing, and (3)~decryption and
+integrity verification via Lagrange interpolation. The complete code is presented in Appendix~C
+and shared publicly in accordance with the reproducibility principle.
+
+\subsubsection{Phase~1 Validation Findings}
+\label{sec:422}
+
+In the encryption module, six biometric measurement records from the hypoxia scenario defined
+above were encrypted in real time using AES-256-GCM. Independent 96-bit nonce values generated
+for each record provided mathematical protection against timing attacks. Successful binding of
+AAD fields to GCM authentication tags was confirmed.
+
+In the Shamir Secret Sharing module, the master key $k_0$ was split into $n=3$ shares over the
+finite field $p=2^{257}-93$, with each share transmitted to the corresponding institutional party.
+It was verified that using only two of the three shares---NTSB and IFALPA, without the judicial
+authority's share---the master key was fully reconstructed via Lagrange interpolation. The key
+integrity verification test returned a positive result; single-party access attempts were
+automatically rejected.
+
+The decryption output reconstructed the covert hypoxia scenario with mathematical precision:
+SpO\textsubscript{2} had dropped to 91\%, HRV had declined to 33.2\,ms, and GSR had risen to
+13.96\,$\mu$S at the moment of critical event onset---findings that establish the existence of
+a physiological root cause chain beyond the attribution of ``pilot error.''
+Figure~\ref{fig:pilotauth} presents the PilotSense AUTH interface alongside the decrypted
+biometric evidence timeline for the TC-XXX scenario.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{image4.png}
+  \caption{PilotSense AUTH Interface: Phase~1 Diagnostic Access Control. Left: encrypted
+  locked-box with NTSB and IFALPA shares submitted (2/3 threshold reached). Right: decrypted
+  biometric evidence timeline revealing covert hypoxia onset 28 minutes before the reported
+  event (synthetic scenario, TC-XXX).}
+  \label{fig:pilotauth}
+\end{figure}
+
+\subsection{Prototype Applications --- Overview}
+
+The CDSA ecosystem comprises five prototype applications, each targeting a distinct operational
+layer. Table~\ref{tab:apps} summarizes the key metrics obtained for each application.
+
+\begin{table}[H]
+  \centering
+  \caption{Summary of CDSA Prototype Applications.}
+  \label{tab:apps}
+  \begin{tabularx}{\textwidth}{llX}
+    \toprule
+    \textbf{Application} & \textbf{Layer} & \textbf{Key Metric} \\
+    \midrule
+    PilotSense AUTH & Diagnostic --- Phase~1 & 2/3 multi-party signature, AES-256-GCM, GDPR Art.~25 \\
+    PilotSense OPS  & Proactive --- Phase~2 & 247 pilots, SMS integration, anonymous fleet monitoring \\
+    PilotO2         & Proactive --- Individual & 95\% model accuracy, 92\% hypoxia detection, 127\,ms \\
+    PilotGuard      & Proactive --- Individual & 87\% pre-flight risk, 93\% stress detection \\
+    PilotReflect    & Post-Flight (EFB)       & 8-min debriefing, ISO 9241-11, Privacy by Design \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+\fussy
+
+All applications are publicly accessible on the \href{https://cdsa.app}{cdsa.app} platform.
+It must be emphasized that all five applications remain at the prototype stage and FAA/EASA
+certification processes have not yet been completed.
+
+\subsubsection{PilotSense AUTH --- Diagnostic Layer Interface}
+PilotSense AUTH operationalizes Phase~1 of CDSA at the user interface level. In the TC-XXX
+simulation scenario, a 14.7\,MB encrypted biometric data file was successfully decrypted through
+the simultaneous submission of NTSB and IFALPA shares, demonstrating the practical functionality
+of the 2/3 threshold scheme. The GDPR Article~25 compliance layer remained active throughout.
+
+\subsubsection{PilotSense OPS --- Proactive Fleet Monitoring Interface}
+PilotSense OPS represents Phase~2 of CDSA, targeting airline SMS managers and operations centers.
+In the simulation environment, anonymized biometric data from 247 active pilots were successfully
+processed; eight warnings and two critical conditions were automatically detected. The SRS values
+of critical records exceeded the threshold of 0.40.
+
+\subsubsection{PilotO2 --- Covert Hypoxia Early Warning System}
+The PilotO2 application is built on a three-layer LSTM neural network architecture consisting
+of 128, 64, and 32 processing units. The system achieved 95\% model accuracy, 92\% hypoxia
+detection rate, and 127\,ms response time. Validation under real operational conditions
+constitutes a priority for future research.
+
+\subsubsection{PilotGuard --- Pre-Flight Readiness Assessment}
+PilotGuard processes HRV, instantaneous heart rate, stress index, and sleep quality data in
+real time to generate an integrated pilot flight readiness score. Simulation tests yielded
+87\% pre-flight risk prediction and 93\% stress detection accuracy, with a user experience
+rating of 4.6/5.0.
+
+\subsubsection{PilotReflect --- EFB Integrated Biometric Debrief System}
+PilotReflect delivers post-flight personal biometric assessment within the Type~B EFB ecosystem.
+In line with \citeauthor{cavoukian2009}'s \citeyearpar{cavoukian2009} Privacy by Design
+principles, all biometric data are stored exclusively on the pilot's personal device encrypted
+with AES-256. An average debriefing duration of eight minutes and an FAA AC 120-76E compliant
+interface design were achieved in accordance with ISO 9241-11 usability criteria.
+
+\subsection{Integrated Assessment of Prototype Findings}
+
+Viewed collectively, the prototype validation findings demonstrate that the CDSA ecosystem can
+be successfully translated from a theoretical framework into a functional platform. Several
+limitations must be carefully underscored. All five applications remain at the prototype stage;
+FAA/EASA certification processes have not yet been completed. The cryptographic validation was
+conducted on a synthetic dataset, and sensor behavior under real operational conditions---G-forces,
+airframe vibration---has not yet been tested.
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Discussion}
+\label{sec:discussion}
+% ══════════════════════════════════════════════════════════════════════════
+
+This section examines the ethical coherence of the cryptographic architecture, the Panopticon
+paradox and its design solution, compliance with GDPR and the international regulatory
+framework, the limitations of synthetic data, comparative positioning in the literature,
+and practical feasibility.
+
+\subsection{Ethical Coherence of the Cryptographic Architecture}
+
+For a technological solution to be sustainable, it must satisfy not only engineering criteria
+but also the value systems of the communities it affects. The most distinctive contribution of
+the CDSA architecture is considered to lie not in its technical innovation but in its ethical
+coherence. Existing aviation data systems attempt to manage the tension between privacy and
+diagnostic access through legal regulation---an approach whose guarantees shift whenever
+legislation changes or interpretations diverge. CDSA transfers this tension to the mathematical
+foundations of cryptography, thereby eliminating this fragility.
+
+The alignment of the 2-of-3 threshold scheme with Just Culture philosophy is particularly
+noteworthy in this context. In the CDSA architecture, the pilot union's possession of a key
+share prevents biometric data from being used in disciplinary proceedings not through a legal
+guarantee but through a mathematical impossibility. As \citet{alpa2022} emphasizes, pilot
+organizations systematically oppose biometric monitoring systems precisely because of their
+distrust of existing legal safeguards---making the mathematical nature of the guarantee, rather
+than its legal form, the critical differentiator.
+
+\subsection{The Panopticon Paradox and the Design Solution}
+
+The most insidious risk created by continuous biometric monitoring is not the direct harm it
+may cause to the pilot but the behavioral change it may induce. \citeauthor{foucault1992}'s
+\citeyearpar{foucault1992} Panopticon metaphor illustrates this mechanism compellingly: an
+individual who knows they are under constant surveillance begins to behave as though being
+watched even in the absence of observation. Transposed to the aviation context, this effect
+carries the potential to amplify performance anxiety, elevate allostatic load, and paradoxically
+threaten flight safety \citep{zuboff2019}.
+
+CDSA's response to this paradox is direct and structural. During routine flight operations,
+airline management mathematically cannot access individual biometric data. The pilot knows that
+the system is not monitoring them at the individual level; they are only aware that their
+anonymized macro data contribute to fleet-wide risk patterns. This design choice is considered
+to eliminate the Panopticon effect. It must be acknowledged, however, that this guarantee holds
+only as long as the system functions correctly; a security breach or data leak could
+fundamentally destabilize this balance.
+
+\subsection{Compliance with GDPR and the International Regulatory Framework}
+
+The legal positioning of the CDSA architecture simultaneously engages multiple regulatory layers.
+The individual biometric data processed in Phase~1 are classified as special category personal
+data under GDPR Article~9 \citep{gdpr2016}. CDSA addresses this requirement by integrating
+pilot consent into key management through Share~B---an approach that functions as both a technical
+and a legal safeguard. The anonymized macro data in Phase~2 fall outside the scope of GDPR's
+definition of personal data following the application of differential privacy mechanisms.
+At the international level, a Biometric Flight Data Declaration is presented as this study's
+concrete policy proposal for updating the ICAO Annex~13 framework \citep{icao2020}.
+
+\subsection{Limitations of Synthetic Data and Ecological Validity}
+
+Addressing the methodological limitations of this study openly and honestly is a fundamental
+requirement of academic integrity. The biometric data used to validate the cryptographic
+architecture were derived from a literature-calibrated synthetic dataset ($n=1{,}179$,
+seed\,=\,42). This dataset has established its statistical validity through Shapiro-Wilk
+subgroup normality testing (13/16 subgroups, $p>0.05$), Spearman correlation ($\rho=-0.648$,
+$p<0.001$), and Mann-Whitney~U ($p<0.001$) tests; however, its ecological validity under real
+cockpit conditions has not yet been demonstrated. Figure~\ref{fig:heatmap} presents the
+HRV--GSR correlation structure and the route-by-shift SRS risk heatmap derived from this
+synthetic dataset.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{image5.png}
+  \caption{HRV\,\textasciitilde\,GSR Correlation and SRS Risk Heatmap (Synthetic Dataset,
+  $n=1{,}179$, seed\,=\,42). Left: Spearman $\rho=-0.648$, $p<0.001$, consistent with
+  \citet{dehais2020}. Right: Route\,$\times$\,Shift SRS heatmap. IST-SYD Night
+  (SRS\,=\,0.440) approaches the critical threshold of 0.40.
+  Source: Literature-calibrated synthetic data (Appendix~B).}
+  \label{fig:heatmap}
+\end{figure}
+
+Three ecological validity concerns are identified. First, the extent to which high G-forces and
+airframe vibration introduce noise into biometric sensor measurements is unknown. Second, variance
+in individual pilot baseline values is not represented in the synthetic data, rendering it
+impossible to personalize the SRS critical threshold on a per-pilot basis. Third, the impact of
+sensor calibration drift on system performance during extended operational use has not yet been
+modeled. Addressing these limitations constitutes the primary objective of the three-phase
+validation plan presented in Section~\ref{sec:63}.
+
+\subsection{Comparative Positioning: CDSA in the Literature}
+
+The CDSA architecture sits at the intersection of three related but independently evolving
+streams of research: physiological monitoring studies in aviation safety literature, threshold
+scheme applications in applied cryptography, and differential privacy systems in data privacy
+literature. \citet{dehais2020} comprehensively documented the diagnostic potential of biometric
+monitoring yet did not address cryptographic privacy guarantees. \citet{dwork2014} established
+the theoretical foundations of differential privacy on solid ground but did not discuss
+operational applications in high-risk domains such as aviation. The NTSB's \citeyearpar{ntsb2023}
+projection report proposed the integration of wearable device data into accident investigations
+yet was unable to offer any technical framework for how this integration should be supported by
+cryptographic guarantees. CDSA aims to close these gaps within a single unified architecture.
+
+Beyond the literature gaps identified above, the cryptographic guarantee approach proposed in
+this study represents a sector-specific application of data protection paradigms long established
+in other highly regulated industries. In healthcare, HIPAA and GDPR mandate technically grounded
+data protection through encryption, access control, and audit trail mechanisms \citep{conduah2025}.
+In finance, SOX, MiFID~II, and Basel~III frameworks impose comprehensive data governance
+obligations that simultaneously create structural entry barriers for new market entrants
+\citep{mcnulty2023}. Across these sectors, a consistent pattern emerges: regulatory cryptographic
+obligations strengthen the market position of compliant platforms, and privacy-enhancing
+technologies are increasingly regarded not merely as compliance tools but as prerequisites for
+value creation in the data economy \citep{nitrd2022}. CDSA, positioned as the aviation-specific
+instantiation of this cross-industry paradigm, inherits both the methodological legitimacy and
+the strategic positioning that this broader pattern affords.
+
+\subsection{Practical Feasibility and Operational Barriers}
+
+The first barrier is certification cost. The DO-178C Level~B compliance process demands
+significant financial and temporal resources. Smaller and medium-sized airlines may struggle to
+bear this burden independently, potentially delaying sector-wide adoption. Shared certification
+pools and industry consortia represent viable pathways for overcoming this challenge.
+
+The second barrier is institutional cultural resistance. Pilot organizations harbor deep and
+legitimate reservations about biometric monitoring \citep{alpa2022}. Although the CDSA 2-of-3
+threshold scheme renders disciplinary use of data mathematically impossible, translating
+technical guarantees into institutional trust requires sustained transparency policies and
+long-term stakeholder dialogue.
+
+The third barrier is the requirement for multi-party coordination. The legal framework governing
+the simultaneous participation of the accident investigation authority, pilot union, and judicial
+authority during international flights has not yet been clarified. Incorporation of a ``Personal
+Biometric Flight Data'' standard provision into ICAO Annex~13 represents the most operationally
+feasible solution to this gap.
+
+The fourth barrier is the absence of real-world data. All cryptographic validation work in this
+study was conducted on synthetic data. The effects of real cockpit conditions---G-forces,
+airframe vibration, and inter-pilot baseline variability---on system performance remain unknown.
+This uncertainty limits the confidence of regulators and pilot organizations in the system,
+making the three-phase validation roadmap presented in Section~\ref{sec:63} a strategic imperative.
+
+% ══════════════════════════════════════════════════════════════════════════
+\section{Conclusion}
+\label{sec:conclusion}
+% ══════════════════════════════════════════════════════════════════════════
+
+This section summarizes the original contributions of the study across four dimensions, states
+the methodological limitations explicitly, and identifies three priority directions for future research.
+
+\subsection{Assessment of Original Contributions}
+
+The true maturity of a safety system is measured not only by its capacity to prevent events but
+also by its ability to fully comprehend the human reality underlying those events. The CDSA
+framework proposed in this study has been positioned as a third layer complementing the reactive
+and proactive paradigms of aviation safety, and an integrated cryptographic architecture has been
+developed capable of illuminating---with mathematical precision---the root causes of human factors
+in accident investigations.
+
+The four original contributions of this study can be summarized as follows. The first contribution
+is conceptual: the systematic introduction of the diagnostic paradigm into the literature alongside
+the reactive and proactive paradigms, carrying the potential to fundamentally transform how human
+factors are approached in accident investigations. The second contribution is technical: the
+integration of AES-256-GCM and Shamir 2-of-3 threshold cryptography with Privacy by Design
+principles, grounding biometric data privacy in a mathematical foundation independent of legal
+guarantees. The third contribution is methodological: the integration of differential privacy
+mechanisms ($\varepsilon=1.0$, $k$-anonymity $k=5$) with Safety Management Systems, resolving
+the tension between individual privacy and collective risk management at the statistical level.
+The fourth contribution is applied: the operationalization of the CDSA ecosystem through publicly
+accessible prototype applications on the \href{https://cdsa.app}{cdsa.app} platform, demonstrating
+the framework's feasibility beyond abstract proposal. Furthermore, the cryptographic guarantee
+approach proposed in this study represents a sector-specific application of data protection
+paradigms long established in healthcare (HIPAA), finance (SOX/MiFID~II), and defense
+(ITAR/FedRAMP) --- positioning CDSA as the aviation instantiation of a cross-industry regulatory
+data protection pattern \citep{conduah2025,mcnulty2023,nitrd2022}.
+
+\subsection{Limitations}
+
+All cryptographic validation findings in this study were conducted on a literature-calibrated
+synthetic dataset ($n=1{,}179$, seed\,=\,42). Completing DO-178C Level~B or higher compliance
+before CDSA components can be operationally deployed does not appear feasible within the current
+regulatory framework. The legal framework governing the simultaneous participation of the accident
+investigation authority, pilot union, and judicial authority in international flights has not yet
+been clarified. Beyond these structural limitations, it must be explicitly acknowledged that the
+ecological validity of the synthetic dataset findings under real cockpit conditions---including
+the effects of G-forces, airframe vibration, and inter-pilot baseline variability---remains
+unestablished.
+
+\subsection{Future Research Roadmap}
+\label{sec:63}
+
+Three priority research directions emerge from a joint assessment of this study's findings and
+limitations. Real operational data validation is the first priority: the collection of real
+operational biometric data through voluntary pilot participation and in collaboration with
+IFALPA/ALPA, and the application of the same regression framework, are planned. This validation
+process is envisioned in a three-phase structure: (1)~establishment of ethical approval and data
+access protocols, (2)~Anderson-Darling distribution fit testing and comparison of SRS patterns
+with real data, and (3)~updating of the calibration matrix to transform CDSA into an operational
+tool. Initiating the FAA/EASA certification process constitutes the second priority. ICAO
+Annex~13 integration---through the advancement of the Biometric Flight Data Declaration into the
+policy process---constitutes the third priority.
+
+\subsection{Closing: Toward a Sustainable Balance Between Privacy and Diagnostic Power}
+
+The future of aviation safety most likely lies in a better understanding of human beings rather
+than machines. While aircraft have approached a near-perfect level of mechanical reliability,
+the human factor remains the most complex and least understood component of the system. The
+wearable technology ecosystem carries the potential to transform this equation---yet this
+potential must be realized without compromising pilot rights, undermining safety culture, or
+eroding institutional trust.
+
+The CDSA framework proposed in this study seeks to resolve the tension between privacy and
+diagnostic power through the design of technology itself. The system's success ultimately depends
+on the simultaneous fulfillment of three conditions: validation of the cryptographic architecture
+against real operational data, updating of the regulatory framework to accommodate this innovation,
+and the establishment of long-term dialogue with pilot organizations. To the extent that these
+three conditions can be met concurrently, CDSA will be capable of substantiating its claim to be
+the third paradigm of aviation safety.
+
+% ── References ────────────────────────────────────────────────────────────
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\end{document}

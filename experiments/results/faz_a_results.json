@@ -1,0 +1,72 @@
+{
+  "pillar": "CDSA-BB3",
+  "date": "2026-06-11",
+  "seed": 42,
+  "config": {
+    "rounds": 100,
+    "clients": 3,
+    "local_rollouts": 6,
+    "rollout_len": 96,
+    "eval_steps": 600,
+    "agent": {
+      "hidden": 64,
+      "lr": 0.05,
+      "reward_scale": 0.05,
+      "max_grad_norm": 10
+    },
+    "fedprox_mu": 0.01,
+    "dp": {
+      "epsilon": 1.0,
+      "sensitivity": 0.01
+    }
+  },
+  "random": {
+    "mean_reward": -3.67,
+    "accuracy_pct": 24.8,
+    "critical_recall": 0.26
+  },
+  "central_ppo": {
+    "mean_reward": 5.17,
+    "accuracy_pct": 65.3,
+    "critical_recall": 0.858,
+    "convergence_round": 3
+  },
+  "fedavg": {
+    "mean_reward": 5.06,
+    "accuracy_pct": 62.3,
+    "critical_recall": 0.937,
+    "convergence_round": 7
+  },
+  "fedprox": {
+    "mean_reward": 4.97,
+    "accuracy_pct": 62.0,
+    "critical_recall": 0.929,
+    "convergence_round": 7
+  },
+  "fedprox_dp": {
+    "mean_reward": 4.87,
+    "accuracy_pct": 62.0,
+    "critical_recall": 0.906,
+    "convergence_round": 7
+  },
+  "xai": {
+    "mean_pct_by_action": {
+      "nominal": {
+        "ppg": 56.5,
+        "ecg": 32.4,
+        "eeg": 11.1
+      },
+      "critical_overflow": {
+        "ppg": 21.6,
+        "ecg": 64.6,
+        "eeg": 13.8
+      }
+    },
+    "counterfactual": {
+      "modality_removed": "ecg",
+      "original_action": "critical_overflow",
+      "counterfactual_action": "nominal"
+    }
+  },
+  "runtime_note": "staged runs, 11 Jun 2026"
+}

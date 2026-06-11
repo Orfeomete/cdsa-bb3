@@ -1,0 +1,9434 @@
+[
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 22.3,
+    "spo2": 96.7,
+    "gsr": 13.64,
+    "srs": 0.455
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 21.1,
+    "spo2": 96.0,
+    "gsr": 14.86,
+    "srs": 0.436
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 96.3,
+    "gsr": 15.72,
+    "srs": 0.459
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 19.2,
+    "spo2": 96.3,
+    "gsr": 19.06,
+    "srs": 0.486
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.6,
+    "spo2": 95.9,
+    "gsr": 16.24,
+    "srs": 0.433
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 26.2,
+    "spo2": 96.2,
+    "gsr": 13.49,
+    "srs": 0.433
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 94.7,
+    "gsr": 14.11,
+    "srs": 0.487
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 28.8,
+    "spo2": 95.7,
+    "gsr": 16.07,
+    "srs": 0.463
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.6,
+    "spo2": 96.2,
+    "gsr": 11.99,
+    "srs": 0.426
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.0,
+    "spo2": 95.6,
+    "gsr": 18.33,
+    "srs": 0.456
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 28.6,
+    "spo2": 96.9,
+    "gsr": 16.5,
+    "srs": 0.426
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.4,
+    "spo2": 95.7,
+    "gsr": 13.53,
+    "srs": 0.426
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 23.6,
+    "spo2": 96.0,
+    "gsr": 11.76,
+    "srs": 0.447
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 35.2,
+    "spo2": 96.5,
+    "gsr": 15.85,
+    "srs": 0.383
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.1,
+    "spo2": 97.0,
+    "gsr": 13.34,
+    "srs": 0.388
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 25.7,
+    "spo2": 95.7,
+    "gsr": 16.54,
+    "srs": 0.423
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 27.4,
+    "spo2": 96.8,
+    "gsr": 11.14,
+    "srs": 0.41
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 26.2,
+    "spo2": 96.2,
+    "gsr": 13.81,
+    "srs": 0.449
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 19.6,
+    "spo2": 95.9,
+    "gsr": 14.09,
+    "srs": 0.413
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.6,
+    "spo2": 96.6,
+    "gsr": 13.83,
+    "srs": 0.398
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 21.6,
+    "spo2": 96.1,
+    "gsr": 14.84,
+    "srs": 0.484
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 25.3,
+    "spo2": 96.0,
+    "gsr": 15.65,
+    "srs": 0.433
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 24.3,
+    "spo2": 96.2,
+    "gsr": 12.8,
+    "srs": 0.442
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 29.0,
+    "spo2": 96.3,
+    "gsr": 13.48,
+    "srs": 0.397
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 21.4,
+    "spo2": 96.3,
+    "gsr": 14.54,
+    "srs": 0.424
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 24.0,
+    "spo2": 96.5,
+    "gsr": 15.68,
+    "srs": 0.443
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 27.9,
+    "spo2": 97.0,
+    "gsr": 15.2,
+    "srs": 0.405
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.6,
+    "spo2": 95.7,
+    "gsr": 12.9,
+    "srs": 0.451
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 34.2,
+    "spo2": 97.2,
+    "gsr": 11.52,
+    "srs": 0.422
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 26.4,
+    "spo2": 95.5,
+    "gsr": 16.79,
+    "srs": 0.431
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 19.0,
+    "spo2": 96.2,
+    "gsr": 14.88,
+    "srs": 0.422
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 21.2,
+    "spo2": 96.2,
+    "gsr": 14.56,
+    "srs": 0.496
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.4,
+    "spo2": 96.3,
+    "gsr": 17.46,
+    "srs": 0.44
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 30.1,
+    "spo2": 96.1,
+    "gsr": 14.19,
+    "srs": 0.408
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 26.6,
+    "spo2": 96.0,
+    "gsr": 17.35,
+    "srs": 0.465
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 22.6,
+    "spo2": 96.2,
+    "gsr": 14.0,
+    "srs": 0.403
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 27.4,
+    "spo2": 96.0,
+    "gsr": 18.53,
+    "srs": 0.446
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 30.8,
+    "spo2": 96.8,
+    "gsr": 16.55,
+    "srs": 0.381
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 31.1,
+    "spo2": 96.5,
+    "gsr": 13.36,
+    "srs": 0.4
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 32.1,
+    "spo2": 95.9,
+    "gsr": 16.56,
+    "srs": 0.446
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 19.9,
+    "spo2": 96.5,
+    "gsr": 16.33,
+    "srs": 0.462
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.9,
+    "spo2": 96.3,
+    "gsr": 17.26,
+    "srs": 0.445
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 19.1,
+    "spo2": 96.6,
+    "gsr": 12.87,
+    "srs": 0.437
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.0,
+    "spo2": 96.5,
+    "gsr": 15.72,
+    "srs": 0.431
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 27.0,
+    "spo2": 96.1,
+    "gsr": 15.61,
+    "srs": 0.396
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 27.0,
+    "spo2": 96.1,
+    "gsr": 11.04,
+    "srs": 0.418
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 25.9,
+    "spo2": 96.6,
+    "gsr": 12.25,
+    "srs": 0.426
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 24.3,
+    "spo2": 96.3,
+    "gsr": 11.71,
+    "srs": 0.472
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 22.3,
+    "spo2": 96.2,
+    "gsr": 14.42,
+    "srs": 0.45
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 35.5,
+    "spo2": 96.5,
+    "gsr": 14.81,
+    "srs": 0.387
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 21.0,
+    "spo2": 96.7,
+    "gsr": 17.6,
+    "srs": 0.45
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 37.9,
+    "spo2": 96.0,
+    "gsr": 14.56,
+    "srs": 0.428
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 28.3,
+    "spo2": 96.5,
+    "gsr": 17.16,
+    "srs": 0.42
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 96.1,
+    "gsr": 12.6,
+    "srs": 0.458
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 96.0,
+    "gsr": 12.29,
+    "srs": 0.471
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 23.0,
+    "spo2": 96.5,
+    "gsr": 15.19,
+    "srs": 0.468
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 24.5,
+    "spo2": 96.7,
+    "gsr": 14.82,
+    "srs": 0.415
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 27.7,
+    "spo2": 96.6,
+    "gsr": 14.42,
+    "srs": 0.431
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 24.6,
+    "spo2": 96.7,
+    "gsr": 11.18,
+    "srs": 0.45
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.1,
+    "spo2": 96.1,
+    "gsr": 15.16,
+    "srs": 0.469
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.3,
+    "spo2": 96.6,
+    "gsr": 12.02,
+    "srs": 0.426
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 96.1,
+    "gsr": 15.76,
+    "srs": 0.434
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 24.1,
+    "spo2": 96.5,
+    "gsr": 14.61,
+    "srs": 0.407
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 30.9,
+    "spo2": 96.3,
+    "gsr": 12.2,
+    "srs": 0.404
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 22.0,
+    "spo2": 96.1,
+    "gsr": 14.29,
+    "srs": 0.464
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 96.3,
+    "gsr": 13.67,
+    "srs": 0.481
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 24.3,
+    "spo2": 95.9,
+    "gsr": 14.52,
+    "srs": 0.438
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 22.3,
+    "spo2": 96.9,
+    "gsr": 17.06,
+    "srs": 0.47
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 95.8,
+    "gsr": 13.14,
+    "srs": 0.451
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 25.8,
+    "spo2": 95.8,
+    "gsr": 15.16,
+    "srs": 0.421
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 22.5,
+    "spo2": 96.6,
+    "gsr": 13.96,
+    "srs": 0.451
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 96.3,
+    "gsr": 14.27,
+    "srs": 0.486
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 25.1,
+    "spo2": 96.5,
+    "gsr": 14.46,
+    "srs": 0.439
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 21.5,
+    "spo2": 96.3,
+    "gsr": 13.85,
+    "srs": 0.487
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 36.1,
+    "spo2": 96.6,
+    "gsr": 11.95,
+    "srs": 0.361
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 26.1,
+    "spo2": 95.8,
+    "gsr": 13.07,
+    "srs": 0.465
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 96.2,
+    "gsr": 18.27,
+    "srs": 0.443
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 19.4,
+    "spo2": 96.0,
+    "gsr": 14.55,
+    "srs": 0.431
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 25.5,
+    "spo2": 96.6,
+    "gsr": 13.48,
+    "srs": 0.443
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 31.4,
+    "spo2": 96.4,
+    "gsr": 13.75,
+    "srs": 0.38
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 26.4,
+    "spo2": 95.9,
+    "gsr": 14.33,
+    "srs": 0.433
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 41.4,
+    "spo2": 96.0,
+    "gsr": 14.52,
+    "srs": 0.451
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 21.8,
+    "spo2": 96.2,
+    "gsr": 16.76,
+    "srs": 0.484
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 30.4,
+    "spo2": 96.1,
+    "gsr": 15.7,
+    "srs": 0.424
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 30.3,
+    "spo2": 96.0,
+    "gsr": 13.19,
+    "srs": 0.416
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 27.9,
+    "spo2": 96.4,
+    "gsr": 13.31,
+    "srs": 0.425
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 19.0,
+    "spo2": 96.2,
+    "gsr": 14.79,
+    "srs": 0.467
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 26.1,
+    "spo2": 96.0,
+    "gsr": 10.75,
+    "srs": 0.45
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.8,
+    "spo2": 96.1,
+    "gsr": 11.6,
+    "srs": 0.424
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.6,
+    "spo2": 96.2,
+    "gsr": 17.48,
+    "srs": 0.455
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.5,
+    "spo2": 95.6,
+    "gsr": 17.71,
+    "srs": 0.443
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.8,
+    "spo2": 95.5,
+    "gsr": 14.87,
+    "srs": 0.469
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 36.8,
+    "spo2": 96.0,
+    "gsr": 15.25,
+    "srs": 0.419
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 96.2,
+    "gsr": 15.02,
+    "srs": 0.43
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 27.7,
+    "spo2": 96.4,
+    "gsr": 19.96,
+    "srs": 0.428
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 19.3,
+    "spo2": 97.0,
+    "gsr": 15.73,
+    "srs": 0.396
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.0,
+    "spo2": 96.5,
+    "gsr": 14.65,
+    "srs": 0.449
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 27.9,
+    "spo2": 96.1,
+    "gsr": 13.13,
+    "srs": 0.448
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 23.5,
+    "spo2": 96.2,
+    "gsr": 11.79,
+    "srs": 0.44
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.5,
+    "spo2": 95.9,
+    "gsr": 14.89,
+    "srs": 0.433
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 23.7,
+    "spo2": 96.4,
+    "gsr": 12.38,
+    "srs": 0.398
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 27.8,
+    "spo2": 96.2,
+    "gsr": 11.84,
+    "srs": 0.427
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 20.5,
+    "spo2": 96.4,
+    "gsr": 13.29,
+    "srs": 0.43
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 26.6,
+    "spo2": 96.0,
+    "gsr": 12.2,
+    "srs": 0.416
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 23.9,
+    "spo2": 96.4,
+    "gsr": 17.61,
+    "srs": 0.435
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.8,
+    "spo2": 96.8,
+    "gsr": 16.53,
+    "srs": 0.452
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 28.5,
+    "spo2": 95.9,
+    "gsr": 15.91,
+    "srs": 0.497
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 25.9,
+    "spo2": 96.4,
+    "gsr": 17.46,
+    "srs": 0.445
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 96.5,
+    "gsr": 14.99,
+    "srs": 0.448
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 24.3,
+    "spo2": 96.1,
+    "gsr": 13.08,
+    "srs": 0.438
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 25.4,
+    "spo2": 96.6,
+    "gsr": 16.16,
+    "srs": 0.382
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 27.5,
+    "spo2": 96.2,
+    "gsr": 15.63,
+    "srs": 0.439
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 19.1,
+    "spo2": 96.3,
+    "gsr": 12.85,
+    "srs": 0.442
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 95.6,
+    "gsr": 15.96,
+    "srs": 0.514
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 26.3,
+    "spo2": 96.3,
+    "gsr": 12.98,
+    "srs": 0.434
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 26.7,
+    "spo2": 96.4,
+    "gsr": 12.39,
+    "srs": 0.449
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 96.8,
+    "gsr": 16.32,
+    "srs": 0.439
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 24.9,
+    "spo2": 96.8,
+    "gsr": 17.35,
+    "srs": 0.405
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 96.9,
+    "gsr": 12.92,
+    "srs": 0.474
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 95.8,
+    "gsr": 16.19,
+    "srs": 0.463
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 29.8,
+    "spo2": 96.5,
+    "gsr": 14.03,
+    "srs": 0.464
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 27.8,
+    "spo2": 96.4,
+    "gsr": 13.2,
+    "srs": 0.413
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.0,
+    "spo2": 96.9,
+    "gsr": 14.54,
+    "srs": 0.482
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 31.8,
+    "spo2": 96.1,
+    "gsr": 12.2,
+    "srs": 0.398
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 32.1,
+    "spo2": 95.8,
+    "gsr": 15.15,
+    "srs": 0.458
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 22.1,
+    "spo2": 95.7,
+    "gsr": 14.63,
+    "srs": 0.506
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 18.4,
+    "spo2": 95.5,
+    "gsr": 14.51,
+    "srs": 0.41
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gece",
+    "hrv": 22.4,
+    "spo2": 96.1,
+    "gsr": 14.22,
+    "srs": 0.423
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 36.6,
+    "spo2": 97.3,
+    "gsr": 9.6,
+    "srs": 0.279
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 45.4,
+    "spo2": 96.9,
+    "gsr": 12.19,
+    "srs": 0.259
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 36.6,
+    "spo2": 97.5,
+    "gsr": 9.37,
+    "srs": 0.269
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 39.9,
+    "spo2": 96.6,
+    "gsr": 11.92,
+    "srs": 0.309
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 30.8,
+    "spo2": 96.0,
+    "gsr": 10.76,
+    "srs": 0.301
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 43.3,
+    "spo2": 96.6,
+    "gsr": 11.51,
+    "srs": 0.257
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 44.8,
+    "spo2": 96.2,
+    "gsr": 11.96,
+    "srs": 0.289
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 23.3,
+    "spo2": 96.7,
+    "gsr": 13.66,
+    "srs": 0.309
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 38.6,
+    "spo2": 97.1,
+    "gsr": 9.27,
+    "srs": 0.236
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 39.2,
+    "spo2": 97.5,
+    "gsr": 11.16,
+    "srs": 0.302
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 38.7,
+    "spo2": 97.1,
+    "gsr": 9.09,
+    "srs": 0.266
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 38.1,
+    "spo2": 96.7,
+    "gsr": 10.87,
+    "srs": 0.303
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 37.0,
+    "spo2": 97.3,
+    "gsr": 11.47,
+    "srs": 0.263
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 43.4,
+    "spo2": 96.3,
+    "gsr": 11.46,
+    "srs": 0.232
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 41.7,
+    "spo2": 97.2,
+    "gsr": 8.56,
+    "srs": 0.237
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 43.5,
+    "spo2": 97.2,
+    "gsr": 12.89,
+    "srs": 0.287
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 38.4,
+    "spo2": 96.3,
+    "gsr": 13.9,
+    "srs": 0.294
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 42.1,
+    "spo2": 97.5,
+    "gsr": 11.44,
+    "srs": 0.259
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 34.0,
+    "spo2": 97.0,
+    "gsr": 15.09,
+    "srs": 0.305
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 40.1,
+    "spo2": 97.0,
+    "gsr": 8.8,
+    "srs": 0.236
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 35.9,
+    "spo2": 97.2,
+    "gsr": 9.01,
+    "srs": 0.284
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 43.3,
+    "spo2": 98.0,
+    "gsr": 7.29,
+    "srs": 0.25
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 37.6,
+    "spo2": 97.1,
+    "gsr": 13.55,
+    "srs": 0.266
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 39.1,
+    "spo2": 97.0,
+    "gsr": 12.5,
+    "srs": 0.287
+  },
+  {
+    "rota": "IST-SYD",
+    "vardiya": "Gunduz",
+    "hrv": 50.7,
+    "spo2": 96.8,
+    "gsr": 10.62,
+    "srs": 0.26
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 52.6,
+    "spo2": 96.9,
+    "gsr": 9.03,
+    "srs": 0.222
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 52.6,
+    "spo2": 97.4,
+    "gsr": 11.23,
+    "srs": 0.18
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 44.1,
+    "spo2": 97.1,
+    "gsr": 9.71,
+    "srs": 0.287
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 47.9,
+    "spo2": 96.9,
+    "gsr": 9.46,
+    "srs": 0.218
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 38.7,
+    "spo2": 97.3,
+    "gsr": 8.99,
+    "srs": 0.217
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 40.0,
+    "spo2": 96.8,
+    "gsr": 12.79,
+    "srs": 0.236
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 45.7,
+    "spo2": 96.9,
+    "gsr": 10.38,
+    "srs": 0.228
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 37.9,
+    "spo2": 96.6,
+    "gsr": 11.71,
+    "srs": 0.221
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 50.5,
+    "spo2": 97.0,
+    "gsr": 6.51,
+    "srs": 0.19
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 42.1,
+    "spo2": 96.6,
+    "gsr": 10.5,
+    "srs": 0.228
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 37.4,
+    "spo2": 96.6,
+    "gsr": 12.55,
+    "srs": 0.27
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 44.4,
+    "spo2": 97.5,
+    "gsr": 10.74,
+    "srs": 0.254
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 42.4,
+    "spo2": 96.6,
+    "gsr": 12.68,
+    "srs": 0.262
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 44.3,
+    "spo2": 98.4,
+    "gsr": 8.44,
+    "srs": 0.199
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 53.3,
+    "spo2": 97.6,
+    "gsr": 11.59,
+    "srs": 0.184
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 39.6,
+    "spo2": 97.3,
+    "gsr": 13.76,
+    "srs": 0.21
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 47.6,
+    "spo2": 96.9,
+    "gsr": 9.09,
+    "srs": 0.216
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 44.5,
+    "spo2": 97.4,
+    "gsr": 9.63,
+    "srs": 0.247
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 47.9,
+    "spo2": 97.2,
+    "gsr": 11.21,
+    "srs": 0.163
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 41.9,
+    "spo2": 97.1,
+    "gsr": 13.56,
+    "srs": 0.26
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 38.9,
+    "spo2": 98.3,
+    "gsr": 8.66,
+    "srs": 0.209
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 50.5,
+    "spo2": 97.3,
+    "gsr": 8.67,
+    "srs": 0.201
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 46.6,
+    "spo2": 97.8,
+    "gsr": 8.53,
+    "srs": 0.184
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 46.8,
+    "spo2": 97.2,
+    "gsr": 6.2,
+    "srs": 0.164
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 47.6,
+    "spo2": 97.1,
+    "gsr": 8.6,
+    "srs": 0.239
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 40.9,
+    "spo2": 97.9,
+    "gsr": 7.95,
+    "srs": 0.216
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 41.3,
+    "spo2": 97.2,
+    "gsr": 7.47,
+    "srs": 0.175
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 40.6,
+    "spo2": 98.1,
+    "gsr": 8.79,
+    "srs": 0.175
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 48.7,
+    "spo2": 97.6,
+    "gsr": 9.91,
+    "srs": 0.204
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 33.5,
+    "spo2": 96.8,
+    "gsr": 13.6,
+    "srs": 0.264
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 54.2,
+    "spo2": 97.5,
+    "gsr": 7.74,
+    "srs": 0.206
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 38.5,
+    "spo2": 97.8,
+    "gsr": 10.49,
+    "srs": 0.169
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 53.9,
+    "spo2": 97.5,
+    "gsr": 9.16,
+    "srs": 0.207
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 46.5,
+    "spo2": 96.6,
+    "gsr": 9.44,
+    "srs": 0.206
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 51.9,
+    "spo2": 97.3,
+    "gsr": 9.14,
+    "srs": 0.133
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 42.1,
+    "spo2": 97.1,
+    "gsr": 7.65,
+    "srs": 0.212
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 47.3,
+    "spo2": 97.2,
+    "gsr": 10.24,
+    "srs": 0.207
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 42.5,
+    "spo2": 97.4,
+    "gsr": 10.47,
+    "srs": 0.235
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 44.9,
+    "spo2": 97.1,
+    "gsr": 11.81,
+    "srs": 0.269
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 42.0,
+    "spo2": 96.6,
+    "gsr": 10.97,
+    "srs": 0.248
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 46.2,
+    "spo2": 97.4,
+    "gsr": 13.95,
+    "srs": 0.206
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 46.0,
+    "spo2": 97.6,
+    "gsr": 7.83,
+    "srs": 0.181
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 37.1,
+    "spo2": 97.1,
+    "gsr": 10.45,
+    "srs": 0.291
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 46.0,
+    "spo2": 97.7,
+    "gsr": 8.63,
+    "srs": 0.216
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 36.1,
+    "spo2": 97.6,
+    "gsr": 8.72,
+    "srs": 0.214
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 38.0,
+    "spo2": 97.4,
+    "gsr": 8.54,
+    "srs": 0.213
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 47.8,
+    "spo2": 97.2,
+    "gsr": 11.98,
+    "srs": 0.22
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 45.9,
+    "spo2": 96.6,
+    "gsr": 12.17,
+    "srs": 0.21
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 45.4,
+    "spo2": 97.5,
+    "gsr": 8.3,
+    "srs": 0.197
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 46.3,
+    "spo2": 97.4,
+    "gsr": 7.85,
+    "srs": 0.198
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 46.5,
+    "spo2": 97.4,
+    "gsr": 10.53,
+    "srs": 0.213
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 43.5,
+    "spo2": 96.8,
+    "gsr": 8.36,
+    "srs": 0.198
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 42.8,
+    "spo2": 96.9,
+    "gsr": 10.38,
+    "srs": 0.193
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 45.3,
+    "spo2": 97.6,
+    "gsr": 10.14,
+    "srs": 0.217
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 40.5,
+    "spo2": 97.3,
+    "gsr": 6.81,
+    "srs": 0.206
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 42.4,
+    "spo2": 97.3,
+    "gsr": 13.49,
+    "srs": 0.259
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 43.7,
+    "spo2": 97.6,
+    "gsr": 11.19,
+    "srs": 0.134
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 46.7,
+    "spo2": 97.1,
+    "gsr": 9.33,
+    "srs": 0.247
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 43.5,
+    "spo2": 97.4,
+    "gsr": 9.83,
+    "srs": 0.251
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 51.9,
+    "spo2": 97.3,
+    "gsr": 8.85,
+    "srs": 0.152
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 50.6,
+    "spo2": 97.3,
+    "gsr": 10.08,
+    "srs": 0.204
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 54.1,
+    "spo2": 97.1,
+    "gsr": 10.65,
+    "srs": 0.203
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 53.8,
+    "spo2": 97.3,
+    "gsr": 12.4,
+    "srs": 0.172
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 37.7,
+    "spo2": 97.2,
+    "gsr": 8.88,
+    "srs": 0.191
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gece",
+    "hrv": 41.4,
+    "spo2": 97.5,
+    "gsr": 7.54,
+    "srs": 0.181
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 62.1,
+    "spo2": 98.7,
+    "gsr": 7.16,
+    "srs": 0.054
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 55.5,
+    "spo2": 98.1,
+    "gsr": 5.94,
+    "srs": 0.073
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 51.0,
+    "spo2": 97.5,
+    "gsr": 8.46,
+    "srs": 0.094
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 54.4,
+    "spo2": 97.8,
+    "gsr": 3.2,
+    "srs": 0.149
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 58.7,
+    "spo2": 98.4,
+    "gsr": 8.82,
+    "srs": 0.079
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 52.5,
+    "spo2": 98.1,
+    "gsr": 4.11,
+    "srs": 0.102
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 49.6,
+    "spo2": 97.8,
+    "gsr": 6.43,
+    "srs": 0.095
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 57.0,
+    "spo2": 97.4,
+    "gsr": 5.86,
+    "srs": 0.131
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 52.0,
+    "spo2": 97.7,
+    "gsr": 6.43,
+    "srs": 0.171
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 57.0,
+    "spo2": 98.0,
+    "gsr": 8.83,
+    "srs": 0.079
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 66.6,
+    "spo2": 98.2,
+    "gsr": 5.93,
+    "srs": 0.08
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 47.6,
+    "spo2": 97.9,
+    "gsr": 8.4,
+    "srs": 0.126
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 46.4,
+    "spo2": 98.1,
+    "gsr": 7.46,
+    "srs": 0.115
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 47.3,
+    "spo2": 97.3,
+    "gsr": 9.17,
+    "srs": 0.15
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 54.1,
+    "spo2": 98.2,
+    "gsr": 7.61,
+    "srs": 0.113
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 58.2,
+    "spo2": 97.9,
+    "gsr": 4.54,
+    "srs": 0.084
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 53.1,
+    "spo2": 98.5,
+    "gsr": 9.27,
+    "srs": 0.113
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 54.6,
+    "spo2": 97.3,
+    "gsr": 6.93,
+    "srs": 0.128
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 47.4,
+    "spo2": 98.4,
+    "gsr": 4.83,
+    "srs": 0.12
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 61.7,
+    "spo2": 97.8,
+    "gsr": 6.65,
+    "srs": 0.11
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 52.5,
+    "spo2": 97.4,
+    "gsr": 10.5,
+    "srs": 0.127
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 58.2,
+    "spo2": 97.4,
+    "gsr": 9.39,
+    "srs": 0.13
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 53.7,
+    "spo2": 97.5,
+    "gsr": 7.37,
+    "srs": 0.136
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 56.4,
+    "spo2": 97.9,
+    "gsr": 6.89,
+    "srs": 0.114
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 59.3,
+    "spo2": 98.0,
+    "gsr": 6.4,
+    "srs": 0.09
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 57.8,
+    "spo2": 97.5,
+    "gsr": 10.92,
+    "srs": 0.099
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 55.8,
+    "spo2": 97.6,
+    "gsr": 8.57,
+    "srs": 0.131
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 64.9,
+    "spo2": 98.7,
+    "gsr": 7.32,
+    "srs": 0.07
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 55.9,
+    "spo2": 98.4,
+    "gsr": 9.19,
+    "srs": 0.106
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 60.6,
+    "spo2": 98.0,
+    "gsr": 7.26,
+    "srs": 0.083
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 55.4,
+    "spo2": 97.8,
+    "gsr": 6.64,
+    "srs": 0.096
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 59.5,
+    "spo2": 97.6,
+    "gsr": 7.58,
+    "srs": 0.133
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 52.0,
+    "spo2": 98.0,
+    "gsr": 7.09,
+    "srs": 0.101
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 64.8,
+    "spo2": 97.4,
+    "gsr": 7.05,
+    "srs": 0.096
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 59.6,
+    "spo2": 97.9,
+    "gsr": 7.5,
+    "srs": 0.054
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 46.7,
+    "spo2": 97.0,
+    "gsr": 7.68,
+    "srs": 0.117
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 54.8,
+    "spo2": 97.8,
+    "gsr": 8.83,
+    "srs": 0.114
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 46.4,
+    "spo2": 97.7,
+    "gsr": 8.37,
+    "srs": 0.16
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 61.1,
+    "spo2": 97.6,
+    "gsr": 7.03,
+    "srs": 0.086
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 52.1,
+    "spo2": 98.4,
+    "gsr": 3.64,
+    "srs": 0.102
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 53.0,
+    "spo2": 97.2,
+    "gsr": 8.9,
+    "srs": 0.102
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 42.0,
+    "spo2": 97.0,
+    "gsr": 8.75,
+    "srs": 0.142
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 54.0,
+    "spo2": 97.9,
+    "gsr": 8.82,
+    "srs": 0.092
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 43.1,
+    "spo2": 98.2,
+    "gsr": 3.2,
+    "srs": 0.103
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 46.3,
+    "spo2": 98.4,
+    "gsr": 11.25,
+    "srs": 0.113
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 59.2,
+    "spo2": 97.6,
+    "gsr": 6.96,
+    "srs": 0.101
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 61.2,
+    "spo2": 98.3,
+    "gsr": 8.79,
+    "srs": 0.082
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 57.5,
+    "spo2": 97.7,
+    "gsr": 5.35,
+    "srs": 0.101
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 48.1,
+    "spo2": 97.6,
+    "gsr": 8.9,
+    "srs": 0.127
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 58.7,
+    "spo2": 98.3,
+    "gsr": 4.52,
+    "srs": 0.064
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 55.6,
+    "spo2": 98.0,
+    "gsr": 6.05,
+    "srs": 0.099
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 52.2,
+    "spo2": 97.2,
+    "gsr": 10.07,
+    "srs": 0.074
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 60.1,
+    "spo2": 98.2,
+    "gsr": 7.54,
+    "srs": 0.131
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 64.7,
+    "spo2": 98.5,
+    "gsr": 6.48,
+    "srs": 0.049
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 56.5,
+    "spo2": 97.6,
+    "gsr": 8.29,
+    "srs": 0.078
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 55.0,
+    "spo2": 97.9,
+    "gsr": 8.23,
+    "srs": 0.106
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 52.6,
+    "spo2": 97.8,
+    "gsr": 8.39,
+    "srs": 0.142
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 46.0,
+    "spo2": 97.9,
+    "gsr": 7.7,
+    "srs": 0.093
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 56.3,
+    "spo2": 97.6,
+    "gsr": 11.05,
+    "srs": 0.078
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 47.2,
+    "spo2": 97.2,
+    "gsr": 8.23,
+    "srs": 0.151
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 55.1,
+    "spo2": 98.0,
+    "gsr": 6.5,
+    "srs": 0.052
+  },
+  {
+    "rota": "IST-GRU",
+    "vardiya": "Gunduz",
+    "hrv": 60.8,
+    "spo2": 98.5,
+    "gsr": 7.53,
+    "srs": 0.029
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 49.9,
+    "spo2": 97.0,
+    "gsr": 10.34,
+    "srs": 0.21
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 55.9,
+    "spo2": 97.1,
+    "gsr": 8.5,
+    "srs": 0.213
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 43.6,
+    "spo2": 97.2,
+    "gsr": 8.36,
+    "srs": 0.196
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 44.6,
+    "spo2": 97.6,
+    "gsr": 9.2,
+    "srs": 0.143
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 43.1,
+    "spo2": 97.2,
+    "gsr": 12.2,
+    "srs": 0.226
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 64.4,
+    "spo2": 97.6,
+    "gsr": 8.18,
+    "srs": 0.143
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 43.3,
+    "spo2": 97.5,
+    "gsr": 9.65,
+    "srs": 0.186
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 58.5,
+    "spo2": 98.0,
+    "gsr": 11.46,
+    "srs": 0.154
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 56.8,
+    "spo2": 97.8,
+    "gsr": 9.29,
+    "srs": 0.175
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 44.5,
+    "spo2": 96.8,
+    "gsr": 13.79,
+    "srs": 0.187
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 50.1,
+    "spo2": 96.3,
+    "gsr": 10.12,
+    "srs": 0.187
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 55.1,
+    "spo2": 97.7,
+    "gsr": 6.0,
+    "srs": 0.19
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 41.7,
+    "spo2": 96.6,
+    "gsr": 11.32,
+    "srs": 0.225
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 45.9,
+    "spo2": 97.3,
+    "gsr": 9.88,
+    "srs": 0.191
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 46.0,
+    "spo2": 97.0,
+    "gsr": 11.05,
+    "srs": 0.17
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 40.4,
+    "spo2": 96.6,
+    "gsr": 10.74,
+    "srs": 0.206
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 41.5,
+    "spo2": 97.5,
+    "gsr": 9.43,
+    "srs": 0.213
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 45.6,
+    "spo2": 97.9,
+    "gsr": 5.88,
+    "srs": 0.14
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 46.7,
+    "spo2": 97.1,
+    "gsr": 8.91,
+    "srs": 0.195
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 42.3,
+    "spo2": 96.3,
+    "gsr": 7.83,
+    "srs": 0.198
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 50.2,
+    "spo2": 97.2,
+    "gsr": 7.65,
+    "srs": 0.168
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 36.5,
+    "spo2": 97.4,
+    "gsr": 10.86,
+    "srs": 0.218
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 50.3,
+    "spo2": 96.8,
+    "gsr": 11.8,
+    "srs": 0.172
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 52.0,
+    "spo2": 97.5,
+    "gsr": 9.69,
+    "srs": 0.181
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 38.7,
+    "spo2": 97.4,
+    "gsr": 6.63,
+    "srs": 0.172
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 50.0,
+    "spo2": 97.6,
+    "gsr": 9.7,
+    "srs": 0.177
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 57.4,
+    "spo2": 97.6,
+    "gsr": 10.32,
+    "srs": 0.144
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 46.2,
+    "spo2": 97.2,
+    "gsr": 6.85,
+    "srs": 0.134
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 52.0,
+    "spo2": 97.7,
+    "gsr": 9.71,
+    "srs": 0.225
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 52.7,
+    "spo2": 97.5,
+    "gsr": 8.36,
+    "srs": 0.152
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 47.5,
+    "spo2": 97.5,
+    "gsr": 6.83,
+    "srs": 0.147
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 54.0,
+    "spo2": 97.3,
+    "gsr": 8.64,
+    "srs": 0.112
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 52.8,
+    "spo2": 97.3,
+    "gsr": 8.25,
+    "srs": 0.158
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 52.3,
+    "spo2": 97.2,
+    "gsr": 8.78,
+    "srs": 0.137
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 46.2,
+    "spo2": 97.1,
+    "gsr": 8.38,
+    "srs": 0.226
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 40.7,
+    "spo2": 98.0,
+    "gsr": 8.77,
+    "srs": 0.207
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 51.0,
+    "spo2": 96.9,
+    "gsr": 9.74,
+    "srs": 0.156
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 34.7,
+    "spo2": 96.5,
+    "gsr": 9.71,
+    "srs": 0.245
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 44.8,
+    "spo2": 97.9,
+    "gsr": 12.65,
+    "srs": 0.206
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 44.6,
+    "spo2": 97.4,
+    "gsr": 7.96,
+    "srs": 0.167
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 51.6,
+    "spo2": 97.5,
+    "gsr": 7.65,
+    "srs": 0.102
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 47.8,
+    "spo2": 97.5,
+    "gsr": 12.08,
+    "srs": 0.246
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 57.6,
+    "spo2": 97.3,
+    "gsr": 5.42,
+    "srs": 0.135
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 55.9,
+    "spo2": 98.4,
+    "gsr": 4.64,
+    "srs": 0.128
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 39.8,
+    "spo2": 97.5,
+    "gsr": 6.82,
+    "srs": 0.208
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 39.6,
+    "spo2": 96.9,
+    "gsr": 12.78,
+    "srs": 0.25
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 50.3,
+    "spo2": 98.1,
+    "gsr": 8.81,
+    "srs": 0.219
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 47.3,
+    "spo2": 97.1,
+    "gsr": 13.87,
+    "srs": 0.194
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 58.1,
+    "spo2": 97.6,
+    "gsr": 8.27,
+    "srs": 0.195
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 47.7,
+    "spo2": 97.4,
+    "gsr": 9.79,
+    "srs": 0.203
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 47.0,
+    "spo2": 97.8,
+    "gsr": 12.17,
+    "srs": 0.2
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 45.8,
+    "spo2": 98.0,
+    "gsr": 12.69,
+    "srs": 0.185
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 48.6,
+    "spo2": 97.4,
+    "gsr": 12.67,
+    "srs": 0.18
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 47.6,
+    "spo2": 97.1,
+    "gsr": 11.03,
+    "srs": 0.175
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 53.9,
+    "spo2": 97.7,
+    "gsr": 10.24,
+    "srs": 0.154
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 53.8,
+    "spo2": 97.2,
+    "gsr": 9.78,
+    "srs": 0.169
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 49.1,
+    "spo2": 98.4,
+    "gsr": 9.18,
+    "srs": 0.126
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 41.8,
+    "spo2": 97.5,
+    "gsr": 7.84,
+    "srs": 0.174
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 41.8,
+    "spo2": 97.4,
+    "gsr": 6.77,
+    "srs": 0.147
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 53.9,
+    "spo2": 97.6,
+    "gsr": 8.16,
+    "srs": 0.144
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 42.2,
+    "spo2": 96.8,
+    "gsr": 8.71,
+    "srs": 0.182
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 33.5,
+    "spo2": 96.8,
+    "gsr": 9.0,
+    "srs": 0.219
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 47.5,
+    "spo2": 97.8,
+    "gsr": 10.75,
+    "srs": 0.205
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 65.1,
+    "spo2": 97.4,
+    "gsr": 9.58,
+    "srs": 0.13
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 51.0,
+    "spo2": 97.1,
+    "gsr": 8.4,
+    "srs": 0.147
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 49.7,
+    "spo2": 97.5,
+    "gsr": 12.17,
+    "srs": 0.205
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 51.4,
+    "spo2": 98.0,
+    "gsr": 6.19,
+    "srs": 0.148
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 48.3,
+    "spo2": 97.7,
+    "gsr": 8.4,
+    "srs": 0.17
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 51.2,
+    "spo2": 97.7,
+    "gsr": 7.97,
+    "srs": 0.194
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 49.5,
+    "spo2": 97.2,
+    "gsr": 4.9,
+    "srs": 0.148
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 49.2,
+    "spo2": 96.8,
+    "gsr": 8.81,
+    "srs": 0.18
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 53.6,
+    "spo2": 98.2,
+    "gsr": 7.79,
+    "srs": 0.137
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 46.6,
+    "spo2": 97.4,
+    "gsr": 11.22,
+    "srs": 0.159
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 52.2,
+    "spo2": 97.3,
+    "gsr": 10.24,
+    "srs": 0.187
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 51.9,
+    "spo2": 98.1,
+    "gsr": 6.0,
+    "srs": 0.129
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 43.2,
+    "spo2": 97.6,
+    "gsr": 12.52,
+    "srs": 0.19
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 50.9,
+    "spo2": 97.6,
+    "gsr": 11.08,
+    "srs": 0.176
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 42.1,
+    "spo2": 98.2,
+    "gsr": 10.31,
+    "srs": 0.194
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 47.7,
+    "spo2": 97.1,
+    "gsr": 8.63,
+    "srs": 0.184
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 44.3,
+    "spo2": 97.6,
+    "gsr": 8.07,
+    "srs": 0.218
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 53.3,
+    "spo2": 97.4,
+    "gsr": 8.31,
+    "srs": 0.181
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 51.8,
+    "spo2": 97.6,
+    "gsr": 10.57,
+    "srs": 0.164
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 47.7,
+    "spo2": 98.0,
+    "gsr": 12.37,
+    "srs": 0.181
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 50.7,
+    "spo2": 97.5,
+    "gsr": 12.03,
+    "srs": 0.193
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 55.0,
+    "spo2": 97.6,
+    "gsr": 8.05,
+    "srs": 0.178
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 50.9,
+    "spo2": 97.8,
+    "gsr": 6.91,
+    "srs": 0.178
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 50.2,
+    "spo2": 97.4,
+    "gsr": 8.68,
+    "srs": 0.156
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 43.5,
+    "spo2": 97.2,
+    "gsr": 5.27,
+    "srs": 0.157
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 46.9,
+    "spo2": 97.2,
+    "gsr": 8.55,
+    "srs": 0.135
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 41.7,
+    "spo2": 96.4,
+    "gsr": 9.78,
+    "srs": 0.229
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 48.7,
+    "spo2": 98.4,
+    "gsr": 7.23,
+    "srs": 0.14
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 49.2,
+    "spo2": 97.1,
+    "gsr": 5.57,
+    "srs": 0.156
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 50.5,
+    "spo2": 97.4,
+    "gsr": 9.34,
+    "srs": 0.155
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 48.3,
+    "spo2": 97.2,
+    "gsr": 8.53,
+    "srs": 0.204
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 48.7,
+    "spo2": 97.6,
+    "gsr": 6.59,
+    "srs": 0.168
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 47.1,
+    "spo2": 97.6,
+    "gsr": 4.55,
+    "srs": 0.214
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 50.4,
+    "spo2": 97.8,
+    "gsr": 8.4,
+    "srs": 0.157
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 37.5,
+    "spo2": 97.1,
+    "gsr": 12.27,
+    "srs": 0.185
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 45.9,
+    "spo2": 97.4,
+    "gsr": 11.33,
+    "srs": 0.152
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 41.4,
+    "spo2": 97.2,
+    "gsr": 9.49,
+    "srs": 0.241
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 45.5,
+    "spo2": 97.5,
+    "gsr": 7.03,
+    "srs": 0.141
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 50.3,
+    "spo2": 98.0,
+    "gsr": 9.94,
+    "srs": 0.186
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 54.0,
+    "spo2": 97.5,
+    "gsr": 7.52,
+    "srs": 0.196
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 53.1,
+    "spo2": 97.6,
+    "gsr": 9.71,
+    "srs": 0.189
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 47.6,
+    "spo2": 97.7,
+    "gsr": 10.15,
+    "srs": 0.171
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 56.0,
+    "spo2": 97.9,
+    "gsr": 11.02,
+    "srs": 0.173
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 48.8,
+    "spo2": 97.5,
+    "gsr": 8.74,
+    "srs": 0.178
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gece",
+    "hrv": 46.9,
+    "spo2": 96.9,
+    "gsr": 8.43,
+    "srs": 0.173
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 58.4,
+    "spo2": 98.3,
+    "gsr": 8.46,
+    "srs": 0.05
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 56.0,
+    "spo2": 97.7,
+    "gsr": 4.31,
+    "srs": 0.051
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 58.9,
+    "spo2": 98.6,
+    "gsr": 8.57,
+    "srs": 0.069
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 51.4,
+    "spo2": 98.2,
+    "gsr": 9.29,
+    "srs": 0.087
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 40.6,
+    "spo2": 97.6,
+    "gsr": 7.06,
+    "srs": 0.103
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 62.3,
+    "spo2": 98.5,
+    "gsr": 3.2,
+    "srs": 0.052
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 58.0,
+    "spo2": 97.7,
+    "gsr": 6.56,
+    "srs": 0.121
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 46.7,
+    "spo2": 98.2,
+    "gsr": 8.83,
+    "srs": 0.068
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 52.8,
+    "spo2": 98.1,
+    "gsr": 6.62,
+    "srs": 0.075
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 63.0,
+    "spo2": 97.6,
+    "gsr": 4.38,
+    "srs": 0.054
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 73.4,
+    "spo2": 97.9,
+    "gsr": 4.53,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 55.4,
+    "spo2": 98.2,
+    "gsr": 8.77,
+    "srs": 0.103
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 52.0,
+    "spo2": 97.6,
+    "gsr": 8.14,
+    "srs": 0.098
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 57.7,
+    "spo2": 97.7,
+    "gsr": 6.06,
+    "srs": 0.068
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 64.5,
+    "spo2": 97.5,
+    "gsr": 6.06,
+    "srs": 0.078
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 53.1,
+    "spo2": 98.0,
+    "gsr": 6.31,
+    "srs": 0.091
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 58.2,
+    "spo2": 98.9,
+    "gsr": 3.98,
+    "srs": 0.029
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 56.9,
+    "spo2": 97.5,
+    "gsr": 9.23,
+    "srs": 0.06
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 50.7,
+    "spo2": 97.8,
+    "gsr": 6.62,
+    "srs": 0.1
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 62.0,
+    "spo2": 98.6,
+    "gsr": 8.04,
+    "srs": 0.038
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 65.1,
+    "spo2": 97.8,
+    "gsr": 9.6,
+    "srs": 0.085
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 63.3,
+    "spo2": 98.2,
+    "gsr": 7.57,
+    "srs": 0.035
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 55.2,
+    "spo2": 97.4,
+    "gsr": 6.2,
+    "srs": 0.09
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 56.4,
+    "spo2": 98.0,
+    "gsr": 7.38,
+    "srs": 0.075
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 54.6,
+    "spo2": 98.0,
+    "gsr": 5.56,
+    "srs": 0.028
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 58.9,
+    "spo2": 98.1,
+    "gsr": 5.81,
+    "srs": 0.111
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 59.5,
+    "spo2": 98.4,
+    "gsr": 6.77,
+    "srs": 0.054
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 59.2,
+    "spo2": 99.0,
+    "gsr": 4.01,
+    "srs": 0.052
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 73.2,
+    "spo2": 98.1,
+    "gsr": 8.94,
+    "srs": 0.082
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 56.0,
+    "spo2": 97.8,
+    "gsr": 6.59,
+    "srs": 0.11
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 56.9,
+    "spo2": 98.1,
+    "gsr": 6.36,
+    "srs": 0.046
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 55.5,
+    "spo2": 97.7,
+    "gsr": 7.22,
+    "srs": 0.078
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 62.3,
+    "spo2": 97.9,
+    "gsr": 6.49,
+    "srs": 0.089
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 56.4,
+    "spo2": 97.6,
+    "gsr": 8.19,
+    "srs": 0.097
+  },
+  {
+    "rota": "IST-NRT",
+    "vardiya": "Gunduz",
+    "hrv": 50.1,
+    "spo2": 97.9,
+    "gsr": 5.93,
+    "srs": 0.081
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 40.2,
+    "spo2": 97.5,
+    "gsr": 8.5,
+    "srs": 0.191
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 50.1,
+    "spo2": 97.7,
+    "gsr": 8.23,
+    "srs": 0.125
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 48.8,
+    "spo2": 97.4,
+    "gsr": 8.1,
+    "srs": 0.169
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 41.7,
+    "spo2": 97.5,
+    "gsr": 11.03,
+    "srs": 0.223
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 48.7,
+    "spo2": 97.9,
+    "gsr": 7.3,
+    "srs": 0.135
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 44.2,
+    "spo2": 96.8,
+    "gsr": 8.86,
+    "srs": 0.145
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 47.4,
+    "spo2": 97.9,
+    "gsr": 8.92,
+    "srs": 0.18
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 41.3,
+    "spo2": 96.8,
+    "gsr": 10.78,
+    "srs": 0.17
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 52.1,
+    "spo2": 97.8,
+    "gsr": 8.77,
+    "srs": 0.176
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 48.3,
+    "spo2": 97.8,
+    "gsr": 5.76,
+    "srs": 0.18
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 40.2,
+    "spo2": 96.9,
+    "gsr": 11.32,
+    "srs": 0.184
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 44.6,
+    "spo2": 97.1,
+    "gsr": 7.73,
+    "srs": 0.198
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 44.4,
+    "spo2": 97.0,
+    "gsr": 7.72,
+    "srs": 0.177
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 51.6,
+    "spo2": 97.4,
+    "gsr": 7.4,
+    "srs": 0.158
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 54.1,
+    "spo2": 97.2,
+    "gsr": 11.55,
+    "srs": 0.185
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 34.5,
+    "spo2": 97.5,
+    "gsr": 6.04,
+    "srs": 0.222
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 50.3,
+    "spo2": 98.0,
+    "gsr": 14.19,
+    "srs": 0.161
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 51.3,
+    "spo2": 98.1,
+    "gsr": 9.89,
+    "srs": 0.136
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 49.5,
+    "spo2": 97.1,
+    "gsr": 9.76,
+    "srs": 0.198
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 50.7,
+    "spo2": 97.4,
+    "gsr": 8.45,
+    "srs": 0.161
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 51.8,
+    "spo2": 97.1,
+    "gsr": 7.71,
+    "srs": 0.1
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 45.3,
+    "spo2": 97.0,
+    "gsr": 10.13,
+    "srs": 0.19
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 46.9,
+    "spo2": 97.9,
+    "gsr": 9.44,
+    "srs": 0.149
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 55.0,
+    "spo2": 98.1,
+    "gsr": 9.57,
+    "srs": 0.162
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 48.5,
+    "spo2": 96.9,
+    "gsr": 9.01,
+    "srs": 0.175
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 58.3,
+    "spo2": 97.2,
+    "gsr": 8.4,
+    "srs": 0.171
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 47.0,
+    "spo2": 97.4,
+    "gsr": 8.83,
+    "srs": 0.186
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 47.0,
+    "spo2": 97.6,
+    "gsr": 7.99,
+    "srs": 0.152
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 40.3,
+    "spo2": 97.1,
+    "gsr": 11.01,
+    "srs": 0.18
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 41.0,
+    "spo2": 97.7,
+    "gsr": 9.53,
+    "srs": 0.157
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 39.3,
+    "spo2": 97.2,
+    "gsr": 3.82,
+    "srs": 0.187
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 48.9,
+    "spo2": 97.4,
+    "gsr": 10.22,
+    "srs": 0.183
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 54.5,
+    "spo2": 97.8,
+    "gsr": 8.36,
+    "srs": 0.137
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 38.3,
+    "spo2": 97.3,
+    "gsr": 9.31,
+    "srs": 0.198
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 55.3,
+    "spo2": 97.4,
+    "gsr": 7.58,
+    "srs": 0.149
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 44.6,
+    "spo2": 97.3,
+    "gsr": 11.19,
+    "srs": 0.189
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 49.0,
+    "spo2": 97.4,
+    "gsr": 10.58,
+    "srs": 0.176
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 52.1,
+    "spo2": 97.1,
+    "gsr": 8.45,
+    "srs": 0.22
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 54.4,
+    "spo2": 97.4,
+    "gsr": 9.22,
+    "srs": 0.158
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 49.0,
+    "spo2": 98.1,
+    "gsr": 6.65,
+    "srs": 0.155
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 44.9,
+    "spo2": 97.7,
+    "gsr": 6.13,
+    "srs": 0.164
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 39.4,
+    "spo2": 97.4,
+    "gsr": 7.3,
+    "srs": 0.156
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 43.4,
+    "spo2": 97.6,
+    "gsr": 10.71,
+    "srs": 0.189
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 52.9,
+    "spo2": 97.5,
+    "gsr": 9.28,
+    "srs": 0.117
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 47.4,
+    "spo2": 98.1,
+    "gsr": 8.86,
+    "srs": 0.133
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 51.7,
+    "spo2": 97.7,
+    "gsr": 9.23,
+    "srs": 0.133
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 47.0,
+    "spo2": 97.3,
+    "gsr": 10.19,
+    "srs": 0.194
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 43.3,
+    "spo2": 97.4,
+    "gsr": 8.6,
+    "srs": 0.216
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 46.4,
+    "spo2": 96.8,
+    "gsr": 9.34,
+    "srs": 0.162
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 50.6,
+    "spo2": 97.0,
+    "gsr": 9.96,
+    "srs": 0.16
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 51.3,
+    "spo2": 97.0,
+    "gsr": 10.03,
+    "srs": 0.167
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 40.6,
+    "spo2": 97.4,
+    "gsr": 11.54,
+    "srs": 0.2
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 59.0,
+    "spo2": 98.3,
+    "gsr": 9.29,
+    "srs": 0.137
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 48.2,
+    "spo2": 98.3,
+    "gsr": 9.42,
+    "srs": 0.172
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 46.6,
+    "spo2": 97.6,
+    "gsr": 11.2,
+    "srs": 0.194
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 51.4,
+    "spo2": 97.6,
+    "gsr": 8.91,
+    "srs": 0.18
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 50.0,
+    "spo2": 96.7,
+    "gsr": 7.17,
+    "srs": 0.171
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 51.2,
+    "spo2": 97.1,
+    "gsr": 9.0,
+    "srs": 0.195
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 58.5,
+    "spo2": 97.5,
+    "gsr": 5.51,
+    "srs": 0.084
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 44.3,
+    "spo2": 97.1,
+    "gsr": 7.86,
+    "srs": 0.185
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 53.0,
+    "spo2": 97.5,
+    "gsr": 7.94,
+    "srs": 0.145
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 48.8,
+    "spo2": 97.5,
+    "gsr": 6.0,
+    "srs": 0.11
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 48.4,
+    "spo2": 96.6,
+    "gsr": 8.41,
+    "srs": 0.18
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 45.2,
+    "spo2": 97.6,
+    "gsr": 6.13,
+    "srs": 0.206
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 48.7,
+    "spo2": 97.0,
+    "gsr": 8.92,
+    "srs": 0.161
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 46.0,
+    "spo2": 97.4,
+    "gsr": 9.26,
+    "srs": 0.194
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 35.3,
+    "spo2": 98.1,
+    "gsr": 8.22,
+    "srs": 0.213
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 42.8,
+    "spo2": 96.9,
+    "gsr": 10.68,
+    "srs": 0.204
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 45.1,
+    "spo2": 96.2,
+    "gsr": 11.4,
+    "srs": 0.214
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 48.0,
+    "spo2": 97.2,
+    "gsr": 6.23,
+    "srs": 0.187
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 44.0,
+    "spo2": 97.9,
+    "gsr": 7.31,
+    "srs": 0.167
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 60.2,
+    "spo2": 98.5,
+    "gsr": 6.19,
+    "srs": 0.117
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 45.7,
+    "spo2": 97.0,
+    "gsr": 6.78,
+    "srs": 0.158
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 56.6,
+    "spo2": 97.8,
+    "gsr": 9.57,
+    "srs": 0.14
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 45.3,
+    "spo2": 97.0,
+    "gsr": 9.71,
+    "srs": 0.23
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 46.6,
+    "spo2": 97.4,
+    "gsr": 8.04,
+    "srs": 0.16
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 57.9,
+    "spo2": 98.5,
+    "gsr": 5.1,
+    "srs": 0.169
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 41.8,
+    "spo2": 96.8,
+    "gsr": 10.14,
+    "srs": 0.182
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 53.8,
+    "spo2": 97.6,
+    "gsr": 6.43,
+    "srs": 0.166
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 49.5,
+    "spo2": 97.4,
+    "gsr": 9.86,
+    "srs": 0.216
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 47.7,
+    "spo2": 98.0,
+    "gsr": 8.72,
+    "srs": 0.146
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 55.7,
+    "spo2": 97.5,
+    "gsr": 11.21,
+    "srs": 0.171
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gece",
+    "hrv": 50.2,
+    "spo2": 97.7,
+    "gsr": 5.78,
+    "srs": 0.143
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 67.2,
+    "spo2": 97.8,
+    "gsr": 7.1,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 61.4,
+    "spo2": 98.8,
+    "gsr": 6.04,
+    "srs": 0.058
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 50.4,
+    "spo2": 97.1,
+    "gsr": 10.05,
+    "srs": 0.106
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 52.2,
+    "spo2": 97.9,
+    "gsr": 4.35,
+    "srs": 0.089
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 65.1,
+    "spo2": 98.7,
+    "gsr": 6.26,
+    "srs": 0.058
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 55.5,
+    "spo2": 98.0,
+    "gsr": 3.57,
+    "srs": 0.037
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 66.0,
+    "spo2": 97.8,
+    "gsr": 7.33,
+    "srs": 0.076
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 58.3,
+    "spo2": 98.0,
+    "gsr": 7.1,
+    "srs": 0.023
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 61.9,
+    "spo2": 97.8,
+    "gsr": 5.7,
+    "srs": 0.066
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 57.0,
+    "spo2": 98.4,
+    "gsr": 3.2,
+    "srs": 0.067
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 60.1,
+    "spo2": 96.9,
+    "gsr": 7.2,
+    "srs": 0.084
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 49.5,
+    "spo2": 98.2,
+    "gsr": 8.75,
+    "srs": 0.135
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 58.1,
+    "spo2": 97.3,
+    "gsr": 7.13,
+    "srs": 0.064
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 61.7,
+    "spo2": 97.9,
+    "gsr": 8.03,
+    "srs": 0.037
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 55.1,
+    "spo2": 97.8,
+    "gsr": 4.2,
+    "srs": 0.051
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 66.8,
+    "spo2": 98.3,
+    "gsr": 6.66,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 59.5,
+    "spo2": 97.4,
+    "gsr": 7.83,
+    "srs": 0.031
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 60.1,
+    "spo2": 98.2,
+    "gsr": 3.2,
+    "srs": 0.04
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 56.6,
+    "spo2": 98.8,
+    "gsr": 6.37,
+    "srs": 0.036
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 46.8,
+    "spo2": 97.4,
+    "gsr": 5.34,
+    "srs": 0.057
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 61.4,
+    "spo2": 98.2,
+    "gsr": 5.45,
+    "srs": 0.027
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 68.9,
+    "spo2": 97.5,
+    "gsr": 7.51,
+    "srs": 0.086
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 64.0,
+    "spo2": 98.1,
+    "gsr": 5.27,
+    "srs": 0.052
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 60.0,
+    "spo2": 98.0,
+    "gsr": 4.92,
+    "srs": 0.052
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 59.7,
+    "spo2": 97.8,
+    "gsr": 5.99,
+    "srs": 0.042
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 59.7,
+    "spo2": 98.1,
+    "gsr": 4.29,
+    "srs": 0.057
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 60.4,
+    "spo2": 98.6,
+    "gsr": 4.73,
+    "srs": 0.077
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 56.6,
+    "spo2": 98.0,
+    "gsr": 6.79,
+    "srs": 0.026
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 67.5,
+    "spo2": 98.3,
+    "gsr": 3.64,
+    "srs": 0.032
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 64.5,
+    "spo2": 97.5,
+    "gsr": 7.14,
+    "srs": 0.043
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 66.7,
+    "spo2": 97.7,
+    "gsr": 6.27,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 64.6,
+    "spo2": 98.3,
+    "gsr": 3.2,
+    "srs": 0.027
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 61.5,
+    "spo2": 98.6,
+    "gsr": 4.61,
+    "srs": 0.038
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 60.9,
+    "spo2": 98.0,
+    "gsr": 8.87,
+    "srs": 0.078
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 62.3,
+    "spo2": 97.8,
+    "gsr": 4.55,
+    "srs": 0.06
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 57.7,
+    "spo2": 97.9,
+    "gsr": 5.44,
+    "srs": 0.058
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 54.8,
+    "spo2": 97.4,
+    "gsr": 7.54,
+    "srs": 0.078
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 61.0,
+    "spo2": 98.2,
+    "gsr": 7.46,
+    "srs": 0.048
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 66.7,
+    "spo2": 98.3,
+    "gsr": 5.95,
+    "srs": 0.064
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 54.2,
+    "spo2": 97.8,
+    "gsr": 5.0,
+    "srs": 0.049
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 52.0,
+    "spo2": 97.7,
+    "gsr": 8.88,
+    "srs": 0.06
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 62.5,
+    "spo2": 98.2,
+    "gsr": 8.89,
+    "srs": 0.035
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 63.4,
+    "spo2": 97.9,
+    "gsr": 7.2,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 61.3,
+    "spo2": 98.0,
+    "gsr": 6.21,
+    "srs": 0.048
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 57.2,
+    "spo2": 98.6,
+    "gsr": 5.63,
+    "srs": 0.095
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 56.3,
+    "spo2": 97.7,
+    "gsr": 5.26,
+    "srs": 0.08
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 64.8,
+    "spo2": 97.7,
+    "gsr": 7.72,
+    "srs": 0.081
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 48.5,
+    "spo2": 97.5,
+    "gsr": 7.71,
+    "srs": 0.089
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 55.7,
+    "spo2": 98.3,
+    "gsr": 8.73,
+    "srs": 0.055
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 59.0,
+    "spo2": 97.9,
+    "gsr": 7.45,
+    "srs": 0.058
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 53.6,
+    "spo2": 97.8,
+    "gsr": 3.2,
+    "srs": 0.033
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 60.1,
+    "spo2": 98.5,
+    "gsr": 7.83,
+    "srs": 0.043
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 66.6,
+    "spo2": 98.5,
+    "gsr": 4.75,
+    "srs": 0.07
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 56.7,
+    "spo2": 97.6,
+    "gsr": 6.25,
+    "srs": 0.088
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 61.6,
+    "spo2": 97.2,
+    "gsr": 6.5,
+    "srs": 0.048
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 55.0,
+    "spo2": 98.4,
+    "gsr": 9.44,
+    "srs": 0.038
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 57.0,
+    "spo2": 97.7,
+    "gsr": 11.74,
+    "srs": 0.052
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 56.5,
+    "spo2": 98.2,
+    "gsr": 7.63,
+    "srs": 0.07
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 61.5,
+    "spo2": 97.3,
+    "gsr": 5.11,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 69.5,
+    "spo2": 98.5,
+    "gsr": 6.4,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 64.4,
+    "spo2": 97.6,
+    "gsr": 7.38,
+    "srs": 0.035
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 57.5,
+    "spo2": 98.4,
+    "gsr": 4.86,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 62.7,
+    "spo2": 98.0,
+    "gsr": 9.04,
+    "srs": 0.037
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 63.0,
+    "spo2": 97.6,
+    "gsr": 6.46,
+    "srs": 0.048
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 67.1,
+    "spo2": 97.9,
+    "gsr": 6.74,
+    "srs": 0.038
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 63.8,
+    "spo2": 98.0,
+    "gsr": 8.3,
+    "srs": 0.096
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 54.1,
+    "spo2": 98.0,
+    "gsr": 7.12,
+    "srs": 0.062
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 55.1,
+    "spo2": 98.2,
+    "gsr": 7.85,
+    "srs": 0.061
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 52.0,
+    "spo2": 98.7,
+    "gsr": 5.44,
+    "srs": 0.071
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 61.9,
+    "spo2": 97.5,
+    "gsr": 4.44,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 59.4,
+    "spo2": 98.5,
+    "gsr": 4.85,
+    "srs": 0.083
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 65.2,
+    "spo2": 98.0,
+    "gsr": 6.89,
+    "srs": 0.05
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 57.8,
+    "spo2": 97.5,
+    "gsr": 7.99,
+    "srs": 0.072
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 61.5,
+    "spo2": 97.6,
+    "gsr": 6.26,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-ORD",
+    "vardiya": "Gunduz",
+    "hrv": 63.9,
+    "spo2": 98.0,
+    "gsr": 8.45,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 48.1,
+    "spo2": 97.3,
+    "gsr": 9.25,
+    "srs": 0.161
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.6,
+    "spo2": 97.3,
+    "gsr": 12.24,
+    "srs": 0.181
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 47.7,
+    "spo2": 98.0,
+    "gsr": 7.43,
+    "srs": 0.128
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.7,
+    "spo2": 97.9,
+    "gsr": 6.76,
+    "srs": 0.149
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 46.9,
+    "spo2": 96.9,
+    "gsr": 7.83,
+    "srs": 0.182
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 48.4,
+    "spo2": 97.4,
+    "gsr": 7.14,
+    "srs": 0.186
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 48.7,
+    "spo2": 97.2,
+    "gsr": 6.94,
+    "srs": 0.152
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 49.3,
+    "spo2": 97.0,
+    "gsr": 7.83,
+    "srs": 0.159
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 58.2,
+    "spo2": 97.6,
+    "gsr": 5.01,
+    "srs": 0.115
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 48.5,
+    "spo2": 97.4,
+    "gsr": 8.33,
+    "srs": 0.15
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 39.1,
+    "spo2": 98.3,
+    "gsr": 10.75,
+    "srs": 0.188
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 56.8,
+    "spo2": 97.6,
+    "gsr": 7.29,
+    "srs": 0.178
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 55.2,
+    "spo2": 96.9,
+    "gsr": 11.61,
+    "srs": 0.176
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 43.1,
+    "spo2": 97.2,
+    "gsr": 9.49,
+    "srs": 0.162
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 53.1,
+    "spo2": 97.9,
+    "gsr": 10.4,
+    "srs": 0.161
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 49.1,
+    "spo2": 98.4,
+    "gsr": 6.92,
+    "srs": 0.141
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 49.0,
+    "spo2": 96.7,
+    "gsr": 10.54,
+    "srs": 0.182
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.0,
+    "spo2": 96.7,
+    "gsr": 6.85,
+    "srs": 0.174
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 47.1,
+    "spo2": 98.2,
+    "gsr": 10.47,
+    "srs": 0.176
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 47.3,
+    "spo2": 97.7,
+    "gsr": 8.5,
+    "srs": 0.145
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 52.4,
+    "spo2": 97.4,
+    "gsr": 8.12,
+    "srs": 0.096
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 42.0,
+    "spo2": 97.5,
+    "gsr": 7.15,
+    "srs": 0.194
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 46.9,
+    "spo2": 96.5,
+    "gsr": 6.61,
+    "srs": 0.147
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 51.8,
+    "spo2": 97.6,
+    "gsr": 9.05,
+    "srs": 0.135
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 44.1,
+    "spo2": 97.5,
+    "gsr": 7.29,
+    "srs": 0.182
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 54.2,
+    "spo2": 97.9,
+    "gsr": 9.12,
+    "srs": 0.149
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 54.1,
+    "spo2": 96.9,
+    "gsr": 6.78,
+    "srs": 0.193
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 45.0,
+    "spo2": 97.4,
+    "gsr": 10.48,
+    "srs": 0.18
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 49.0,
+    "spo2": 97.0,
+    "gsr": 6.77,
+    "srs": 0.182
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 56.1,
+    "spo2": 97.8,
+    "gsr": 8.63,
+    "srs": 0.12
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 48.6,
+    "spo2": 97.0,
+    "gsr": 10.47,
+    "srs": 0.197
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 49.3,
+    "spo2": 97.3,
+    "gsr": 7.46,
+    "srs": 0.169
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 54.5,
+    "spo2": 97.1,
+    "gsr": 9.35,
+    "srs": 0.15
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 51.7,
+    "spo2": 97.7,
+    "gsr": 9.11,
+    "srs": 0.165
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 48.6,
+    "spo2": 98.1,
+    "gsr": 6.4,
+    "srs": 0.108
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 52.9,
+    "spo2": 97.3,
+    "gsr": 7.0,
+    "srs": 0.173
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 57.1,
+    "spo2": 97.6,
+    "gsr": 4.33,
+    "srs": 0.13
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 49.7,
+    "spo2": 97.1,
+    "gsr": 8.28,
+    "srs": 0.12
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 54.2,
+    "spo2": 97.6,
+    "gsr": 4.72,
+    "srs": 0.115
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.0,
+    "spo2": 97.3,
+    "gsr": 9.45,
+    "srs": 0.194
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.5,
+    "spo2": 98.6,
+    "gsr": 7.65,
+    "srs": 0.142
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.7,
+    "spo2": 96.8,
+    "gsr": 10.78,
+    "srs": 0.207
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 63.1,
+    "spo2": 98.1,
+    "gsr": 7.64,
+    "srs": 0.145
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.6,
+    "spo2": 98.1,
+    "gsr": 6.82,
+    "srs": 0.11
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 46.0,
+    "spo2": 97.7,
+    "gsr": 9.12,
+    "srs": 0.128
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 47.7,
+    "spo2": 98.0,
+    "gsr": 9.96,
+    "srs": 0.198
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 53.8,
+    "spo2": 97.6,
+    "gsr": 9.01,
+    "srs": 0.156
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.1,
+    "spo2": 97.7,
+    "gsr": 9.02,
+    "srs": 0.145
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 56.5,
+    "spo2": 97.4,
+    "gsr": 5.88,
+    "srs": 0.166
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 41.6,
+    "spo2": 97.9,
+    "gsr": 10.24,
+    "srs": 0.176
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.0,
+    "spo2": 97.8,
+    "gsr": 10.38,
+    "srs": 0.195
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 42.5,
+    "spo2": 97.0,
+    "gsr": 7.67,
+    "srs": 0.204
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 59.3,
+    "spo2": 97.0,
+    "gsr": 7.87,
+    "srs": 0.15
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 63.4,
+    "spo2": 97.6,
+    "gsr": 7.6,
+    "srs": 0.121
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 47.1,
+    "spo2": 97.2,
+    "gsr": 8.03,
+    "srs": 0.149
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 46.2,
+    "spo2": 97.4,
+    "gsr": 9.31,
+    "srs": 0.169
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 56.7,
+    "spo2": 98.1,
+    "gsr": 10.48,
+    "srs": 0.132
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.5,
+    "spo2": 97.4,
+    "gsr": 9.86,
+    "srs": 0.132
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 48.5,
+    "spo2": 97.4,
+    "gsr": 6.41,
+    "srs": 0.171
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.0,
+    "spo2": 97.5,
+    "gsr": 9.63,
+    "srs": 0.16
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 40.0,
+    "spo2": 97.8,
+    "gsr": 10.96,
+    "srs": 0.162
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 51.8,
+    "spo2": 96.7,
+    "gsr": 8.74,
+    "srs": 0.138
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 46.9,
+    "spo2": 97.3,
+    "gsr": 10.35,
+    "srs": 0.154
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 49.9,
+    "spo2": 97.7,
+    "gsr": 11.55,
+    "srs": 0.133
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 54.4,
+    "spo2": 97.8,
+    "gsr": 10.97,
+    "srs": 0.188
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 40.5,
+    "spo2": 97.1,
+    "gsr": 9.67,
+    "srs": 0.192
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 59.0,
+    "spo2": 97.0,
+    "gsr": 9.2,
+    "srs": 0.106
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 51.0,
+    "spo2": 97.8,
+    "gsr": 8.19,
+    "srs": 0.133
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 52.6,
+    "spo2": 97.4,
+    "gsr": 7.6,
+    "srs": 0.116
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 55.5,
+    "spo2": 97.1,
+    "gsr": 7.48,
+    "srs": 0.141
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 51.6,
+    "spo2": 97.2,
+    "gsr": 11.3,
+    "srs": 0.158
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 56.7,
+    "spo2": 97.6,
+    "gsr": 6.11,
+    "srs": 0.118
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 57.2,
+    "spo2": 97.4,
+    "gsr": 10.69,
+    "srs": 0.133
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.9,
+    "spo2": 96.7,
+    "gsr": 8.78,
+    "srs": 0.131
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 46.1,
+    "spo2": 97.8,
+    "gsr": 6.16,
+    "srs": 0.167
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 44.1,
+    "spo2": 98.0,
+    "gsr": 9.25,
+    "srs": 0.163
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 47.6,
+    "spo2": 97.8,
+    "gsr": 4.29,
+    "srs": 0.139
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 63.9,
+    "spo2": 97.0,
+    "gsr": 9.78,
+    "srs": 0.166
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 57.5,
+    "spo2": 97.5,
+    "gsr": 9.77,
+    "srs": 0.145
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 43.7,
+    "spo2": 97.5,
+    "gsr": 7.3,
+    "srs": 0.153
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 38.3,
+    "spo2": 97.5,
+    "gsr": 9.87,
+    "srs": 0.211
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 48.3,
+    "spo2": 97.6,
+    "gsr": 12.94,
+    "srs": 0.201
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 56.1,
+    "spo2": 97.4,
+    "gsr": 6.77,
+    "srs": 0.122
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.1,
+    "spo2": 97.4,
+    "gsr": 7.18,
+    "srs": 0.186
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 46.1,
+    "spo2": 97.5,
+    "gsr": 11.74,
+    "srs": 0.185
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 52.4,
+    "spo2": 98.2,
+    "gsr": 11.32,
+    "srs": 0.127
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 49.0,
+    "spo2": 97.6,
+    "gsr": 9.09,
+    "srs": 0.186
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 45.8,
+    "spo2": 97.6,
+    "gsr": 11.38,
+    "srs": 0.207
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 41.8,
+    "spo2": 97.7,
+    "gsr": 10.22,
+    "srs": 0.127
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 51.2,
+    "spo2": 98.2,
+    "gsr": 6.6,
+    "srs": 0.133
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 42.5,
+    "spo2": 97.5,
+    "gsr": 8.34,
+    "srs": 0.192
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 49.8,
+    "spo2": 97.1,
+    "gsr": 10.94,
+    "srs": 0.169
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 63.1,
+    "spo2": 98.0,
+    "gsr": 11.94,
+    "srs": 0.178
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.6,
+    "spo2": 97.7,
+    "gsr": 9.78,
+    "srs": 0.171
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 47.0,
+    "spo2": 97.2,
+    "gsr": 7.22,
+    "srs": 0.173
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 58.1,
+    "spo2": 97.5,
+    "gsr": 11.24,
+    "srs": 0.121
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 49.1,
+    "spo2": 97.5,
+    "gsr": 8.28,
+    "srs": 0.192
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 48.5,
+    "spo2": 97.5,
+    "gsr": 8.71,
+    "srs": 0.196
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 53.4,
+    "spo2": 97.6,
+    "gsr": 9.01,
+    "srs": 0.154
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 60.1,
+    "spo2": 97.6,
+    "gsr": 11.31,
+    "srs": 0.16
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 48.4,
+    "spo2": 98.4,
+    "gsr": 9.07,
+    "srs": 0.115
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 50.6,
+    "spo2": 97.8,
+    "gsr": 9.63,
+    "srs": 0.176
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 43.4,
+    "spo2": 97.5,
+    "gsr": 9.75,
+    "srs": 0.178
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 52.7,
+    "spo2": 97.9,
+    "gsr": 8.58,
+    "srs": 0.159
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gece",
+    "hrv": 41.9,
+    "spo2": 96.9,
+    "gsr": 10.29,
+    "srs": 0.195
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 67.7,
+    "spo2": 97.3,
+    "gsr": 4.35,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 57.4,
+    "spo2": 97.7,
+    "gsr": 5.71,
+    "srs": 0.051
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 58.0,
+    "spo2": 97.9,
+    "gsr": 3.53,
+    "srs": 0.067
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 59.4,
+    "spo2": 97.7,
+    "gsr": 4.85,
+    "srs": 0.025
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 66.9,
+    "spo2": 97.5,
+    "gsr": 8.37,
+    "srs": 0.072
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 58.3,
+    "spo2": 97.7,
+    "gsr": 5.35,
+    "srs": 0.054
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 63.5,
+    "spo2": 97.8,
+    "gsr": 8.63,
+    "srs": 0.113
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 58.9,
+    "spo2": 97.6,
+    "gsr": 7.02,
+    "srs": 0.107
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 63.0,
+    "spo2": 97.1,
+    "gsr": 6.6,
+    "srs": 0.046
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 61.6,
+    "spo2": 97.1,
+    "gsr": 4.15,
+    "srs": 0.055
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 61.5,
+    "spo2": 97.7,
+    "gsr": 6.42,
+    "srs": 0.058
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 50.9,
+    "spo2": 98.2,
+    "gsr": 3.2,
+    "srs": 0.046
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 57.3,
+    "spo2": 96.8,
+    "gsr": 6.11,
+    "srs": 0.066
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 65.7,
+    "spo2": 97.8,
+    "gsr": 3.2,
+    "srs": 0.037
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 62.3,
+    "spo2": 97.9,
+    "gsr": 7.74,
+    "srs": 0.026
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 50.5,
+    "spo2": 98.4,
+    "gsr": 8.13,
+    "srs": 0.079
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 57.2,
+    "spo2": 97.7,
+    "gsr": 7.58,
+    "srs": 0.079
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 70.1,
+    "spo2": 98.2,
+    "gsr": 8.53,
+    "srs": 0.036
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 63.0,
+    "spo2": 97.9,
+    "gsr": 5.2,
+    "srs": 0.087
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 60.8,
+    "spo2": 97.2,
+    "gsr": 9.05,
+    "srs": 0.041
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 63.3,
+    "spo2": 98.2,
+    "gsr": 8.17,
+    "srs": 0.068
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 55.1,
+    "spo2": 97.9,
+    "gsr": 6.44,
+    "srs": 0.085
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 50.9,
+    "spo2": 98.1,
+    "gsr": 8.34,
+    "srs": 0.059
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 53.4,
+    "spo2": 99.4,
+    "gsr": 4.63,
+    "srs": 0.074
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 68.6,
+    "spo2": 97.2,
+    "gsr": 4.5,
+    "srs": 0.045
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 58.5,
+    "spo2": 98.6,
+    "gsr": 5.09,
+    "srs": 0.054
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 58.7,
+    "spo2": 97.8,
+    "gsr": 5.23,
+    "srs": 0.054
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 59.9,
+    "spo2": 98.1,
+    "gsr": 3.93,
+    "srs": 0.038
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 69.3,
+    "spo2": 97.9,
+    "gsr": 8.4,
+    "srs": 0.055
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 71.2,
+    "spo2": 97.9,
+    "gsr": 4.97,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 71.8,
+    "spo2": 97.8,
+    "gsr": 6.63,
+    "srs": 0.045
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 59.3,
+    "spo2": 98.1,
+    "gsr": 5.11,
+    "srs": 0.051
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 61.5,
+    "spo2": 97.4,
+    "gsr": 3.2,
+    "srs": 0.052
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 52.4,
+    "spo2": 98.3,
+    "gsr": 6.65,
+    "srs": 0.053
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 66.9,
+    "spo2": 97.8,
+    "gsr": 3.2,
+    "srs": 0.058
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 52.1,
+    "spo2": 97.4,
+    "gsr": 6.51,
+    "srs": 0.074
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 57.9,
+    "spo2": 97.6,
+    "gsr": 4.43,
+    "srs": 0.086
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 55.7,
+    "spo2": 98.5,
+    "gsr": 9.47,
+    "srs": 0.041
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 59.8,
+    "spo2": 97.9,
+    "gsr": 7.17,
+    "srs": 0.024
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 58.1,
+    "spo2": 98.2,
+    "gsr": 5.82,
+    "srs": 0.029
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 57.6,
+    "spo2": 97.7,
+    "gsr": 8.27,
+    "srs": 0.045
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 57.6,
+    "spo2": 98.3,
+    "gsr": 4.56,
+    "srs": 0.049
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 58.8,
+    "spo2": 98.3,
+    "gsr": 6.79,
+    "srs": 0.037
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 67.2,
+    "spo2": 98.8,
+    "gsr": 5.82,
+    "srs": 0.021
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 55.1,
+    "spo2": 97.9,
+    "gsr": 6.49,
+    "srs": 0.046
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 59.9,
+    "spo2": 98.2,
+    "gsr": 8.73,
+    "srs": 0.065
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 63.7,
+    "spo2": 97.9,
+    "gsr": 8.03,
+    "srs": 0.078
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 58.3,
+    "spo2": 98.5,
+    "gsr": 6.47,
+    "srs": 0.043
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 56.9,
+    "spo2": 97.7,
+    "gsr": 3.2,
+    "srs": 0.048
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 60.8,
+    "spo2": 98.4,
+    "gsr": 3.98,
+    "srs": 0.032
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 65.3,
+    "spo2": 97.9,
+    "gsr": 6.08,
+    "srs": 0.059
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 62.7,
+    "spo2": 98.0,
+    "gsr": 5.93,
+    "srs": 0.035
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 55.0,
+    "spo2": 97.9,
+    "gsr": 4.66,
+    "srs": 0.077
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 65.5,
+    "spo2": 98.2,
+    "gsr": 9.78,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 54.8,
+    "spo2": 97.9,
+    "gsr": 8.81,
+    "srs": 0.049
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 61.8,
+    "spo2": 98.0,
+    "gsr": 7.6,
+    "srs": 0.069
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 60.8,
+    "spo2": 98.5,
+    "gsr": 6.57,
+    "srs": 0.066
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 50.1,
+    "spo2": 98.0,
+    "gsr": 7.72,
+    "srs": 0.141
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 54.1,
+    "spo2": 98.2,
+    "gsr": 4.84,
+    "srs": 0.07
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 57.7,
+    "spo2": 97.9,
+    "gsr": 5.8,
+    "srs": 0.03
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 62.2,
+    "spo2": 97.6,
+    "gsr": 6.72,
+    "srs": 0.057
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 69.2,
+    "spo2": 98.5,
+    "gsr": 3.2,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 56.3,
+    "spo2": 98.3,
+    "gsr": 6.87,
+    "srs": 0.058
+  },
+  {
+    "rota": "IST-SIN",
+    "vardiya": "Gunduz",
+    "hrv": 64.0,
+    "spo2": 98.6,
+    "gsr": 5.49,
+    "srs": 0.035
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 52.4,
+    "spo2": 97.8,
+    "gsr": 7.72,
+    "srs": 0.096
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 57.2,
+    "spo2": 97.8,
+    "gsr": 6.11,
+    "srs": 0.127
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 59.9,
+    "spo2": 97.7,
+    "gsr": 8.48,
+    "srs": 0.141
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 50.4,
+    "spo2": 97.8,
+    "gsr": 7.77,
+    "srs": 0.21
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 45.2,
+    "spo2": 97.1,
+    "gsr": 10.71,
+    "srs": 0.17
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 56.1,
+    "spo2": 97.4,
+    "gsr": 9.4,
+    "srs": 0.113
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 42.6,
+    "spo2": 97.1,
+    "gsr": 9.64,
+    "srs": 0.168
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 57.7,
+    "spo2": 98.1,
+    "gsr": 8.0,
+    "srs": 0.107
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 49.6,
+    "spo2": 97.7,
+    "gsr": 12.25,
+    "srs": 0.185
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 42.5,
+    "spo2": 97.8,
+    "gsr": 8.05,
+    "srs": 0.139
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 44.9,
+    "spo2": 98.0,
+    "gsr": 6.18,
+    "srs": 0.15
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 45.3,
+    "spo2": 96.9,
+    "gsr": 10.05,
+    "srs": 0.193
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 52.6,
+    "spo2": 98.4,
+    "gsr": 11.27,
+    "srs": 0.114
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 48.4,
+    "spo2": 98.3,
+    "gsr": 5.62,
+    "srs": 0.111
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 54.1,
+    "spo2": 97.9,
+    "gsr": 7.33,
+    "srs": 0.135
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 48.8,
+    "spo2": 98.1,
+    "gsr": 9.8,
+    "srs": 0.184
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 53.8,
+    "spo2": 97.1,
+    "gsr": 7.27,
+    "srs": 0.107
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 54.8,
+    "spo2": 97.7,
+    "gsr": 4.73,
+    "srs": 0.068
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 57.0,
+    "spo2": 97.3,
+    "gsr": 10.09,
+    "srs": 0.139
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 57.2,
+    "spo2": 97.7,
+    "gsr": 12.91,
+    "srs": 0.17
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 44.6,
+    "spo2": 96.9,
+    "gsr": 9.51,
+    "srs": 0.189
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 48.7,
+    "spo2": 97.9,
+    "gsr": 6.43,
+    "srs": 0.139
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 54.1,
+    "spo2": 98.1,
+    "gsr": 5.31,
+    "srs": 0.141
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 45.4,
+    "spo2": 97.6,
+    "gsr": 9.59,
+    "srs": 0.188
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 55.1,
+    "spo2": 97.9,
+    "gsr": 9.12,
+    "srs": 0.097
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 55.3,
+    "spo2": 97.2,
+    "gsr": 8.96,
+    "srs": 0.141
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 40.4,
+    "spo2": 97.1,
+    "gsr": 8.49,
+    "srs": 0.159
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 55.8,
+    "spo2": 98.0,
+    "gsr": 7.6,
+    "srs": 0.166
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 52.3,
+    "spo2": 97.9,
+    "gsr": 6.06,
+    "srs": 0.138
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 48.3,
+    "spo2": 97.5,
+    "gsr": 9.89,
+    "srs": 0.154
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 57.1,
+    "spo2": 97.7,
+    "gsr": 8.37,
+    "srs": 0.078
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 52.2,
+    "spo2": 96.8,
+    "gsr": 5.15,
+    "srs": 0.133
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 40.5,
+    "spo2": 97.0,
+    "gsr": 11.53,
+    "srs": 0.167
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 60.7,
+    "spo2": 98.4,
+    "gsr": 8.75,
+    "srs": 0.124
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 50.5,
+    "spo2": 97.0,
+    "gsr": 10.92,
+    "srs": 0.155
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 51.4,
+    "spo2": 97.5,
+    "gsr": 6.25,
+    "srs": 0.166
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 56.2,
+    "spo2": 98.0,
+    "gsr": 5.68,
+    "srs": 0.143
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 44.9,
+    "spo2": 97.0,
+    "gsr": 8.21,
+    "srs": 0.158
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 55.6,
+    "spo2": 97.7,
+    "gsr": 8.64,
+    "srs": 0.124
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 49.7,
+    "spo2": 97.9,
+    "gsr": 11.46,
+    "srs": 0.147
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 53.0,
+    "spo2": 97.4,
+    "gsr": 10.04,
+    "srs": 0.171
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 39.4,
+    "spo2": 98.6,
+    "gsr": 8.03,
+    "srs": 0.158
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 51.6,
+    "spo2": 96.9,
+    "gsr": 6.13,
+    "srs": 0.135
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 46.8,
+    "spo2": 97.9,
+    "gsr": 10.73,
+    "srs": 0.16
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 50.6,
+    "spo2": 97.3,
+    "gsr": 7.1,
+    "srs": 0.174
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 58.7,
+    "spo2": 98.1,
+    "gsr": 9.94,
+    "srs": 0.092
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 43.6,
+    "spo2": 97.5,
+    "gsr": 8.62,
+    "srs": 0.188
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 47.9,
+    "spo2": 97.3,
+    "gsr": 11.01,
+    "srs": 0.143
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 48.7,
+    "spo2": 97.5,
+    "gsr": 9.87,
+    "srs": 0.166
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 42.6,
+    "spo2": 96.6,
+    "gsr": 8.91,
+    "srs": 0.189
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 58.6,
+    "spo2": 97.9,
+    "gsr": 6.53,
+    "srs": 0.112
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 50.6,
+    "spo2": 97.7,
+    "gsr": 7.28,
+    "srs": 0.132
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 36.8,
+    "spo2": 97.8,
+    "gsr": 8.95,
+    "srs": 0.144
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 50.8,
+    "spo2": 98.0,
+    "gsr": 7.99,
+    "srs": 0.129
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 40.3,
+    "spo2": 97.4,
+    "gsr": 8.44,
+    "srs": 0.205
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 44.8,
+    "spo2": 97.7,
+    "gsr": 7.5,
+    "srs": 0.127
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 45.9,
+    "spo2": 97.2,
+    "gsr": 8.14,
+    "srs": 0.136
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 50.4,
+    "spo2": 97.2,
+    "gsr": 4.67,
+    "srs": 0.159
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 60.5,
+    "spo2": 98.1,
+    "gsr": 8.4,
+    "srs": 0.117
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 53.2,
+    "spo2": 98.1,
+    "gsr": 6.34,
+    "srs": 0.141
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 46.5,
+    "spo2": 97.4,
+    "gsr": 6.5,
+    "srs": 0.163
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 53.7,
+    "spo2": 97.6,
+    "gsr": 5.11,
+    "srs": 0.143
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 48.4,
+    "spo2": 97.2,
+    "gsr": 5.08,
+    "srs": 0.15
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 48.5,
+    "spo2": 98.1,
+    "gsr": 5.58,
+    "srs": 0.137
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 49.0,
+    "spo2": 98.0,
+    "gsr": 6.09,
+    "srs": 0.108
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 40.8,
+    "spo2": 98.2,
+    "gsr": 12.09,
+    "srs": 0.163
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 43.5,
+    "spo2": 96.9,
+    "gsr": 8.58,
+    "srs": 0.206
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 51.2,
+    "spo2": 97.4,
+    "gsr": 8.7,
+    "srs": 0.154
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 49.3,
+    "spo2": 97.6,
+    "gsr": 9.24,
+    "srs": 0.16
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 46.4,
+    "spo2": 97.7,
+    "gsr": 9.06,
+    "srs": 0.174
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 49.4,
+    "spo2": 97.6,
+    "gsr": 7.39,
+    "srs": 0.115
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 48.7,
+    "spo2": 96.9,
+    "gsr": 7.34,
+    "srs": 0.204
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 43.3,
+    "spo2": 97.8,
+    "gsr": 11.11,
+    "srs": 0.159
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 49.7,
+    "spo2": 97.6,
+    "gsr": 12.7,
+    "srs": 0.202
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 47.5,
+    "spo2": 97.2,
+    "gsr": 4.85,
+    "srs": 0.131
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 41.5,
+    "spo2": 97.8,
+    "gsr": 7.72,
+    "srs": 0.208
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 40.9,
+    "spo2": 97.9,
+    "gsr": 8.37,
+    "srs": 0.176
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 46.4,
+    "spo2": 97.5,
+    "gsr": 6.99,
+    "srs": 0.17
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 54.7,
+    "spo2": 97.5,
+    "gsr": 9.43,
+    "srs": 0.16
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 53.8,
+    "spo2": 97.8,
+    "gsr": 6.89,
+    "srs": 0.146
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 51.9,
+    "spo2": 97.0,
+    "gsr": 13.06,
+    "srs": 0.189
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 52.7,
+    "spo2": 97.5,
+    "gsr": 10.6,
+    "srs": 0.157
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 50.6,
+    "spo2": 96.9,
+    "gsr": 7.45,
+    "srs": 0.094
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 52.0,
+    "spo2": 98.0,
+    "gsr": 9.48,
+    "srs": 0.119
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 47.1,
+    "spo2": 96.9,
+    "gsr": 10.23,
+    "srs": 0.147
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 56.2,
+    "spo2": 98.1,
+    "gsr": 7.56,
+    "srs": 0.162
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 44.6,
+    "spo2": 97.4,
+    "gsr": 6.86,
+    "srs": 0.151
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 51.5,
+    "spo2": 97.3,
+    "gsr": 9.31,
+    "srs": 0.19
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 60.5,
+    "spo2": 97.5,
+    "gsr": 8.63,
+    "srs": 0.094
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 59.2,
+    "spo2": 97.4,
+    "gsr": 8.71,
+    "srs": 0.157
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 53.6,
+    "spo2": 98.3,
+    "gsr": 4.33,
+    "srs": 0.098
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 51.9,
+    "spo2": 96.4,
+    "gsr": 7.42,
+    "srs": 0.176
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 62.1,
+    "spo2": 98.0,
+    "gsr": 8.17,
+    "srs": 0.15
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 46.2,
+    "spo2": 97.6,
+    "gsr": 8.51,
+    "srs": 0.166
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 45.3,
+    "spo2": 97.1,
+    "gsr": 11.35,
+    "srs": 0.127
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 37.4,
+    "spo2": 96.9,
+    "gsr": 6.72,
+    "srs": 0.191
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 51.1,
+    "spo2": 98.0,
+    "gsr": 9.96,
+    "srs": 0.184
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 39.4,
+    "spo2": 97.1,
+    "gsr": 11.43,
+    "srs": 0.171
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 49.0,
+    "spo2": 97.1,
+    "gsr": 12.37,
+    "srs": 0.149
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gece",
+    "hrv": 51.0,
+    "spo2": 97.9,
+    "gsr": 8.02,
+    "srs": 0.17
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 58.1,
+    "spo2": 97.7,
+    "gsr": 7.6,
+    "srs": 0.066
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 55.7,
+    "spo2": 97.3,
+    "gsr": 6.72,
+    "srs": 0.068
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 45.0,
+    "spo2": 98.1,
+    "gsr": 6.05,
+    "srs": 0.057
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 70.7,
+    "spo2": 98.0,
+    "gsr": 3.72,
+    "srs": 0.048
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 64.4,
+    "spo2": 98.1,
+    "gsr": 6.83,
+    "srs": 0.064
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 61.2,
+    "spo2": 97.9,
+    "gsr": 4.08,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 58.3,
+    "spo2": 98.4,
+    "gsr": 3.2,
+    "srs": 0.071
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 53.9,
+    "spo2": 97.6,
+    "gsr": 8.36,
+    "srs": 0.055
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 69.3,
+    "spo2": 98.7,
+    "gsr": 7.7,
+    "srs": 0.044
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 63.8,
+    "spo2": 97.0,
+    "gsr": 7.57,
+    "srs": 0.112
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 62.9,
+    "spo2": 98.2,
+    "gsr": 6.09,
+    "srs": 0.031
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 66.4,
+    "spo2": 98.2,
+    "gsr": 7.79,
+    "srs": 0.039
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 55.4,
+    "spo2": 97.4,
+    "gsr": 7.84,
+    "srs": 0.111
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 55.8,
+    "spo2": 98.3,
+    "gsr": 7.2,
+    "srs": 0.026
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 59.7,
+    "spo2": 98.6,
+    "gsr": 5.22,
+    "srs": 0.034
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 61.2,
+    "spo2": 97.1,
+    "gsr": 8.39,
+    "srs": 0.047
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 55.5,
+    "spo2": 98.1,
+    "gsr": 7.25,
+    "srs": 0.076
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 58.5,
+    "spo2": 96.9,
+    "gsr": 6.61,
+    "srs": 0.057
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 62.6,
+    "spo2": 97.7,
+    "gsr": 3.2,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 61.3,
+    "spo2": 98.7,
+    "gsr": 6.29,
+    "srs": 0.035
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 62.1,
+    "spo2": 97.8,
+    "gsr": 4.22,
+    "srs": 0.033
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 55.1,
+    "spo2": 97.5,
+    "gsr": 4.92,
+    "srs": 0.049
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 55.4,
+    "spo2": 97.8,
+    "gsr": 4.94,
+    "srs": 0.064
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 52.5,
+    "spo2": 98.7,
+    "gsr": 4.48,
+    "srs": 0.064
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 68.0,
+    "spo2": 97.4,
+    "gsr": 9.26,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 46.6,
+    "spo2": 97.4,
+    "gsr": 9.22,
+    "srs": 0.083
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 65.2,
+    "spo2": 98.5,
+    "gsr": 9.75,
+    "srs": 0.059
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 63.1,
+    "spo2": 98.5,
+    "gsr": 4.83,
+    "srs": 0.093
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 57.4,
+    "spo2": 97.9,
+    "gsr": 6.54,
+    "srs": 0.064
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 44.0,
+    "spo2": 97.3,
+    "gsr": 4.52,
+    "srs": 0.084
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 57.0,
+    "spo2": 98.7,
+    "gsr": 5.18,
+    "srs": 0.065
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 56.0,
+    "spo2": 98.4,
+    "gsr": 5.36,
+    "srs": 0.091
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 53.6,
+    "spo2": 98.2,
+    "gsr": 8.7,
+    "srs": 0.067
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 57.9,
+    "spo2": 97.7,
+    "gsr": 5.34,
+    "srs": 0.048
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 61.3,
+    "spo2": 97.6,
+    "gsr": 9.54,
+    "srs": 0.119
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 60.9,
+    "spo2": 97.8,
+    "gsr": 7.8,
+    "srs": 0.078
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 53.9,
+    "spo2": 98.0,
+    "gsr": 10.65,
+    "srs": 0.068
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 55.1,
+    "spo2": 98.7,
+    "gsr": 3.2,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 61.5,
+    "spo2": 98.5,
+    "gsr": 7.71,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 58.3,
+    "spo2": 97.5,
+    "gsr": 8.38,
+    "srs": 0.06
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 62.2,
+    "spo2": 98.5,
+    "gsr": 4.47,
+    "srs": 0.055
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 59.2,
+    "spo2": 98.2,
+    "gsr": 7.53,
+    "srs": 0.033
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 62.3,
+    "spo2": 98.2,
+    "gsr": 6.82,
+    "srs": 0.055
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 65.3,
+    "spo2": 98.3,
+    "gsr": 6.76,
+    "srs": 0.099
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 62.3,
+    "spo2": 97.4,
+    "gsr": 5.1,
+    "srs": 0.072
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 62.9,
+    "spo2": 98.1,
+    "gsr": 4.15,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 59.6,
+    "spo2": 97.8,
+    "gsr": 9.74,
+    "srs": 0.048
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 60.7,
+    "spo2": 97.5,
+    "gsr": 5.59,
+    "srs": 0.027
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 67.2,
+    "spo2": 98.2,
+    "gsr": 7.27,
+    "srs": 0.039
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 58.2,
+    "spo2": 99.0,
+    "gsr": 4.43,
+    "srs": 0.039
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 61.7,
+    "spo2": 97.3,
+    "gsr": 4.4,
+    "srs": 0.037
+  },
+  {
+    "rota": "IST-JFK",
+    "vardiya": "Gunduz",
+    "hrv": 63.4,
+    "spo2": 98.1,
+    "gsr": 7.39,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 60.7,
+    "spo2": 97.7,
+    "gsr": 5.22,
+    "srs": 0.069
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 51.7,
+    "spo2": 97.9,
+    "gsr": 8.06,
+    "srs": 0.097
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 55.3,
+    "spo2": 98.1,
+    "gsr": 8.0,
+    "srs": 0.11
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 56.1,
+    "spo2": 97.6,
+    "gsr": 7.77,
+    "srs": 0.112
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 55.2,
+    "spo2": 98.2,
+    "gsr": 5.49,
+    "srs": 0.104
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 43.1,
+    "spo2": 98.2,
+    "gsr": 7.33,
+    "srs": 0.121
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 53.5,
+    "spo2": 97.2,
+    "gsr": 3.94,
+    "srs": 0.13
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 63.6,
+    "spo2": 97.3,
+    "gsr": 8.2,
+    "srs": 0.131
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 55.7,
+    "spo2": 97.8,
+    "gsr": 9.32,
+    "srs": 0.079
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 51.8,
+    "spo2": 97.9,
+    "gsr": 4.56,
+    "srs": 0.1
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 53.1,
+    "spo2": 97.3,
+    "gsr": 7.13,
+    "srs": 0.145
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 53.7,
+    "spo2": 98.1,
+    "gsr": 8.58,
+    "srs": 0.136
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 64.5,
+    "spo2": 98.1,
+    "gsr": 8.75,
+    "srs": 0.068
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 47.4,
+    "spo2": 97.7,
+    "gsr": 6.82,
+    "srs": 0.12
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 63.9,
+    "spo2": 97.4,
+    "gsr": 4.85,
+    "srs": 0.05
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 57.5,
+    "spo2": 97.2,
+    "gsr": 3.88,
+    "srs": 0.11
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 48.5,
+    "spo2": 97.6,
+    "gsr": 8.84,
+    "srs": 0.166
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 59.0,
+    "spo2": 97.0,
+    "gsr": 10.45,
+    "srs": 0.081
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 62.2,
+    "spo2": 98.2,
+    "gsr": 7.35,
+    "srs": 0.084
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 56.8,
+    "spo2": 97.5,
+    "gsr": 7.86,
+    "srs": 0.132
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 53.3,
+    "spo2": 99.2,
+    "gsr": 6.96,
+    "srs": 0.063
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 60.5,
+    "spo2": 98.7,
+    "gsr": 6.96,
+    "srs": 0.09
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 52.6,
+    "spo2": 97.6,
+    "gsr": 6.33,
+    "srs": 0.127
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 56.8,
+    "spo2": 97.8,
+    "gsr": 8.46,
+    "srs": 0.09
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 55.7,
+    "spo2": 98.1,
+    "gsr": 7.65,
+    "srs": 0.102
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 51.8,
+    "spo2": 98.3,
+    "gsr": 7.92,
+    "srs": 0.131
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 59.4,
+    "spo2": 97.0,
+    "gsr": 5.92,
+    "srs": 0.122
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 53.5,
+    "spo2": 97.0,
+    "gsr": 9.92,
+    "srs": 0.117
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 50.0,
+    "spo2": 97.5,
+    "gsr": 8.37,
+    "srs": 0.099
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 51.6,
+    "spo2": 97.9,
+    "gsr": 6.65,
+    "srs": 0.12
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 55.9,
+    "spo2": 97.9,
+    "gsr": 9.12,
+    "srs": 0.105
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 59.5,
+    "spo2": 98.1,
+    "gsr": 6.8,
+    "srs": 0.123
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 59.1,
+    "spo2": 97.3,
+    "gsr": 5.66,
+    "srs": 0.094
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 50.9,
+    "spo2": 96.8,
+    "gsr": 5.91,
+    "srs": 0.104
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 69.9,
+    "spo2": 98.2,
+    "gsr": 3.56,
+    "srs": 0.079
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 56.1,
+    "spo2": 97.4,
+    "gsr": 8.22,
+    "srs": 0.108
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 63.3,
+    "spo2": 97.0,
+    "gsr": 3.57,
+    "srs": 0.085
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 57.1,
+    "spo2": 97.9,
+    "gsr": 4.45,
+    "srs": 0.076
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 56.6,
+    "spo2": 98.0,
+    "gsr": 3.83,
+    "srs": 0.117
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 58.2,
+    "spo2": 97.6,
+    "gsr": 7.38,
+    "srs": 0.115
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 58.5,
+    "spo2": 97.4,
+    "gsr": 7.64,
+    "srs": 0.132
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 61.2,
+    "spo2": 97.7,
+    "gsr": 6.53,
+    "srs": 0.096
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 57.8,
+    "spo2": 97.5,
+    "gsr": 5.79,
+    "srs": 0.121
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gece",
+    "hrv": 51.5,
+    "spo2": 97.1,
+    "gsr": 5.65,
+    "srs": 0.126
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 54.7,
+    "spo2": 99.2,
+    "gsr": 5.11,
+    "srs": 0.062
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.7,
+    "spo2": 97.6,
+    "gsr": 8.71,
+    "srs": 0.031
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 62.2,
+    "spo2": 98.0,
+    "gsr": 3.2,
+    "srs": 0.057
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 52.0,
+    "spo2": 97.3,
+    "gsr": 7.83,
+    "srs": 0.021
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 59.1,
+    "spo2": 98.2,
+    "gsr": 5.77,
+    "srs": 0.053
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 57.4,
+    "spo2": 97.6,
+    "gsr": 8.46,
+    "srs": 0.087
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 63.0,
+    "spo2": 98.7,
+    "gsr": 6.59,
+    "srs": 0.066
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 65.1,
+    "spo2": 97.7,
+    "gsr": 7.84,
+    "srs": 0.036
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 62.6,
+    "spo2": 97.3,
+    "gsr": 5.53,
+    "srs": 0.056
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 57.1,
+    "spo2": 97.8,
+    "gsr": 3.92,
+    "srs": 0.041
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 50.9,
+    "spo2": 97.2,
+    "gsr": 8.62,
+    "srs": 0.048
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 59.4,
+    "spo2": 98.3,
+    "gsr": 5.64,
+    "srs": 0.038
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 65.9,
+    "spo2": 97.2,
+    "gsr": 6.35,
+    "srs": 0.043
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 66.8,
+    "spo2": 98.0,
+    "gsr": 8.42,
+    "srs": 0.054
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 66.7,
+    "spo2": 97.3,
+    "gsr": 3.58,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 65.2,
+    "spo2": 98.0,
+    "gsr": 6.51,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 65.0,
+    "spo2": 98.8,
+    "gsr": 4.38,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 60.3,
+    "spo2": 98.3,
+    "gsr": 5.2,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 62.4,
+    "spo2": 97.8,
+    "gsr": 5.57,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 68.3,
+    "spo2": 97.9,
+    "gsr": 3.46,
+    "srs": 0.053
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 58.3,
+    "spo2": 98.1,
+    "gsr": 4.06,
+    "srs": 0.021
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 67.1,
+    "spo2": 98.1,
+    "gsr": 8.83,
+    "srs": 0.063
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 58.7,
+    "spo2": 97.4,
+    "gsr": 7.67,
+    "srs": 0.049
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 69.7,
+    "spo2": 98.3,
+    "gsr": 5.33,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 51.5,
+    "spo2": 96.8,
+    "gsr": 6.93,
+    "srs": 0.068
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.1,
+    "spo2": 97.6,
+    "gsr": 6.06,
+    "srs": 0.072
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 59.4,
+    "spo2": 97.9,
+    "gsr": 7.88,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 52.2,
+    "spo2": 98.2,
+    "gsr": 5.97,
+    "srs": 0.061
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 64.0,
+    "spo2": 98.1,
+    "gsr": 5.91,
+    "srs": 0.022
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 65.2,
+    "spo2": 97.4,
+    "gsr": 8.18,
+    "srs": 0.051
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 58.9,
+    "spo2": 97.7,
+    "gsr": 4.04,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 55.6,
+    "spo2": 98.2,
+    "gsr": 8.25,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.1,
+    "spo2": 98.0,
+    "gsr": 3.2,
+    "srs": 0.037
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 60.4,
+    "spo2": 97.8,
+    "gsr": 8.91,
+    "srs": 0.044
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 64.3,
+    "spo2": 97.8,
+    "gsr": 5.12,
+    "srs": 0.036
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 67.8,
+    "spo2": 98.4,
+    "gsr": 5.0,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.3,
+    "spo2": 97.8,
+    "gsr": 3.2,
+    "srs": 0.036
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 69.0,
+    "spo2": 97.9,
+    "gsr": 5.42,
+    "srs": 0.056
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.7,
+    "spo2": 98.9,
+    "gsr": 4.15,
+    "srs": 0.047
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 58.2,
+    "spo2": 97.4,
+    "gsr": 5.08,
+    "srs": 0.053
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 54.3,
+    "spo2": 97.3,
+    "gsr": 5.37,
+    "srs": 0.028
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 55.8,
+    "spo2": 98.1,
+    "gsr": 8.55,
+    "srs": 0.083
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.4,
+    "spo2": 97.8,
+    "gsr": 5.81,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 63.9,
+    "spo2": 97.8,
+    "gsr": 6.93,
+    "srs": 0.063
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 59.4,
+    "spo2": 97.5,
+    "gsr": 4.86,
+    "srs": 0.083
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 53.2,
+    "spo2": 97.8,
+    "gsr": 4.79,
+    "srs": 0.062
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.9,
+    "spo2": 98.7,
+    "gsr": 9.16,
+    "srs": 0.042
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 65.3,
+    "spo2": 98.4,
+    "gsr": 4.38,
+    "srs": 0.032
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 65.1,
+    "spo2": 98.2,
+    "gsr": 9.72,
+    "srs": 0.079
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 67.5,
+    "spo2": 97.5,
+    "gsr": 5.0,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 66.9,
+    "spo2": 97.6,
+    "gsr": 5.44,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.9,
+    "spo2": 96.9,
+    "gsr": 7.72,
+    "srs": 0.036
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 58.9,
+    "spo2": 97.5,
+    "gsr": 9.16,
+    "srs": 0.085
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 65.6,
+    "spo2": 98.3,
+    "gsr": 6.11,
+    "srs": 0.059
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 56.4,
+    "spo2": 98.3,
+    "gsr": 4.74,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 59.6,
+    "spo2": 97.9,
+    "gsr": 5.75,
+    "srs": 0.039
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 58.3,
+    "spo2": 98.1,
+    "gsr": 6.26,
+    "srs": 0.03
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 64.4,
+    "spo2": 97.8,
+    "gsr": 7.19,
+    "srs": 0.027
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 63.8,
+    "spo2": 97.9,
+    "gsr": 6.71,
+    "srs": 0.077
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 60.1,
+    "spo2": 98.4,
+    "gsr": 6.55,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 43.9,
+    "spo2": 97.1,
+    "gsr": 10.07,
+    "srs": 0.096
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 56.0,
+    "spo2": 98.0,
+    "gsr": 7.29,
+    "srs": 0.073
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.9,
+    "spo2": 98.2,
+    "gsr": 7.34,
+    "srs": 0.081
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 64.4,
+    "spo2": 97.9,
+    "gsr": 3.2,
+    "srs": 0.034
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 63.0,
+    "spo2": 98.3,
+    "gsr": 3.2,
+    "srs": 0.044
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.7,
+    "spo2": 99.2,
+    "gsr": 6.14,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 55.5,
+    "spo2": 98.0,
+    "gsr": 5.54,
+    "srs": 0.032
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.6,
+    "spo2": 98.1,
+    "gsr": 5.46,
+    "srs": 0.063
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 52.6,
+    "spo2": 97.5,
+    "gsr": 7.35,
+    "srs": 0.087
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 74.0,
+    "spo2": 98.2,
+    "gsr": 5.33,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 64.3,
+    "spo2": 98.2,
+    "gsr": 7.84,
+    "srs": 0.037
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 58.0,
+    "spo2": 98.1,
+    "gsr": 6.11,
+    "srs": 0.043
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 60.0,
+    "spo2": 97.7,
+    "gsr": 4.1,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 58.3,
+    "spo2": 98.0,
+    "gsr": 8.23,
+    "srs": 0.066
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.3,
+    "spo2": 98.7,
+    "gsr": 5.19,
+    "srs": 0.026
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 66.6,
+    "spo2": 98.2,
+    "gsr": 6.87,
+    "srs": 0.042
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 62.7,
+    "spo2": 98.4,
+    "gsr": 4.9,
+    "srs": 0.034
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 59.0,
+    "spo2": 98.0,
+    "gsr": 4.37,
+    "srs": 0.024
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 69.9,
+    "spo2": 98.3,
+    "gsr": 6.2,
+    "srs": 0.048
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.3,
+    "spo2": 98.1,
+    "gsr": 5.94,
+    "srs": 0.042
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 65.3,
+    "spo2": 97.7,
+    "gsr": 6.67,
+    "srs": 0.037
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 59.5,
+    "spo2": 98.2,
+    "gsr": 5.09,
+    "srs": 0.026
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 61.3,
+    "spo2": 97.5,
+    "gsr": 3.2,
+    "srs": 0.058
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 57.3,
+    "spo2": 97.5,
+    "gsr": 6.37,
+    "srs": 0.098
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 50.6,
+    "spo2": 98.0,
+    "gsr": 7.58,
+    "srs": 0.052
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 67.7,
+    "spo2": 98.0,
+    "gsr": 6.18,
+    "srs": 0.078
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 69.6,
+    "spo2": 97.6,
+    "gsr": 5.0,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 58.0,
+    "spo2": 98.4,
+    "gsr": 7.94,
+    "srs": 0.053
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 57.6,
+    "spo2": 98.3,
+    "gsr": 4.16,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 64.8,
+    "spo2": 97.8,
+    "gsr": 3.2,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 63.0,
+    "spo2": 97.5,
+    "gsr": 5.28,
+    "srs": 0.026
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 58.8,
+    "spo2": 97.8,
+    "gsr": 5.97,
+    "srs": 0.084
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 58.7,
+    "spo2": 97.7,
+    "gsr": 4.94,
+    "srs": 0.077
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 62.3,
+    "spo2": 98.0,
+    "gsr": 5.9,
+    "srs": 0.055
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 70.3,
+    "spo2": 98.0,
+    "gsr": 6.32,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 63.8,
+    "spo2": 97.2,
+    "gsr": 5.91,
+    "srs": 0.042
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 54.3,
+    "spo2": 97.8,
+    "gsr": 6.81,
+    "srs": 0.057
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 66.8,
+    "spo2": 97.8,
+    "gsr": 9.44,
+    "srs": 0.053
+  },
+  {
+    "rota": "IST-LHR",
+    "vardiya": "Gunduz",
+    "hrv": 71.3,
+    "spo2": 98.4,
+    "gsr": 4.82,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 48.7,
+    "spo2": 97.9,
+    "gsr": 7.45,
+    "srs": 0.109
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 64.0,
+    "spo2": 97.6,
+    "gsr": 6.8,
+    "srs": 0.086
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 56.1,
+    "spo2": 97.3,
+    "gsr": 3.82,
+    "srs": 0.076
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 64.3,
+    "spo2": 97.7,
+    "gsr": 5.14,
+    "srs": 0.083
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 56.4,
+    "spo2": 98.3,
+    "gsr": 5.9,
+    "srs": 0.087
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 45.2,
+    "spo2": 97.1,
+    "gsr": 3.79,
+    "srs": 0.112
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 53.2,
+    "spo2": 97.0,
+    "gsr": 8.86,
+    "srs": 0.171
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 54.5,
+    "spo2": 97.9,
+    "gsr": 6.3,
+    "srs": 0.08
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 60.1,
+    "spo2": 97.4,
+    "gsr": 3.94,
+    "srs": 0.089
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 55.7,
+    "spo2": 97.4,
+    "gsr": 7.91,
+    "srs": 0.099
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 46.6,
+    "spo2": 97.5,
+    "gsr": 8.77,
+    "srs": 0.113
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 55.5,
+    "spo2": 97.2,
+    "gsr": 7.8,
+    "srs": 0.109
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 62.7,
+    "spo2": 97.2,
+    "gsr": 7.49,
+    "srs": 0.14
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 64.8,
+    "spo2": 98.4,
+    "gsr": 6.69,
+    "srs": 0.028
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 61.9,
+    "spo2": 97.5,
+    "gsr": 6.87,
+    "srs": 0.029
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 62.2,
+    "spo2": 97.2,
+    "gsr": 7.45,
+    "srs": 0.086
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 53.3,
+    "spo2": 97.3,
+    "gsr": 6.46,
+    "srs": 0.134
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 60.9,
+    "spo2": 98.2,
+    "gsr": 6.69,
+    "srs": 0.054
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 57.6,
+    "spo2": 98.0,
+    "gsr": 7.59,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 54.9,
+    "spo2": 97.5,
+    "gsr": 6.53,
+    "srs": 0.118
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 59.9,
+    "spo2": 97.7,
+    "gsr": 11.16,
+    "srs": 0.108
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 54.3,
+    "spo2": 97.2,
+    "gsr": 5.56,
+    "srs": 0.068
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 65.3,
+    "spo2": 98.1,
+    "gsr": 6.63,
+    "srs": 0.071
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 57.7,
+    "spo2": 98.0,
+    "gsr": 5.37,
+    "srs": 0.072
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 50.7,
+    "spo2": 97.6,
+    "gsr": 7.7,
+    "srs": 0.104
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 62.2,
+    "spo2": 98.2,
+    "gsr": 3.67,
+    "srs": 0.082
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 52.6,
+    "spo2": 97.2,
+    "gsr": 6.57,
+    "srs": 0.116
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 66.9,
+    "spo2": 98.6,
+    "gsr": 3.47,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 56.4,
+    "spo2": 97.9,
+    "gsr": 6.9,
+    "srs": 0.075
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 58.3,
+    "spo2": 97.8,
+    "gsr": 8.27,
+    "srs": 0.067
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 58.6,
+    "spo2": 97.8,
+    "gsr": 8.22,
+    "srs": 0.093
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 58.4,
+    "spo2": 97.8,
+    "gsr": 3.2,
+    "srs": 0.085
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 43.2,
+    "spo2": 98.1,
+    "gsr": 11.42,
+    "srs": 0.125
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 55.1,
+    "spo2": 97.6,
+    "gsr": 6.53,
+    "srs": 0.045
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 59.9,
+    "spo2": 97.4,
+    "gsr": 5.85,
+    "srs": 0.102
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 53.2,
+    "spo2": 98.1,
+    "gsr": 7.87,
+    "srs": 0.118
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 47.5,
+    "spo2": 97.3,
+    "gsr": 8.76,
+    "srs": 0.157
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 50.0,
+    "spo2": 98.2,
+    "gsr": 5.7,
+    "srs": 0.087
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 49.1,
+    "spo2": 98.4,
+    "gsr": 7.79,
+    "srs": 0.111
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 50.4,
+    "spo2": 97.8,
+    "gsr": 4.94,
+    "srs": 0.047
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 61.7,
+    "spo2": 98.3,
+    "gsr": 4.92,
+    "srs": 0.029
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 50.0,
+    "spo2": 97.2,
+    "gsr": 6.54,
+    "srs": 0.126
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 50.6,
+    "spo2": 98.0,
+    "gsr": 4.64,
+    "srs": 0.101
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 51.7,
+    "spo2": 97.7,
+    "gsr": 8.26,
+    "srs": 0.136
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 61.1,
+    "spo2": 98.1,
+    "gsr": 7.37,
+    "srs": 0.06
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 64.4,
+    "spo2": 97.4,
+    "gsr": 8.49,
+    "srs": 0.117
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 42.5,
+    "spo2": 96.8,
+    "gsr": 9.93,
+    "srs": 0.157
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 60.0,
+    "spo2": 97.9,
+    "gsr": 8.08,
+    "srs": 0.114
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 59.5,
+    "spo2": 96.9,
+    "gsr": 6.45,
+    "srs": 0.109
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 51.5,
+    "spo2": 97.6,
+    "gsr": 8.74,
+    "srs": 0.101
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 60.9,
+    "spo2": 98.3,
+    "gsr": 3.74,
+    "srs": 0.054
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 49.3,
+    "spo2": 97.6,
+    "gsr": 6.5,
+    "srs": 0.142
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 58.1,
+    "spo2": 98.6,
+    "gsr": 5.08,
+    "srs": 0.083
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 61.5,
+    "spo2": 98.1,
+    "gsr": 9.5,
+    "srs": 0.116
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gece",
+    "hrv": 62.9,
+    "spo2": 97.7,
+    "gsr": 7.89,
+    "srs": 0.054
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 64.3,
+    "spo2": 97.7,
+    "gsr": 4.18,
+    "srs": 0.063
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 51.4,
+    "spo2": 98.1,
+    "gsr": 3.2,
+    "srs": 0.08
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 64.4,
+    "spo2": 97.7,
+    "gsr": 3.2,
+    "srs": 0.022
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 55.2,
+    "spo2": 98.6,
+    "gsr": 7.75,
+    "srs": 0.058
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 63.6,
+    "spo2": 97.6,
+    "gsr": 6.2,
+    "srs": 0.044
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 57.9,
+    "spo2": 98.0,
+    "gsr": 6.21,
+    "srs": 0.073
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 52.8,
+    "spo2": 98.3,
+    "gsr": 8.48,
+    "srs": 0.045
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 63.6,
+    "spo2": 97.8,
+    "gsr": 6.95,
+    "srs": 0.036
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 56.0,
+    "spo2": 98.3,
+    "gsr": 9.32,
+    "srs": 0.064
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 62.3,
+    "spo2": 97.4,
+    "gsr": 4.13,
+    "srs": 0.074
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 62.4,
+    "spo2": 98.7,
+    "gsr": 5.55,
+    "srs": 0.028
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 62.6,
+    "spo2": 98.0,
+    "gsr": 3.2,
+    "srs": 0.046
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 58.3,
+    "spo2": 97.9,
+    "gsr": 5.03,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 60.2,
+    "spo2": 98.0,
+    "gsr": 4.99,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 57.6,
+    "spo2": 98.3,
+    "gsr": 7.32,
+    "srs": 0.054
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 63.0,
+    "spo2": 97.7,
+    "gsr": 6.54,
+    "srs": 0.066
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 68.1,
+    "spo2": 97.6,
+    "gsr": 7.35,
+    "srs": 0.056
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 59.1,
+    "spo2": 98.0,
+    "gsr": 6.71,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 66.8,
+    "spo2": 97.6,
+    "gsr": 9.7,
+    "srs": 0.037
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 52.3,
+    "spo2": 98.8,
+    "gsr": 4.87,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 50.6,
+    "spo2": 97.6,
+    "gsr": 5.27,
+    "srs": 0.089
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 58.3,
+    "spo2": 98.4,
+    "gsr": 5.88,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 50.1,
+    "spo2": 97.9,
+    "gsr": 5.44,
+    "srs": 0.086
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 49.8,
+    "spo2": 97.5,
+    "gsr": 9.35,
+    "srs": 0.076
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 65.1,
+    "spo2": 98.1,
+    "gsr": 4.95,
+    "srs": 0.021
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 62.0,
+    "spo2": 98.4,
+    "gsr": 4.42,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 61.3,
+    "spo2": 97.9,
+    "gsr": 5.44,
+    "srs": 0.059
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 66.3,
+    "spo2": 98.6,
+    "gsr": 6.79,
+    "srs": 0.023
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 61.5,
+    "spo2": 98.4,
+    "gsr": 5.84,
+    "srs": 0.051
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 65.1,
+    "spo2": 98.4,
+    "gsr": 4.58,
+    "srs": 0.034
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 62.8,
+    "spo2": 97.9,
+    "gsr": 8.44,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 57.2,
+    "spo2": 97.7,
+    "gsr": 3.9,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 65.1,
+    "spo2": 97.7,
+    "gsr": 6.27,
+    "srs": 0.055
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 59.1,
+    "spo2": 98.1,
+    "gsr": 6.86,
+    "srs": 0.031
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 57.3,
+    "spo2": 98.3,
+    "gsr": 3.2,
+    "srs": 0.031
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 57.6,
+    "spo2": 97.0,
+    "gsr": 7.38,
+    "srs": 0.069
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 52.5,
+    "spo2": 97.8,
+    "gsr": 4.93,
+    "srs": 0.083
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 59.1,
+    "spo2": 98.1,
+    "gsr": 7.36,
+    "srs": 0.04
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 63.1,
+    "spo2": 97.9,
+    "gsr": 4.1,
+    "srs": 0.038
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 60.8,
+    "spo2": 98.4,
+    "gsr": 7.63,
+    "srs": 0.063
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 58.6,
+    "spo2": 98.3,
+    "gsr": 7.43,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 57.4,
+    "spo2": 98.5,
+    "gsr": 7.75,
+    "srs": 0.055
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 64.2,
+    "spo2": 97.8,
+    "gsr": 6.87,
+    "srs": 0.065
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 61.0,
+    "spo2": 98.3,
+    "gsr": 6.09,
+    "srs": 0.068
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 73.5,
+    "spo2": 98.8,
+    "gsr": 4.4,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 68.5,
+    "spo2": 98.6,
+    "gsr": 8.2,
+    "srs": 0.025
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 68.7,
+    "spo2": 97.7,
+    "gsr": 4.22,
+    "srs": 0.022
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 53.2,
+    "spo2": 97.9,
+    "gsr": 4.26,
+    "srs": 0.051
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 62.9,
+    "spo2": 97.8,
+    "gsr": 7.57,
+    "srs": 0.062
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 55.9,
+    "spo2": 98.0,
+    "gsr": 5.61,
+    "srs": 0.093
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 59.1,
+    "spo2": 98.3,
+    "gsr": 4.02,
+    "srs": 0.033
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 62.7,
+    "spo2": 97.7,
+    "gsr": 3.2,
+    "srs": 0.033
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 61.9,
+    "spo2": 97.9,
+    "gsr": 5.95,
+    "srs": 0.082
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 62.1,
+    "spo2": 97.1,
+    "gsr": 6.1,
+    "srs": 0.057
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 52.4,
+    "spo2": 98.4,
+    "gsr": 7.33,
+    "srs": 0.086
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 63.3,
+    "spo2": 97.7,
+    "gsr": 7.96,
+    "srs": 0.057
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 59.9,
+    "spo2": 98.1,
+    "gsr": 6.39,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 64.2,
+    "spo2": 98.0,
+    "gsr": 5.1,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 61.6,
+    "spo2": 98.6,
+    "gsr": 5.08,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 57.5,
+    "spo2": 96.8,
+    "gsr": 7.41,
+    "srs": 0.068
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 60.9,
+    "spo2": 97.8,
+    "gsr": 9.13,
+    "srs": 0.084
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 50.0,
+    "spo2": 97.7,
+    "gsr": 7.5,
+    "srs": 0.103
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 67.8,
+    "spo2": 97.7,
+    "gsr": 5.77,
+    "srs": 0.073
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 48.0,
+    "spo2": 98.5,
+    "gsr": 5.04,
+    "srs": 0.083
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 59.1,
+    "spo2": 97.7,
+    "gsr": 3.2,
+    "srs": 0.031
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 65.0,
+    "spo2": 98.4,
+    "gsr": 6.64,
+    "srs": 0.02
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 60.9,
+    "spo2": 98.0,
+    "gsr": 7.66,
+    "srs": 0.074
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 58.7,
+    "spo2": 98.4,
+    "gsr": 7.37,
+    "srs": 0.061
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 59.8,
+    "spo2": 97.7,
+    "gsr": 5.9,
+    "srs": 0.051
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 61.4,
+    "spo2": 97.6,
+    "gsr": 8.84,
+    "srs": 0.06
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 58.4,
+    "spo2": 98.4,
+    "gsr": 5.4,
+    "srs": 0.058
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 63.7,
+    "spo2": 98.0,
+    "gsr": 8.62,
+    "srs": 0.087
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 60.9,
+    "spo2": 97.2,
+    "gsr": 6.84,
+    "srs": 0.087
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 63.3,
+    "spo2": 97.7,
+    "gsr": 5.32,
+    "srs": 0.064
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 53.2,
+    "spo2": 98.0,
+    "gsr": 7.68,
+    "srs": 0.073
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 58.6,
+    "spo2": 98.2,
+    "gsr": 7.13,
+    "srs": 0.063
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 60.3,
+    "spo2": 97.8,
+    "gsr": 6.39,
+    "srs": 0.034
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 53.3,
+    "spo2": 96.7,
+    "gsr": 6.7,
+    "srs": 0.071
+  },
+  {
+    "rota": "IST-DXB",
+    "vardiya": "Gunduz",
+    "hrv": 64.9,
+    "spo2": 98.3,
+    "gsr": 5.37,
+    "srs": 0.02
+  }
+]

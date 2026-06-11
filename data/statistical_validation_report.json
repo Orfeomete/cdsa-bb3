@@ -1,0 +1,19 @@
+{
+  "normality": {
+    "passed": 13,
+    "total": 16,
+    "ratio": 0.812
+  },
+  "spearman": {
+    "rho": -0.6482,
+    "p": 1.801333214726292e-141,
+    "passes": true
+  },
+  "mannwhitney": {
+    "u": 312848.5,
+    "p": 5.401727707906784e-138,
+    "gece_mean": 0.2102,
+    "gunduz_mean": 0.0704,
+    "passes": true
+  }
+}

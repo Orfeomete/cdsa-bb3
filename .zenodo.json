@@ -1,0 +1,116 @@
+{
+  "title": "CDSA-BB3: Pilot Biometric Pillar of the CDSA Federated Reinforcement Learning Paradigm — Synthetic Biometric Data, Anonymization, Cryptographic Multi-Signature, and Scaffolded FRL Extension",
+  "description": "<p>CDSA-BB3 is the reference implementation of the pilot-biometrics pillar of the Complementary Diagnostic Safety Approach (CDSA), a third-generation aviation safety paradigm formalised as a Federated Reinforcement Learning (FRL) framework following the CDSA Methodological Unification Decision (Scenario C, 21 May 2026, frozen status).</p><p>The v1.0.0 release provides three Python modules: a deterministic generator producing 1179 synthetic biometric records, two-layer anonymization (k-Anonymity k=5 + Laplace differential privacy epsilon=1.0), and a cryptographic multi-signature scheme combining AES-256-GCM with Shamir 2/3 secret sharing.</p><p>The v2 scaffold (22 May 2026) adds five Python modules (rl_agents, rl_environment, federated, multimodal, xai) for the FRL paradigm extension. Full implementations are deferred to TÜBİTAK 1001 ARDEB Projects 1 + 2 (Sept 2026 application cycle).</p>",
+  "creators": [
+    {
+      "name": "Cantekin, Mete",
+      "affiliation": "Department of Computer Engineering, Istanbul Beykent University",
+      "orcid": "0009-0001-6990-6340"
+    }
+  ],
+  "version": "1.0.0+v2-scaffold",
+  "publication_date": "2026-05-22",
+  "language": "eng",
+  "license": "MIT",
+  "access_right": "open",
+  "upload_type": "software",
+  "communities": [
+    {
+      "identifier": "aviation"
+    },
+    {
+      "identifier": "synthetic-data"
+    },
+    {
+      "identifier": "cryptography"
+    }
+  ],
+  "keywords": [
+    "aviation safety",
+    "flight data recorder",
+    "black box",
+    "wearable biometrics",
+    "synthetic data",
+    "differential privacy",
+    "k-anonymity",
+    "AES-GCM",
+    "Shamir secret sharing",
+    "HRV",
+    "SpO2",
+    "GSR",
+    "CDSA",
+    "ICAO Annex 13",
+    "GDPR Article 9",
+    "federated reinforcement learning",
+    "multi-modal fusion",
+    "Bidirectional LSTM",
+    "cross-modal attention",
+    "PPG ECG EEG",
+    "SHAP",
+    "counterfactual reasoning",
+    "explainable AI",
+    "EASA AI Roadmap Level 2",
+    "CDSA paradigm",
+    "Scenario C"
+  ],
+  "subjects": [
+    {
+      "term": "Aviation Safety",
+      "identifier": "https://en.wikipedia.org/wiki/Aviation_safety",
+      "scheme": "url"
+    },
+    {
+      "term": "Synthetic Data",
+      "identifier": "https://en.wikipedia.org/wiki/Synthetic_data",
+      "scheme": "url"
+    },
+    {
+      "term": "Differential Privacy",
+      "identifier": "https://en.wikipedia.org/wiki/Differential_privacy",
+      "scheme": "url"
+    },
+    {
+      "term": "Secret Sharing",
+      "identifier": "https://en.wikipedia.org/wiki/Secret_sharing",
+      "scheme": "url"
+    }
+  ],
+  "notes": "v2 scaffold release (22 May 2026): paradigm-alignment update following CDSA Scenario C decision. Five new src/ modules are scaffolded for the FRL extension; full implementations are deferred to TUBITAK 1001 ARDEB Projects 1+2 (Sept 2026 cycle, 2027-2030 execution). The v1.0.0 release tag remains valid and reproducible — all cryptographic-biometric content unchanged.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Orfeomete/cdsa-bb3",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Orfeomete/cdsa-site",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://github.com/Orfeomete/cdsa-mro",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Orfeomete/cdsa-atm",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "references": [
+    "Dwork C, Roth A. The algorithmic foundations of differential privacy. Foundations and Trends in Theoretical Computer Science; 2014.",
+    "Shamir A. How to share a secret. Communications of the ACM, 22(11):612-613; 1979.",
+    "National Institute of Standards and Technology. SP 800-38D: Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) and GMAC. NIST; 2007.",
+    "National Institute of Standards and Technology. SP 800-57 Part 1 Rev. 5: Recommendation for Key Management. NIST; 2020.",
+    "International Civil Aviation Organization. Annex 13 to the Convention on International Civil Aviation: Aircraft Accident and Incident Investigation. Twelfth Edition. ICAO; 2020.",
+    "International Civil Aviation Organization. Annex 19 to the Convention on International Civil Aviation: Safety Management. Second Edition. ICAO; 2016.",
+    "European Parliament and Council. Regulation (EU) 2016/679 (General Data Protection Regulation). Official Journal of the European Union; 2016.",
+    "Turkish Personal Data Protection Authority. Law No. 6698 on the Protection of Personal Data. Official Gazette No. 29677; 2016."
+  ],
+  "grants": []
+}

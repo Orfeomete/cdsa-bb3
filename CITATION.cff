@@ -1,0 +1,180 @@
+cff-version: 1.2.0
+message: "If you use CDSA-BB3 in academic work, please cite the software (this file), the accompanying arXiv preprint, and the JATM v8 manuscript."
+type: software
+title: "CDSA-BB3: Pilot Biometric Pillar of the CDSA Federated Reinforcement Learning Paradigm — Synthetic Biometric Data, Anonymization, Cryptographic Multi-Signature, and Scaffolded FRL Extension"
+version: "1.0.0+v2-scaffold"
+date-released: "2026-05-22"
+authors:
+  - family-names: "Cantekin"
+    given-names: "Mete"
+    orcid: "https://orcid.org/0009-0001-6990-6340"
+    # YÖK Araştırmacı No: 253004 (TR national academic ID)
+    # YÖK Akademik profile: https://akademik.yok.gov.tr/AkademikArastirmaBilgiSistemi/AkademisyenGorevOgrenimBilgileri?islem=direct&authorId=253004
+    affiliation: "Department of Computer Engineering, Istanbul Beykent University"
+    email: "metecantekin@gmail.com"
+repository-code: "https://github.com/Orfeomete/cdsa-bb3"
+url: "https://github.com/Orfeomete/cdsa-bb3"
+license: MIT
+keywords:
+  # v1.0.0 (cryptographic-biometric core)
+  - aviation safety
+  - flight data recorder
+  - black box
+  - wearable biometrics
+  - synthetic data
+  - differential privacy
+  - k-anonymity
+  - AES-GCM
+  - Shamir secret sharing
+  - HRV
+  - SpO2
+  - GSR
+  # v2 scaffold (Scenario C FRL paradigm alignment)
+  - federated reinforcement learning
+  - multi-modal fusion
+  - Bidirectional LSTM
+  - cross-modal attention
+  - PPG ECG EEG
+  - SHAP
+  - counterfactual reasoning
+  - explainable AI
+  - EASA AI Roadmap Level 2
+  - CDSA paradigm
+  - Scenario C
+abstract: >
+  CDSA-BB3 is the reference implementation of the pilot-biometrics
+  pillar of the Complementary Diagnostic Safety Approach (CDSA), a
+  third-generation aviation safety paradigm formalised as a Federated
+  Reinforcement Learning (FRL) framework following the CDSA
+  Methodological Unification Decision (Scenario C, 21 May 2026, frozen
+  status). The v1.0.0 release provides three Python modules:
+  (1) a deterministic generator producing 1179 synthetic biometric
+  records across eight long-haul routes and two shift types,
+  (2) two-layer anonymization combining k-Anonymity (k=5) with
+  Laplace differential privacy (epsilon=1.0), and
+  (3) a cryptographic multi-signature scheme combining AES-256-GCM
+  encryption with Shamir 2/3 secret sharing over a 257-bit prime field.
+  The v2 scaffold (22 May 2026) adds five Python modules
+  (rl_agents, rl_environment, federated, multimodal, xai) for the
+  FRL paradigm extension; full implementations are deferred to TÜBİTAK
+  1001 ARDEB Projects 1 + 2 (Sept 2026 application cycle). The
+  reference dataset is byte-reproducible with numpy seed 42 and carries
+  no special-category data under GDPR Article 9 or KVKK Article 6.
+preferred-citation:
+  type: article
+  title: "Beyond the Flight Recorder: A Cryptographic Biometric Framework for Bridging Individual and Organizational Aviation Risk"
+  authors:
+    - family-names: "Cantekin"
+      given-names: "Mete"
+      orcid: "https://orcid.org/0009-0001-6990-6340"
+      affiliation: "Department of Computer Engineering, Istanbul Beykent University"
+  year: 2026
+  month: 5
+  journal: "Journal of Aerospace Technology and Management (JATM)"
+  notes: "v8 paradigm-alignment revision, in submission"
+references:
+  # Cryptographic-biometric foundations
+  - type: book
+    authors:
+      - family-names: "Dwork"
+        given-names: "Cynthia"
+      - family-names: "Roth"
+        given-names: "Aaron"
+    title: "The Algorithmic Foundations of Differential Privacy"
+    publisher: "Foundations and Trends in Theoretical Computer Science"
+    year: 2014
+  - type: article
+    authors:
+      - family-names: "Shamir"
+        given-names: "Adi"
+    title: "How to share a secret"
+    journal: "Communications of the ACM"
+    volume: 22
+    issue: 11
+    year: 1979
+  # Scenario C FRL paradigm references
+  - type: article
+    authors:
+      - family-names: "McMahan"
+        given-names: "Brendan"
+      - family-names: "Moore"
+        given-names: "Eider"
+      - family-names: "Ramage"
+        given-names: "Daniel"
+      - family-names: "Hampson"
+        given-names: "Seth"
+      - family-names: "y Arcas"
+        given-names: "Blaise Aguera"
+    title: "Communication-Efficient Learning of Deep Networks from Decentralized Data"
+    journal: "AISTATS"
+    year: 2017
+  - type: article
+    authors:
+      - family-names: "Li"
+        given-names: "Tian"
+      - family-names: "Sahu"
+        given-names: "Anit Kumar"
+      - family-names: "Zaheer"
+        given-names: "Manzil"
+      - family-names: "Sanjabi"
+        given-names: "Maziar"
+      - family-names: "Talwalkar"
+        given-names: "Ameet"
+      - family-names: "Smith"
+        given-names: "Virginia"
+    title: "Federated Optimization in Heterogeneous Networks"
+    journal: "MLSys"
+    year: 2020
+  - type: article
+    authors:
+      - family-names: "Schulman"
+        given-names: "John"
+    title: "Proximal Policy Optimization Algorithms"
+    journal: "arXiv:1707.06347"
+    year: 2017
+  - type: article
+    authors:
+      - family-names: "Vaswani"
+        given-names: "Ashish"
+    title: "Attention Is All You Need"
+    journal: "NeurIPS"
+    year: 2017
+  - type: article
+    authors:
+      - family-names: "Lundberg"
+        given-names: "Scott M."
+      - family-names: "Lee"
+        given-names: "Su-In"
+    title: "A Unified Approach to Interpreting Model Predictions"
+    journal: "NeurIPS"
+    year: 2017
+  - type: article
+    authors:
+      - family-names: "Wachter"
+        given-names: "Sandra"
+      - family-names: "Mittelstadt"
+        given-names: "Brent"
+      - family-names: "Russell"
+        given-names: "Chris"
+    title: "Counterfactual Explanations Without Opening the Black Box"
+    journal: "Harvard Journal of Law and Technology"
+    volume: 31
+    issue: 2
+    year: 2017
+  # CDSA sibling publications
+  - type: generic
+    authors:
+      - family-names: "Cantekin"
+        given-names: "Mete"
+    title: "CDSA Methodological Unification Decision (Scenario C, frozen status)"
+    notes: "Internal frozen decision document, Istanbul Beykent University"
+    year: 2026
+    month: 5
+  - type: article
+    authors:
+      - family-names: "Cantekin"
+        given-names: "Mete"
+    title: "Complementary Diagnostic Safety Approach (CDSA): A Federated Reinforcement Learning Paradigm for Three-Pillar Aviation Safety Convergent Validation"
+    journal: "Safety Science"
+    notes: "v1 paradigm-defining article, September 2026 submission target"
+    year: 2026

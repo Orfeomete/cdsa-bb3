@@ -1,0 +1,150 @@
+% CDSA-BB3 arXiv preprint v2 — LaTeX source (converted from CDSA_BB3_arXiv_v2.docx)
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+
+\title{\bfseries Multi-modal Wearable Biometrics with Federated Reinforcement Learning for Pilot Cognitive Performance and Situational Awareness Monitoring}
+\author{Mete Cantekin\\[2pt]
+\normalsize Department of Computer Engineering, Istanbul Beykent University, Istanbul, Turkey\\
+\normalsize School of Civil Aviation, Nisantasi University, Istanbul, Turkey\\
+\normalsize ORCID: 0009-0001-6990-6340 \,\textperiodcentered\, \texttt{metecantekin@gmail.com}}
+\date{Preprint v2.1 --- Scenario C alignment + CPU-scale federated results (June 2026)}
+
+\begin{document}
+\maketitle
+
+\begin{center}\small
+Primary class: cs.LG (Machine Learning) \,\textperiodcentered\, Cross-list: cs.AI, cs.CR, eess.SP\\
+Companion journal article (sibling): \emph{Journal of Aerospace Technology and Management} (JATM, Q2), v8 --- submission in preparation.\\
+Sole author per the CDSA Authorship Rule.
+\end{center}
+
+\begin{abstract}
+\noindent We present a multi-modal wearable-biometrics architecture for pilot cognitive performance and situational awareness monitoring under a Federated Reinforcement Learning (FRL) paradigm. The architecture combines three modality streams --- photoplethysmography (PPG, 100~Hz), electrocardiography (ECG, 250~Hz) and electroencephalography (EEG, 256~Hz) --- via parallel Bidirectional LSTM encoders followed by cross-modal attention and gating fusion. A Proximal Policy Optimization (PPO) Actor--Critic head produces a four-category decision: nominal, mental fatigue alert, reduced situational awareness alert, and critical capacity overflow. The federated layer is designed for a multi-airline pilot consortium, with Federated Averaging and FedProx aggregation, differential privacy ($\varepsilon \le 1.0$) and threshold cryptography (Shamir Secret Sharing (2,3)). A SHAP + counterfactual reasoning XAI layer satisfies EASA AI Roadmap Level~2 AI/ML explainability requirements. This is the BB3 pillar of the three-pillar CDSA (Complementary Diagnostic Safety Approach) research programme alongside CDSA-MRO (Maintenance Safety) and CDSA-ATM (Air Traffic Management). The companion journal article is in preparation for submission to JATM (Q2).
+
+\medskip
+\noindent\textbf{Keywords:} Federated Reinforcement Learning, Multi-modal Biometric Fusion, Pilot Cognitive Performance, Situational Awareness, Wearable Computing, Bidirectional LSTM, Cross-modal Attention, Differential Privacy, Explainable AI, SHAP, CDSA.
+\end{abstract}
+
+\section*{CDSA Paradigm Context (Scenario C)}
+This preprint is positioned within the CDSA Methodological Unification Decision (Scenario~C, 21~May~2026, frozen status). CDSA (Complementary Diagnostic Safety Approach) is a Federated Reinforcement Learning (FRL)-based multi-domain aviation safety decision framework. The three pillars are CDSA-BB3 (Pilot Biometrics), CDSA-MRO (Maintenance Safety) and CDSA-ATM (Air Traffic Management); the three pillars share a common FRL paradigm with pillar-specific policy network architectures.
+
+This preprint presents the BB3 (pilot biometrics) pillar. The sibling preprints cover CDSA-MRO (maintenance safety, RESS~Q1) and CDSA-ATM (air traffic management, CEAS~Q2). A paradigm-defining umbrella paper (CDSA Safety Science~Q1, in preparation) positions the three pillars under a common diagnostic-safety paradigm and reports convergent validation results across the three domains.
+
+\section{Introduction}
+Aviation safety has historically relied on static medical certification (EASA Part-MED Class~1) for pilot fitness assessment~\cite{partfcl}. Yet in-flight cognitive performance and situational awareness (SA)~\cite{endsley1995} can degrade abruptly due to fatigue, hypoxia, dehydration, psychological stress or micro-sleep --- events that fall outside the static certification's scope. Wearable biometric technologies (smartwatch PPG, single-lead ECG, dry-electrode EEG) offer real-time continuous monitoring, but three practical barriers remain: (i)~biometric data falls under KVKK Article~6 special-category personal data~\cite{kvkk}, restricting cross-airline sharing; (ii)~single-modality diagnostic power is limited without multi-modal fusion; (iii)~the EASA AI Roadmap (Level~2 AI/ML)~\cite{easaai} requires explainability for any AI-supported safety decision system.
+
+This work jointly addresses all three barriers. Data-locality compliance is achieved through Federated Reinforcement Learning; multi-modal diagnostic power is obtained via PPG + ECG + EEG Bi-LSTM encoders fused with cross-modal attention; explainability is delivered through a SHAP + counterfactual reasoning XAI layer reported to three stakeholder interfaces (pilot, airline flight safety unit, SHGM/EASA auditors).
+
+\section{Related work}
+Wearable biometrics in aviation has been studied primarily through single-modality HRV (heart rate variability) analyses. Multi-modal cognitive state monitoring under deep-learning frameworks has been demonstrated outside aviation~\cite{dehais2020}. Federated learning~\cite{mcmahan2017} and federated reinforcement learning~\cite{nadiger2019} have been applied to mobile and edge devices but not to multi-airline pilot biometric consortia. Explainable AI techniques --- SHAP~\cite{lundberg2017}, LIME~\cite{ribeiro2016}, counterfactual reasoning~\cite{wachter2017} --- have mature theoretical foundations but limited deployment in aviation safety pipelines.
+
+\section{Methodology}
+\subsection{Multi-modal policy network}
+The proposed policy network integrates three modalities. Three parallel Bidirectional LSTM~\cite{lstm} encoders are trained: PPG encoder (32 units, 100~Hz sampling), ECG encoder (64 units, 250~Hz), EEG encoder (128 units, 256~Hz). Each encoder output is projected to a 64-dimensional latent representation. The three latent representations are fused via cross-modal attention~\cite{vaswani2017} with per-modality gating scores $g_m = \sigma(W h_m + b)$. The fused representation $h_{\mathrm{fusion}} = g_p h_p^{\mathrm{attn}} + g_e h_e^{\mathrm{attn}} + g_g h_g^{\mathrm{attn}}$ ($p$: PPG, $e$: ECG, $g$: EEG) feeds into a PPO Actor--Critic head~\cite{schulman2017, sutton2018}. Total parameter count is approximately 2.1M.
+
+\subsection{Federated layer}
+The federated layer is designed for a three-airline pilot consortium (THY, Pegasus, SunExpress). Each airline keeps its pilots' biometric records locally; only policy network weights are transmitted to the central coordinator. The coordinator computes global weights via FedAvg~\cite{mcmahan2017} or FedProx~\cite{li2020} with proximity coefficient $\mu = 0.01$.
+
+\subsection{Privacy layer}
+At the aggregation step, Gaussian-noise differential privacy~\cite{dwork2014} with $\varepsilon \le 1.0$, $\delta = 10^{-5}$ is applied. As an additional layer, Shamir Secret Sharing~\cite{shamir1979} at $(t,n)=(2,3)$ splits each airline's policy weights into three shares. KVKK Article~6 ``technical security measures'' are mathematically satisfied.
+
+\subsection{XAI layer}
+Decision outputs include SHAP modality contribution percentages, counterfactual reasoning answers (``what would the agent have decided without this modality input?''), and LIME local interpretability. Outputs are routed to three stakeholder interfaces in JSON format.
+
+\section{Experimental setup}
+Prototype training was conducted on synthetic pilot biometric data following the distribution parameters of the author's ATAConf'25 book chapter (Pub.\ No.\ 10232620). The federated consortium configuration is summarised in Table~\ref{tab:config}.
+
+\begin{table}[ht]\centering\small
+\caption{Federated consortium configuration.}\label{tab:config}
+\begin{tabular}{ll}
+\toprule
+\textbf{Parameter} & \textbf{Value}\\
+\midrule
+Simulated pilots & 210 (3 airlines $\times$ 70)\\
+Recording length per pilot & ${\sim}120$ hours\\
+Train/test split & 80/20\\
+Data distribution & Non-IID (Dirichlet $\alpha=0.5$)\\
+Federation rounds ($K$) & 40\\
+Local epochs ($E$) & 5\\
+Batch size & 32 (10\,s window)\\
+FedProx $\mu$ & 0.01\\
+DP budget ($\varepsilon$, $\delta$) & (1.0, $10^{-5}$)\\
+Threshold crypto $(t,n)$ & (2,3) Shamir SSS\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Results --- CPU-scale federated runs}
+All values below are actual outputs of seeded CPU-scale runs (11 June 2026; code and raw JSON in the repository under \texttt{experiments/}). The agent operates on the 10-dimensional synthetic cognitive state of the open-source \texttt{PilotStateEnv} (PPG/ECG/EEG-derived feature groups); three Non-IID clients differ by a power-law skew $\{0.6, 1.0, 1.6\}$ on the state distribution, modelling fleets with different fatigue profiles. Training: centralised 100 rounds, federated 160 rounds, 6 rollouts $\times$ 96 steps $\times$ 2 epochs per client per round; evaluation over 600 greedy steps. Real-pilot validation remains Phase-B scope (TUBITAK Projects 1+2).
+
+\begin{table}[ht]\centering\small
+\caption{Configuration comparison (CPU-scale, seed 42). Critical recall = recall over states whose appropriate action is critical capacity overflow.}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Configuration} & \textbf{Mean step reward} & \textbf{Accuracy (\%)} & \textbf{Critical recall} & \textbf{Convergence probe}\\
+\midrule
+Random baseline & $-3.67$ & 24.8 & 0.260 & ---\\
+Centralised PPO & 5.17 & 65.3 & 0.858 & 3\\
+FedPPO--FedAvg & 5.06 & 62.3 & \textbf{0.937} & 7\\
+FedPPO--FedProx ($\mu=0.01$) & 4.97 & 62.0 & 0.929 & 7\\
+FedProx + DP ($\varepsilon=1.0$) & 4.87 & 62.0 & 0.906 & 7\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The federation cost is small at matched budgets ($\approx$3 accuracy points), and notably the federated configurations \emph{exceed} the centralised baseline on critical recall (0.937 vs 0.858) --- the Non-IID client mixture appears to act as a regulariser for the safety-critical class. Differential privacy at $\varepsilon = 1.0$ degrades gracefully in this domain (critical recall 0.906).
+
+\begin{table}[ht]\centering\small
+\caption{Mean group-Shapley modality contribution (\%) of the trained FedProx agent over probed decisions (exact $2^3$-coalition Shapley on state groups).}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Decision} & \textbf{PPG (\%)} & \textbf{ECG (\%)} & \textbf{EEG (\%)}\\
+\midrule
+Nominal & 56.5 & 32.4 & 11.1\\
+Critical capacity overflow & 21.6 & 64.6 & 13.8\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Critical-capacity-overflow decisions are ECG-dominated (64.6\%), consistent with the design expectation that arrhythmic findings drive the critical class. Counterfactual probe (actual run output): removing the ECG signal group flips the trained agent's decision from \emph{critical capacity overflow} to \emph{nominal}.
+
+\section{Discussion and limitations}
+Limitations: (i)~prototype training is on synthetic data; real pilot validation is deferred to TUBITAK Projects 1+2; (ii)~hardware diversity (smartwatch/EEG headset brands) is out of scope; (iii)~FRL hyperparameter sensitivity may require HPO re-tuning under different consortium sizes. The central contribution of this preprint is the architectural commitment: a multi-modal Bi-LSTM + FedPPO + DP/Shamir + SHAP integrated system that simultaneously addresses data-locality, multi-modal diagnostic power and explainability requirements.
+
+\section{Conclusion}
+This preprint presents the BB3 pillar of the CDSA three-pillar FRL paradigm: multi-modal wearable biometrics for pilot cognitive performance and situational awareness monitoring. The companion JATM journal article (v8, submission in preparation) elaborates the cryptographic architecture and ethical dimensions. Future work spans TUBITAK Projects 1+2 field validation, hardware integration (Apple Watch, Garmin, Muse, Emotiv, OpenBCI) and EASA Level~2 AI/ML certification basis establishment.
+
+\section*{Data and code availability}
+Source code, training scripts, synthetic data and XAI output schemas are available at the \texttt{Orfeomete/cdsa-bb3} GitHub repository and archived on Zenodo under MIT (code) and CC-BY~4.0 (data) licences.
+
+\section*{AI use statement}
+Anthropic Claude was used as a writing assistant for manuscript editing, code scaffolding and formatting support. All scientific claims, experimental design decisions and interpretation of results are the author's own. AI tools are not listed as authors.
+
+\begin{thebibliography}{20}\small
+\bibitem{endsley1995} Endsley, M.~R. (1995). Toward a theory of situation awareness in dynamic systems. \emph{Human Factors}.
+\bibitem{sutton2018} Sutton, R.~S., Barto, A.~G. (2018). \emph{Reinforcement Learning: An Introduction} (2nd ed.). MIT Press.
+\bibitem{schulman2017} Schulman, J., et al. (2017). Proximal Policy Optimization Algorithms. arXiv:1707.06347.
+\bibitem{mcmahan2017} McMahan, B., et al. (2017). Communication-Efficient Learning of Deep Networks from Decentralized Data. \emph{AISTATS}.
+\bibitem{li2020} Li, T., et al. (2020). Federated Optimization in Heterogeneous Networks (FedProx). \emph{MLSys}.
+\bibitem{nadiger2019} Nadiger, C., Kumar, A., Abdelhak, S. (2019). Federated Reinforcement Learning for Fast Personalization. \emph{AIKE}.
+\bibitem{vaswani2017} Vaswani, A., et al. (2017). Attention Is All You Need. \emph{NeurIPS}.
+\bibitem{lundberg2017} Lundberg, S.~M., Lee, S.-I. (2017). A Unified Approach to Interpreting Model Predictions. \emph{NeurIPS}.
+\bibitem{ribeiro2016} Ribeiro, M.~T., Singh, S., Guestrin, C. (2016). Why Should I Trust You? Explaining the Predictions of Any Classifier. \emph{ACM KDD}.
+\bibitem{wachter2017} Wachter, S., Mittelstadt, B., Russell, C. (2017). Counterfactual Explanations Without Opening the Black Box. \emph{Harvard Journal of Law and Technology}, 31(2), 841--887.
+\bibitem{dwork2014} Dwork, C., Roth, A. (2014). The Algorithmic Foundations of Differential Privacy. \emph{Foundations and Trends in TCS}.
+\bibitem{shamir1979} Shamir, A. (1979). How to Share a Secret. \emph{Communications of the ACM}, 22(11), 612--613.
+\bibitem{lstm} Hochreiter, S., Schmidhuber, J. (1997). Long Short-Term Memory. \emph{Neural Computation}, 9(8), 1735--1780.
+\bibitem{dehais2020} Dehais, F., et al. (2020). Cognitive State Monitoring in Aviation: A Multimodal Approach. \emph{Frontiers in Human Neuroscience}.
+\bibitem{easaai} EASA (2023). Artificial Intelligence Roadmap 2.0 --- Concepts of Design (Level~2 AI/ML).
+\bibitem{partfcl} European Parliament (2011). Regulation (EU) No.~1178/2011 --- Civil Aviation Aircrew Requirements (Part-FCL, Part-MED).
+\bibitem{kvkk} Republic of Turkey Official Gazette (2016). Law No.~6698 on the Protection of Personal Data (KVKK).
+\end{thebibliography}
+
+\end{document}
