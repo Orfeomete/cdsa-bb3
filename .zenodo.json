@@ -1,6 +1,6 @@
 {
   "title": "CDSA-BB3: Pilot Biometric Pillar of the CDSA Federated Reinforcement Learning Paradigm — Synthetic Biometric Data, Anonymization, Cryptographic Multi-Signature, and Scaffolded FRL Extension",
-  "description": "<p>CDSA-BB3 is the reference implementation of the pilot-biometrics pillar of the Complementary Diagnostic Safety Approach (CDSA), a third-generation aviation safety paradigm formalised as a Federated Reinforcement Learning (FRL) framework following the CDSA Methodological Unification Decision (Scenario C, 21 May 2026, frozen status).</p><p>The v1.0.0 release provides three Python modules: a deterministic generator producing 1179 synthetic biometric records, two-layer anonymization (k-Anonymity k=5 + Laplace differential privacy epsilon=1.0), and a cryptographic multi-signature scheme combining AES-256-GCM with Shamir 2/3 secret sharing.</p><p>The v2 scaffold (22 May 2026) adds five Python modules (rl_agents, rl_environment, federated, multimodal, xai) for the FRL paradigm extension. Full implementations are deferred to TÜBİTAK 1001 ARDEB Projects 1 + 2 (Sept 2026 application cycle).</p>",
+  "description": "<p>CDSA-BB3 is the reference implementation of the pilot biometric pillar of the Complementary Diagnostic Safety Approach (CDSA), a third-generation aviation safety paradigm formalised as a Federated Reinforcement Learning (FRL) framework (Scenario C decision, 21 May 2026). The v2.1.0 release (12 June 2026) replaces the v2.0.0 scaffold stubs with full NumPy reference implementations (federated, multimodal, rl_agents, rl_environment, xai; all unit-tested) and adds seeded, reproducible CPU-scale federated training runs (random / centralised PPO / FedAvg / FedProx / FedProx+DP) with result JSONs under experiments/results/. An interactive results panel is published at https://cdsa.app/bb3. Framework-scale training with real data is planned under TÜBİTAK funding (Phase B). The v1.0.0 release modules and reference data remain unchanged.</p>",
   "creators": [
     {
       "name": "Cantekin, Mete",
@@ -8,7 +8,7 @@
       "orcid": "0009-0001-6990-6340"
     }
   ],
-  "version": "1.0.0+v2-scaffold",
+  "version": "2.1.0",
   "publication_date": "2026-05-22",
   "language": "eng",
   "license": "MIT",
@@ -75,7 +75,7 @@
       "scheme": "url"
     }
   ],
-  "notes": "v2 scaffold release (22 May 2026): paradigm-alignment update following CDSA Scenario C decision. Five new src/ modules are scaffolded for the FRL extension; full implementations are deferred to TUBITAK 1001 ARDEB Projects 1+2 (Sept 2026 cycle, 2027-2030 execution). The v1.0.0 release tag remains valid and reproducible — all cryptographic-biometric content unchanged.",
+  "notes": "v2.1.0 (12 June 2026): Faz A implementation + A6 CPU-scale federated runs. v1.0.0 and v2.0.0-scaffold tags remain valid; see CHANGELOG.md for details.",
   "related_identifiers": [
     {
       "identifier": "https://github.com/Orfeomete/cdsa-bb3",
