@@ -1,0 +1,153 @@
+{
+  "pillar": "CDSA-BB3",
+  "date": "2026-07-03",
+  "seed": 42,
+  "design": {
+    "ent_coef": 0.05,
+    "recall_floor": 0.9,
+    "rounds": 160,
+    "smoke": false,
+    "note": "entropi bonusu yalniz probe kritik-recall >= FLOOR iken aktif; probe her PROBE_EVERY roundda, greedy politika ile"
+  },
+  "gate_log": [
+    {
+      "round": 8,
+      "probe_recall": 0.018,
+      "gate_on_next": false
+    },
+    {
+      "round": 16,
+      "probe_recall": 0.255,
+      "gate_on_next": false
+    },
+    {
+      "round": 24,
+      "probe_recall": 0.909,
+      "gate_on_next": true
+    },
+    {
+      "round": 32,
+      "probe_recall": 0.836,
+      "gate_on_next": false
+    },
+    {
+      "round": 40,
+      "probe_recall": 0.909,
+      "gate_on_next": true
+    },
+    {
+      "round": 48,
+      "probe_recall": 0.982,
+      "gate_on_next": true
+    },
+    {
+      "round": 56,
+      "probe_recall": 0.891,
+      "gate_on_next": false
+    },
+    {
+      "round": 64,
+      "probe_recall": 0.8,
+      "gate_on_next": false
+    },
+    {
+      "round": 72,
+      "probe_recall": 0.8,
+      "gate_on_next": false
+    },
+    {
+      "round": 80,
+      "probe_recall": 0.891,
+      "gate_on_next": false
+    },
+    {
+      "round": 88,
+      "probe_recall": 0.964,
+      "gate_on_next": true
+    },
+    {
+      "round": 96,
+      "probe_recall": 0.964,
+      "gate_on_next": true
+    },
+    {
+      "round": 104,
+      "probe_recall": 0.964,
+      "gate_on_next": true
+    },
+    {
+      "round": 112,
+      "probe_recall": 0.964,
+      "gate_on_next": true
+    },
+    {
+      "round": 120,
+      "probe_recall": 0.964,
+      "gate_on_next": true
+    },
+    {
+      "round": 128,
+      "probe_recall": 0.873,
+      "gate_on_next": false
+    },
+    {
+      "round": 136,
+      "probe_recall": 0.891,
+      "gate_on_next": false
+    },
+    {
+      "round": 144,
+      "probe_recall": 0.964,
+      "gate_on_next": true
+    },
+    {
+      "round": 152,
+      "probe_recall": 0.891,
+      "gate_on_next": false
+    },
+    {
+      "round": 160,
+      "probe_recall": 0.982,
+      "gate_on_next": true
+    }
+  ],
+  "gate_on_ratio": 0.5,
+  "final": {
+    "mean_reward": 4.72,
+    "accuracy_pct": 58.9,
+    "critical_recall": 0.975,
+    "per_class_recall": {
+      "nominal": 0.707,
+      "fatigue_alert": 0.0,
+      "reduced_sa_alert": 0.0,
+      "critical_overflow": 0.975
+    },
+    "distinct_actions_used": 2,
+    "confusion_sum": [
+      [
+        677,
+        0,
+        0,
+        280
+      ],
+      [
+        206,
+        0,
+        0,
+        200
+      ],
+      [
+        24,
+        0,
+        0,
+        20
+      ],
+      [
+        10,
+        0,
+        0,
+        383
+      ]
+    ]
+  }
+}

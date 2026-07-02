@@ -1,0 +1,61 @@
+{
+  "pillar": "CDSA-BB3",
+  "date": "2026-07-03",
+  "seed": 42,
+  "design": {
+    "k_decoy": 2,
+    "groups": {
+      "ppg": [
+        0,
+        1,
+        2
+      ],
+      "ecg": [
+        3,
+        4,
+        5
+      ],
+      "eeg": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "decoy": [
+        10,
+        11
+      ]
+    },
+    "rounds": 160,
+    "smoke": false,
+    "note": "decoy = iid U(0,1), odulle/gecisle iliskisiz; beklenti grup-Shapley decoy atifi ~0; sonuc ne cikarsa raporlanir"
+  },
+  "final_eval": {
+    "mean_reward": 5.0,
+    "accuracy_pct": 63.2,
+    "critical_recall": 0.891,
+    "distinct_actions_used": 2
+  },
+  "shapley_pct_by_action": {
+    "nominal": {
+      "ppg": 63.1,
+      "ecg": 22.9,
+      "eeg": 9.6,
+      "decoy": 4.4
+    },
+    "critical_overflow": {
+      "ppg": 26.1,
+      "ecg": 52.6,
+      "eeg": 13.0,
+      "decoy": 8.4
+    }
+  },
+  "decoy_attribution_pct": {
+    "by_action": {
+      "nominal": 4.4,
+      "critical_overflow": 8.4
+    },
+    "mean": 6.4,
+    "max": 8.4
+  }
+}
