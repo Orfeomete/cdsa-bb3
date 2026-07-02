@@ -1,0 +1,110 @@
+{
+  "pillar": "CDSA-BB3",
+  "date": "2026-07-02",
+  "seed": 42,
+  "design": {
+    "kappa": 1.0,
+    "window": 32,
+    "agg": "fedprox mu=0.01",
+    "rounds": 160,
+    "note": "tempo=son 32 adimdaki kritik-olay orani; kacirilan-kritik cezasi x(1+k*tempo), sahte-kritik x(1+k*(1-tempo)); degerlendirme statik-odul ortaminda"
+  },
+  "dynrew_fedprox": {
+    "mean_reward": 5.06,
+    "accuracy_pct": 63.2,
+    "critical_recall": 0.904,
+    "per_class_recall": {
+      "nominal": 0.818,
+      "fatigue_alert": 0.0,
+      "reduced_sa_alert": 0.0,
+      "critical_overflow": 0.903
+    },
+    "distinct_actions_used": 2,
+    "confusion_sum": [
+      [
+        783,
+        0,
+        0,
+        174
+      ],
+      [
+        271,
+        0,
+        0,
+        135
+      ],
+      [
+        34,
+        0,
+        0,
+        10
+      ],
+      [
+        38,
+        0,
+        0,
+        355
+      ]
+    ]
+  },
+  "curve": [
+    0.83,
+    0.83,
+    0.83,
+    0.83,
+    2.62,
+    4.42,
+    4.7,
+    4.8,
+    4.95,
+    5.18,
+    4.77,
+    5.13,
+    5.03,
+    5.33,
+    4.97,
+    4.57,
+    5.12,
+    5.15,
+    4.92,
+    5.1
+  ],
+  "static_fedprox_baseline": {
+    "mean_reward": 4.99,
+    "accuracy_pct": 62.4,
+    "critical_recall": 0.917,
+    "per_class_recall": {
+      "nominal": 0.797,
+      "fatigue_alert": 0.0,
+      "reduced_sa_alert": 0.0,
+      "critical_overflow": 0.916
+    },
+    "distinct_actions_used": 2,
+    "confusion_sum": [
+      [
+        763,
+        0,
+        0,
+        194
+      ],
+      [
+        254,
+        0,
+        0,
+        152
+      ],
+      [
+        33,
+        0,
+        0,
+        11
+      ],
+      [
+        33,
+        0,
+        0,
+        360
+      ]
+    ]
+  }
+}
