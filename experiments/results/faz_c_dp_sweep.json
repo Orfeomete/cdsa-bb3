@@ -1,0 +1,138 @@
+{
+  "pillar": "CDSA-BB3",
+  "date": "2026-07-02",
+  "seed": 42,
+  "design": {
+    "agg": "fedprox mu=0.01 + Laplace DP, sensitivity=0.01",
+    "rounds": 160,
+    "eps_values": [
+      0.5,
+      2.0
+    ],
+    "note": "eps=1.0 referansi faz_a_results.json'da; degerlendirme statik ortam, faz_b protokolu (3 seed)"
+  },
+  "eps_0.5": {
+    "final": {
+      "mean_reward": 4.6,
+      "accuracy_pct": 58.6,
+      "critical_recall": 0.957,
+      "per_class_recall": {
+        "nominal": 0.71,
+        "fatigue_alert": 0.0,
+        "reduced_sa_alert": 0.0,
+        "critical_overflow": 0.957
+      },
+      "distinct_actions_used": 2,
+      "confusion_sum": [
+        [
+          679,
+          0,
+          0,
+          278
+        ],
+        [
+          205,
+          0,
+          0,
+          201
+        ],
+        [
+          26,
+          0,
+          0,
+          18
+        ],
+        [
+          17,
+          0,
+          0,
+          376
+        ]
+      ]
+    },
+    "curve": [
+      0.83,
+      2.12,
+      2.8,
+      4.5,
+      4.5,
+      3.58,
+      4.57,
+      4.77,
+      4.63,
+      4.68,
+      4.15,
+      4.87,
+      3.9,
+      4.03,
+      4.57,
+      4.52,
+      4.38,
+      4.68,
+      4.9,
+      3.95
+    ]
+  },
+  "eps_2.0": {
+    "final": {
+      "mean_reward": 4.56,
+      "accuracy_pct": 57.9,
+      "critical_recall": 0.972,
+      "per_class_recall": {
+        "nominal": 0.69,
+        "fatigue_alert": 0.0,
+        "reduced_sa_alert": 0.0,
+        "critical_overflow": 0.972
+      },
+      "distinct_actions_used": 2,
+      "confusion_sum": [
+        [
+          660,
+          0,
+          0,
+          297
+        ],
+        [
+          197,
+          0,
+          0,
+          209
+        ],
+        [
+          24,
+          0,
+          0,
+          20
+        ],
+        [
+          11,
+          0,
+          0,
+          382
+        ]
+      ]
+    },
+    "curve": [
+      0.83,
+      1.18,
+      3.13,
+      4.52,
+      4.42,
+      4.13,
+      4.88,
+      4.47,
+      4.72,
+      4.68,
+      4.57,
+      4.62,
+      4.37,
+      4.75,
+      4.8,
+      5.08,
+      5.02,
+      4.77,
+      5.03,
+      4.28
+    ]
+  }
+}
