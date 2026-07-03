@@ -4,6 +4,41 @@ All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 and the project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.2.0-dev] — 2026-07-03 (unreleased)
+
+### Added (Faz B/C/D revision-preparation experiments; seeded, CPU-scale)
+- Faz B: inference-time robustness + confusion-matrix evaluation and a
+  tempo-aware-reward retraining experiment — `experiments/faz_b_robustness.py`,
+  `experiments/faz_b_dynamic_reward.py` + seeded output JSONs under
+  `experiments/results/`.
+- Faz C: differential-privacy ε sweep (ε = 0.5 / 2.0) and entropy-targeted
+  exploration (coef 0.01 / 0.05), each a separate 160-round FedProx
+  retraining — `experiments/faz_c_dp_sweep.py`, `experiments/faz_c_entropy.py`
+  + output JSONs.
+- Faz D: decoy-signal (group-Shapley) attribution test and
+  recall-floor-gated exploration — `experiments/faz_d_decoy.py`,
+  `experiments/faz_d_gated_entropy.py` + output JSONs.
+- Per-phase result panels with honesty bands at https://cdsa.app/bb3/.
+
+### Findings (honest summary — numbers verbatim from `experiments/results/*.json`)
+- Faz B: modality ablation independently confirms the SHAP ranking
+  (dropping ECG sends critical recall from 0.917 to 0.041; dropping PPG
+  pushes the model into an all-alert mode); the two intermediate alert
+  classes (fatigue_alert, reduced_sa_alert) are never predicted
+  (recall 0) in these conditions.
+- Faz C: the ε sweep and entropy conditions leave class coverage
+  unchanged — the two intermediate alert classes remain uncovered in
+  all configurations.
+- Faz D: the decoy test is passed cleanly (attribution 6.4% vs the 25%
+  uniform share); gated exploration (floor 0.90) raises critical recall
+  to 0.975 (gate_on ratio 0.5).
+
+### Unchanged
+- Published core code, environments and Faz A outputs — no behavioural
+  changes.
+- The v2.1.0 release and its Zenodo DOI remain valid; no new release or
+  DOI is cut for this section (deferred to the acceptance/revision stage).
+
 ## [2.0.0-scaffold] — 2026-05-22
 
 ### Added (Scenario C paradigm alignment, additive only)

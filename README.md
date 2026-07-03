@@ -196,6 +196,52 @@ Communications of the ACM 22(11), 1979.
 
 ---
 
+## Experiment Phases (Faz A–D)
+
+The `experiments/` folder contains four phases of seeded CPU-scale runs
+(seed 42, FedProx unless noted). All outputs live under
+`experiments/results/`; the interactive result panels with honesty bands
+at **https://cdsa.app/bb3/** read those JSONs verbatim.
+
+- **Faz A — seeded reference runs** (`faz_a_staged.py`, `faz_a_run.py`):
+  federated baselines (FedAvg / FedProx / FedProx+DP) vs Central PPO.
+  Finding: federated training exceeds the centralised baseline on
+  critical recall (0.937 vs 0.858).
+- **Faz B — robustness & confusion matrix** (`faz_b_robustness.py`,
+  `faz_b_dynamic_reward.py`): seeded inference-time perturbations plus a
+  tempo-aware-reward retraining. Finding: modality ablation independently
+  confirms the SHAP ranking (dropping ECG sends critical recall from
+  0.917 to 0.041); the two intermediate alert classes (fatigue_alert,
+  reduced_sa_alert) are never predicted (recall 0).
+- **Faz C — ε sweep & entropy-targeted exploration**
+  (`faz_c_dp_sweep.py`, `faz_c_entropy.py`): DP ε ∈ {0.5, 2.0} and
+  entropy ∈ {0.01, 0.05} retrainings. Finding: class coverage is
+  unchanged — the two intermediate alert classes remain uncovered in
+  all configurations.
+- **Faz D — decoy attribution & gated exploration** (`faz_d_decoy.py`,
+  `faz_d_gated_entropy.py`): two irrelevant U(0,1) channels with
+  group-Shapley attribution; entropy active only above a 0.90
+  critical-recall floor. Finding: the decoy test is passed cleanly
+  (attribution 6.4% vs the 25% uniform share); gated exploration raises
+  critical recall to 0.975.
+
+### How to reproduce
+
+```bash
+cd experiments
+python faz_b_robustness.py
+python faz_b_dynamic_reward.py
+python faz_c_dp_sweep.py
+python faz_c_entropy.py
+python faz_d_decoy.py
+python faz_d_gated_entropy.py
+```
+
+Each script is seeded and writes its results JSON into
+`experiments/results/`.
+
+---
+
 ## How to Cite
 
 If you use CDSA-BB3 in academic work, please cite both the software
