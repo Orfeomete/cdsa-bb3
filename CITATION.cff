@@ -2,8 +2,9 @@ cff-version: 1.2.0
 message: "If you use CDSA-BB3 in academic work, please cite the software (this file), the accompanying arXiv preprint, and the JATM v8 manuscript."
 type: software
 title: "CDSA-BB3: Pilot Biometric Pillar of the CDSA Federated Reinforcement Learning Paradigm — Synthetic Biometric Data, Anonymization, Cryptographic Multi-Signature, and Scaffolded FRL Extension"
-version: "1.0.0+v2-scaffold"
-date-released: "2026-05-22"
+version: "2.2.0"
+date-released: "2026-07-03"
+doi: "10.5281/zenodo.20649675"
 authors:
   - family-names: "Cantekin"
     given-names: "Mete"

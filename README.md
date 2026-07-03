@@ -2,7 +2,7 @@
 
 **Synthetic biometric data + anonymization + cryptographic multi-signature for aviation black-box research.**
 
-[![DOI](https://img.shields.io/badge/DOI-pending-yellow.svg)](#)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20649675.svg)](https://doi.org/10.5281/zenodo.20649675)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Data License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -257,9 +257,9 @@ and the arXiv preprint.
                Investigation},
   year      = 2026,
   month     = may,
-  version   = {1.0.0},
+  version   = {2.2.0},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX},
+  doi       = {10.5281/zenodo.20649675},
   url       = {https://github.com/Orfeomete/cdsa-bb3}
 }
 ```
