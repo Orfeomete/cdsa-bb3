@@ -163,7 +163,7 @@ and the project adheres to [Semantic Versioning](https://semver.org/).
   synthetic_data) unchanged.
 ### Notes
 - Faz A scope: CPU-scale reference implementations (zero server cost).
-  Framework-scale training remains under TUBITAK 1001 Projects 1+2 (Faz B).
+  Framework-scale training is planned under TUBITAK 1001 Projects 1+2 (Faz B; not yet funded).
 
 ### Changed (11 Jun 2026, A6 runs)
 - PPOActorCritic: reward_scale + global gradient-norm clipping.
