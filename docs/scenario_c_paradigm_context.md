@@ -61,7 +61,7 @@ the existing modules (`synthetic_data`, `anonymization`, `cryptography`).
 The scaffolded v2 modules can be ignored.
 
 If you are reading this repo to **understand the paradigm context for
-the JATM v8 manuscript or the Safety Science Q1 paradigm-defining
+the International Journal of Critical Infrastructure Protection manuscript (under review) or the umbrella
 article**: use the v2 update notes in README.md and this paradigm
 context document. The scaffolded v2 modules document the architectural
 commitments.
