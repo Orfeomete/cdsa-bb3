@@ -49,11 +49,11 @@ Learning (FRL)** research programme:
 
 | Pillar | Domain | Companion repo | Companion journal article |
 |---|---|---|---|
-| **CDSA-BB3** (this) | Pilot biometrics | `Orfeomete/cdsa-bb3` | JATM v8 (Q2, in submission) |
-| **CDSA-MRO** | Maintenance safety | `Orfeomete/cdsa-mro` | RESS v2 (Q1, in preparation) |
-| **CDSA-ATM** | Air traffic management | `Orfeomete/cdsa-atm` | CEAS v2 (Q2, in preparation) |
+| **CDSA-BB3** (this) | Pilot biometrics | `Orfeomete/cdsa-bb3` | IJCIP (Q1, under review) |
+| **CDSA-MRO** | Maintenance safety | `Orfeomete/cdsa-mro` | EAAI (Q1, under review) |
+| **CDSA-ATM** | Air traffic management | `Orfeomete/cdsa-atm` | ESWA (Q1, under review) |
 
-A paradigm-defining umbrella article (Safety Science Q1, September 2026
+A paradigm-defining umbrella article (Information Fusion Q1, target
 submission target) positions the three pillars under a common
 diagnostic-safety paradigm with convergent validation evidence across
 the three aviation domains.
@@ -84,7 +84,7 @@ For the paradigm-defining argument, refer to:
 - `docs/scenario_c_paradigm_context.md` (paradigm context summary)
 - The CDSA Methodological Unification Decision document (internal,
   cited as `[Cantekin 2026, CDSA Scenario C]`)
-- The Safety Science Q1 umbrella article (in preparation, September 2026)
+- The umbrella article (Information Fusion Q1, in preparation)
 
 ---
 

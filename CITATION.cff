@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use CDSA-BB3 in academic work, please cite the software (this file), the accompanying arXiv preprint, and the JATM v8 manuscript."
+message: "If you use CDSA-BB3 in academic work, please cite the software (this file), the accompanying arXiv preprint, and the accompanying journal manuscript."
 type: software
 title: "CDSA-BB3: Pilot Biometric Pillar of the CDSA Federated Reinforcement Learning Paradigm — Synthetic Biometric Data, Anonymization, Cryptographic Multi-Signature, and Scaffolded FRL Extension"
 version: "2.2.0"
@@ -71,8 +71,8 @@ preferred-citation:
       affiliation: "Department of Computer Engineering, Istanbul Beykent University"
   year: 2026
   month: 5
-  journal: "Journal of Aerospace Technology and Management (JATM)"
-  notes: "v8 paradigm-alignment revision, in submission"
+  journal: "International Journal of Critical Infrastructure Protection"
+  notes: "under review, manuscript IJCIP-D-26-00586"
 references:
   # Cryptographic-biometric foundations
   - type: book
@@ -176,6 +176,6 @@ references:
       - family-names: "Cantekin"
         given-names: "Mete"
     title: "Complementary Diagnostic Safety Approach (CDSA): A Federated Reinforcement Learning Paradigm for Three-Pillar Aviation Safety Convergent Validation"
-    journal: "Safety Science"
+    journal: "Information Fusion (target)"
     notes: "v1 paradigm-defining article, September 2026 submission target"
     year: 2026
