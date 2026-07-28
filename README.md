@@ -6,7 +6,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Data License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![arXiv](https://img.shields.io/badge/arXiv-preprint-b31b1b.svg)](docs/arXiv_preprint.pdf)
 
 ---
 
@@ -34,9 +33,8 @@ data use in aviation safety investigation:
    judicial authority.
 
 This repository contains the **three Python modules** that implement
-the prototype (thesis Annex C, 336 lines), the **1179-record reference
-dataset** (byte-reproducible with `seed=42`), and the **arXiv preprint
-LaTeX submission package** (21 pages, Beykent University imprint).
+the prototype (thesis Annex C, 336 lines) and the **1179-record
+reference dataset** (byte-reproducible with `seed=42`).
 
 ---
 
@@ -51,7 +49,7 @@ Learning (FRL)** research programme:
 |---|---|---|---|
 | **CDSA-BB3** (this) | Pilot biometrics | `Orfeomete/cdsa-bb3` | IJCIP (Q1, under review) |
 | **CDSA-MRO** | Maintenance safety | `Orfeomete/cdsa-mro` | EAAI (Q1, under review) |
-| **CDSA-ATM** | Air traffic management | `Orfeomete/cdsa-atm` | ESWA (Q1, under review) |
+| **CDSA-ATM** | Air traffic management | `Orfeomete/cdsa-atm` | Journal submission in preparation |
 
 A paradigm-defining umbrella article (Information Fusion Q1, target
 submission target) positions the three pillars under a common
@@ -76,9 +74,9 @@ src/
 
 The v2 modules are **scaffolds**: `__init__.py` + placeholder docstrings
 documenting the planned interface. Full implementations are deferred to
-**TÜBİTAK 1001 ARDEB Projects 1 + 2** (September 2026 application
-cycle; 2027-2030 execution). Treat v2 modules as **architectural
-commitments**, not as runnable code at v1.0.0.
+a single consolidated **TÜBİTAK 1001** application (planned; September
+2026 target). Treat v2 modules as **architectural commitments**, not as
+runnable code at v1.0.0.
 
 For the paradigm-defining argument, refer to:
 - `docs/scenario_c_paradigm_context.md` (paradigm context summary)
@@ -102,12 +100,7 @@ cdsa-bb3/
 │   ├── synthetic_n1179.json              Raw synthetic dataset (n=1179)
 │   ├── synthetic_n1179_anon.json         After k-anon + DP
 │   └── statistical_validation_report.json
-├── paper/
-│   ├── main.tex             arXiv submission source (Beykent imprint)
-│   ├── references.bib
-│   └── images/              5 figures
 ├── docs/
-│   ├── arXiv_preprint.pdf   21-page rendered preprint
 │   └── ...
 ├── examples/
 │   ├── quick_start.py       60-second end-to-end demo
@@ -244,10 +237,7 @@ Each script is seeded and writes its results JSON into
 
 ## How to Cite
 
-If you use CDSA-BB3 in academic work, please cite both the software
-and the arXiv preprint.
-
-**Software (BibTeX):**
+If you use CDSA-BB3 in academic work, please cite the software:
 
 ```bibtex
 @software{cantekin2026cdsablackbox,
@@ -264,19 +254,9 @@ and the arXiv preprint.
 }
 ```
 
-**Preprint (BibTeX):**
-
-```bibtex
-@misc{cantekin2026cdsapreprint,
-  author       = {Cantekin, Mete},
-  title        = {Complementary Diagnostic Safety Approach: Wearable
-                  Technologies, Synthetic Data and Cryptographic
-                  Multi-Signature for Aviation Black-Box Evolution},
-  year         = 2026,
-  eprint       = {arXiv:XXXX.XXXXX},
-  primaryClass = {cs.CR}
-}
-```
+A journal article on this pillar is currently under peer review;
+the preprint will be deposited and citable once the review process
+concludes.
 
 `CITATION.cff` provides the same metadata in a machine-readable form
 recognized by Zenodo, GitHub, and academic indexers.
@@ -319,15 +299,16 @@ under [`Orfeomete`](https://github.com/Orfeomete):
 The repository structure was updated on 22 May 2026 following the CDSA
 Scenario C paradigm decision. The update is **additive** — all v1.0.0
 content (synthetic data, anonymization, cryptography modules; reference
-dataset; arXiv preprint package) remains unchanged and accessible.
+dataset) remains unchanged and accessible.
 Five new src/ modules (rl_agents, rl_environment, federated, multimodal,
 xai) have been scaffolded for the FRL paradigm extension. A new
-`figures/` directory has been added for repository-level figures
-(parallel to the existing `paper/images/`). The CHANGELOG, CITATION.cff
+`figures/` directory has been added for repository-level figures.
+The CHANGELOG, CITATION.cff
 and `.zenodo.json` have been updated to reflect the paradigm context.
 
 The v1.0.0 release tag remains valid and reproducible; v2.0.0 release
-is planned for Q4 2026 following TÜBİTAK Project 1+2 acceptance.
+is planned following the outcome of the consolidated TÜBİTAK 1001
+application.
 
 ---
 
