@@ -1,0 +1,183 @@
+{
+ "sema_surum": "faz_e_kayit/1.0",
+ "kosu_kimligi": "CDSA-BB3-E8-dp_eps10-t45-20260905T211109Z",
+ "damar": "CDSA-BB3",
+ "deney": "E8",
+ "kol": "dp_eps10",
+ "tohum": 45,
+ "tarih_utc": "2026-09-05T21:11:09.764201+00:00",
+ "kod_surumu": {
+  "yontem": "git",
+  "git_head": "a659c4b82b6c547273a7b5e4c033e873dc31e2a4",
+  "kirli": true,
+  "dosya_ozetleri": null,
+  "kod_agac_ozeti": "3cf160747a0e08890095ba613816f926ff97f2c48ae55f0df71044eda684fe1c"
+ },
+ "yapilandirma_koddan": {
+  "faz_a_config": {
+   "PILLAR": "CDSA-BB3",
+   "N_ACTIONS": 4,
+   "STATE_DIM": 10,
+   "NEW_STEP_API": true,
+   "INFO_TRUE_KEY": "appropriate_action",
+   "ACTION_LABELS": [
+    "nominal",
+    "fatigue_alert",
+    "reduced_sa_alert",
+    "critical_overflow"
+   ],
+   "CRITICAL_ACTIONS": [
+    3
+   ],
+   "MODALITY_GROUPS": {
+    "ppg": [
+     0,
+     1,
+     2
+    ],
+    "ecg": [
+     3,
+     4,
+     5
+    ],
+    "eeg": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_a_config.py",
+   "_modul_sha256": "68ad2e4c9c8607a9cd93c4288bf0f13e46f25aadea55f409662aaf831d58d9f8"
+  },
+  "faz_a_staged": {
+   "LOCAL_ROLLOUTS": 6,
+   "ROLLOUT_LEN": 96,
+   "PROBE_STEPS": 300,
+   "EVAL_STEPS": 600,
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_a_staged.py",
+   "_modul_sha256": "c4ea59a3161a21e97af36ff8a6b0611d605f1f957a807d6d1d142997963bca6c"
+  },
+  "faz_e_kampanya": {
+   "TUR_VARSAYILAN": 100,
+   "E8_TUR": 160,
+   "E8_EPS": {
+    "dp_eps10": 0.0625,
+    "dp_eps1": 0.00625
+   },
+   "E1_BIRINCIL": "ppg",
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_e_kampanya.py",
+   "_modul_sha256": "903ef8c4439c00cd32ad9661616b44dbafa2adb6c2d9adb51c826ae3b7807a4a"
+  },
+  "kosu": {
+   "kol": "dp_eps10",
+   "tur_koddan": 160,
+   "tohum": 45,
+   "cevre_gecisi": 276480,
+   "iletisim_bayt": 7902720,
+   "istemci_kurulumu": {
+    "kaynak": "faz_a_config.make_client_envs (Faz A kurulumu)",
+    "n_istemci": 3,
+    "dp_defteri": {
+     "mekanizma": "Laplace, saf eps-DP",
+     "korunacak_birim": "istemci guncellemesi",
+     "komsuluk": "degistirme (n sabit)",
+     "n": 3,
+     "C": 9.0,
+     "delta1_2C_over_n": 6.0,
+     "eps_tur": 0.0625,
+     "T_tur": 160,
+     "eps_toplam": 10.0,
+     "laplace_olcek": 96.0,
+     "bilesim": "temel ardisik (saf DP; on kayit Ek 3 madde 3)",
+     "kirpik_norm_max": 9.0,
+     "kirpilmamis_norm": [
+      40.787868392037396,
+      38.27621219710449,
+      38.96726330762648
+     ]
+    }
+   },
+   "e1_birincil_modalite": null
+  }
+ },
+ "veri": {
+  "yol": null,
+  "sha256": "f77319b942c2f0af2132677324ae74e37fe53157501068e745460e6bcc9887b0",
+  "n_kayit": 1800,
+  "not": "uretilmis ortam; sha256 = uretim tanimi ozeti: CDSA-BB3 dp_eps10 tohum=45 tur=160; degerlendirme: 3x600 esdeger protokol"
+ },
+ "tahmin_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/results/e_kayit/tahmin_CDSA-BB3-E8-dp_eps10-t45-20260905T211109Z.json",
+ "karisiklik_matrisi": {
+  "duzen": "[true][pred]",
+  "matris": [
+   [
+    894,
+    0,
+    0,
+    63
+   ],
+   [
+    387,
+    0,
+    0,
+    19
+   ],
+   [
+    31,
+    0,
+    0,
+    13
+   ],
+   [
+    368,
+    0,
+    1,
+    24
+   ]
+  ],
+  "n": 1800,
+  "etiketler": [
+   "nominal",
+   "fatigue_alert",
+   "reduced_sa_alert",
+   "critical_overflow"
+  ]
+ },
+ "metrikler": {
+  "sinif_f1": [
+   0.678,
+   0.0,
+   0.0,
+   0.0938
+  ],
+  "sinif_kesinlik": [
+   0.5321,
+   0.0,
+   0.0,
+   0.2017
+  ],
+  "sinif_duyarlilik": [
+   0.9342,
+   0.0,
+   0.0,
+   0.0611
+  ],
+  "makro_f1": 0.1929,
+  "dogruluk": 0.51,
+  "duvar_saati_sn": 44.88,
+  "cevre_gecisi": 276480,
+  "iletisim_bayt": 7902720,
+  "kritik_sinif_duyarlilik": [
+   0.0611
+  ]
+ },
+ "ortam": {
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39",
+  "makine": "x86_64"
+ },
+ "notlar": {},
+ "sure_sn": 0.015
+}

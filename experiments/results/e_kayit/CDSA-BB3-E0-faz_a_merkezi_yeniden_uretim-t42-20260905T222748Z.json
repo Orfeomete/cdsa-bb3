@@ -1,0 +1,175 @@
+{
+ "sema_surum": "faz_e_kayit/1.0",
+ "kosu_kimligi": "CDSA-BB3-E0-faz_a_merkezi_yeniden_uretim-t42-20260905T222748Z",
+ "damar": "CDSA-BB3",
+ "deney": "E0",
+ "kol": "faz_a_merkezi_yeniden_uretim",
+ "tohum": 42,
+ "tarih_utc": "2026-09-05T22:27:48.597717+00:00",
+ "kod_surumu": {
+  "yontem": "git",
+  "git_head": "a659c4b82b6c547273a7b5e4c033e873dc31e2a4",
+  "kirli": true,
+  "dosya_ozetleri": null,
+  "kod_agac_ozeti": "9701e43092cee492442526b5c38d83c38859d484802751c733c862256abde613"
+ },
+ "yapilandirma_koddan": {
+  "faz_a_config": {
+   "PILLAR": "CDSA-BB3",
+   "N_ACTIONS": 4,
+   "STATE_DIM": 10,
+   "NEW_STEP_API": true,
+   "INFO_TRUE_KEY": "appropriate_action",
+   "ACTION_LABELS": [
+    "nominal",
+    "fatigue_alert",
+    "reduced_sa_alert",
+    "critical_overflow"
+   ],
+   "CRITICAL_ACTIONS": [
+    3
+   ],
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_a_config.py",
+   "_modul_sha256": "68ad2e4c9c8607a9cd93c4288bf0f13e46f25aadea55f409662aaf831d58d9f8"
+  },
+  "faz_a_staged": {
+   "ROUNDS": 100,
+   "LOCAL_ROLLOUTS": 6,
+   "ROLLOUT_LEN": 96,
+   "PROBE_EVERY": 8,
+   "PROBE_STEPS": 300,
+   "EVAL_STEPS": 600,
+   "SEED": 42,
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_a_staged.py",
+   "_modul_sha256": "c4ea59a3161a21e97af36ff8a6b0611d605f1f957a807d6d1d142997963bca6c"
+  }
+ },
+ "veri": {
+  "yol": null,
+  "sha256": "19a7779b54fd4fceee8b8340786ccdc9f474fb14e31b89030f4a5427e4ebf10c",
+  "n_kayit": 600,
+  "not": "uretilmis ortam; sha256 = uretim tanimi ozeti: CDSA-BB3 faz_a_staged 'base' merkezi kolu: make_client_envs(42), 100 tur; degerlendirme make_env(942).reset(seed=2026), 600 adim"
+ },
+ "tahmin_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/results/e_kayit/tahmin_CDSA-BB3-E0-faz_a_merkezi_yeniden_uretim-t42-20260905T222748Z.json",
+ "karisiklik_matrisi": {
+  "duzen": "[true][pred]",
+  "matris": [
+   [
+    287,
+    0,
+    0,
+    40
+   ],
+   [
+    98,
+    0,
+    0,
+    32
+   ],
+   [
+    13,
+    0,
+    0,
+    3
+   ],
+   [
+    20,
+    0,
+    0,
+    107
+   ]
+  ],
+  "n": 600,
+  "etiketler": [
+   "nominal",
+   "fatigue_alert",
+   "reduced_sa_alert",
+   "critical_overflow"
+  ]
+ },
+ "metrikler": {
+  "sinif_f1": [
+   0.7705,
+   0.0,
+   0.0,
+   0.6926
+  ],
+  "sinif_kesinlik": [
+   0.6866,
+   0.0,
+   0.0,
+   0.5879
+  ],
+  "sinif_duyarlilik": [
+   0.8777,
+   0.0,
+   0.0,
+   0.8425
+  ],
+  "makro_f1": 0.3658,
+  "dogruluk": 0.6567,
+  "mean_reward": 5.16,
+  "accuracy_pct": 65.7,
+  "critical_recall": 0.843,
+  "random_kolu": {
+   "mean_reward": -3.67,
+   "accuracy_pct": 24.8,
+   "critical_recall": 0.26
+  }
+ },
+ "ortam": {
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39",
+  "makine": "x86_64"
+ },
+ "notlar": {
+  "amac": "Ek 6 — tarihsel Faz A merkezi kaydinin yeniden uretim denemesi",
+  "komut": "python3 faz_a_staged.py base (tohum 42, 100 tur, 600 adim degerlendirme)",
+  "kayitli_deger": {
+   "mean_reward": 5.17,
+   "accuracy_pct": 65.3,
+   "critical_recall": 0.858,
+   "kayit_tarihi": "2026-06-11"
+  },
+  "yeniden_uretilen": {
+   "mean_reward": 5.16,
+   "accuracy_pct": 65.7,
+   "critical_recall": 0.843
+  },
+  "random_kolu_birebir_mi": true,
+  "ogrenme_egrisi_ilk_ayrisan_prob": 9,
+  "ogrenme_egrisi_ayrisan_prob_sayisi": 3,
+  "ogrenme_egrisi_prob_sayisi": 12,
+  "kayitli_egri": [
+   1.18,
+   2.63,
+   4.45,
+   3.48,
+   4.52,
+   4.72,
+   4.8,
+   5.2,
+   3.88,
+   4.55,
+   5.12,
+   4.47
+  ],
+  "yeniden_egri": [
+   1.18,
+   2.63,
+   4.45,
+   3.48,
+   4.52,
+   4.72,
+   4.8,
+   5.2,
+   3.88,
+   4.6,
+   5.07,
+   4.22
+  ],
+  "faz_a_results_json_degistirilmedi": true
+ },
+ "sure_sn": 0.018
+}

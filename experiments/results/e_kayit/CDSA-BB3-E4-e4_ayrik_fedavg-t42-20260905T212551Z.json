@@ -1,0 +1,189 @@
+{
+ "sema_surum": "faz_e_kayit/1.0",
+ "kosu_kimligi": "CDSA-BB3-E4-e4_ayrik_fedavg-t42-20260905T212551Z",
+ "damar": "CDSA-BB3",
+ "deney": "E4",
+ "kol": "e4_ayrik_fedavg",
+ "tohum": 42,
+ "tarih_utc": "2026-09-05T21:25:51.963744+00:00",
+ "kod_surumu": {
+  "yontem": "git",
+  "git_head": "a659c4b82b6c547273a7b5e4c033e873dc31e2a4",
+  "kirli": true,
+  "dosya_ozetleri": null,
+  "kod_agac_ozeti": "9701e43092cee492442526b5c38d83c38859d484802751c733c862256abde613"
+ },
+ "yapilandirma_koddan": {
+  "faz_a_config": {
+   "PILLAR": "CDSA-BB3",
+   "N_ACTIONS": 4,
+   "STATE_DIM": 10,
+   "NEW_STEP_API": true,
+   "INFO_TRUE_KEY": "appropriate_action",
+   "ACTION_LABELS": [
+    "nominal",
+    "fatigue_alert",
+    "reduced_sa_alert",
+    "critical_overflow"
+   ],
+   "CRITICAL_ACTIONS": [
+    3
+   ],
+   "MODALITY_GROUPS": {
+    "ppg": [
+     0,
+     1,
+     2
+    ],
+    "ecg": [
+     3,
+     4,
+     5
+    ],
+    "eeg": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_a_config.py",
+   "_modul_sha256": "68ad2e4c9c8607a9cd93c4288bf0f13e46f25aadea55f409662aaf831d58d9f8"
+  },
+  "faz_a_staged": {
+   "LOCAL_ROLLOUTS": 6,
+   "ROLLOUT_LEN": 96,
+   "PROBE_STEPS": 300,
+   "EVAL_STEPS": 600,
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_a_staged.py",
+   "_modul_sha256": "c4ea59a3161a21e97af36ff8a6b0611d605f1f957a807d6d1d142997963bca6c"
+  },
+  "faz_e_kampanya": {
+   "TUR_VARSAYILAN": 100,
+   "E8_TUR": 160,
+   "E8_EPS": {
+    "dp_eps10": 0.0625,
+    "dp_eps1": 0.00625
+   },
+   "E1_BIRINCIL": "ppg",
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_e_kampanya.py",
+   "_modul_sha256": "903ef8c4439c00cd32ad9661616b44dbafa2adb6c2d9adb51c826ae3b7807a4a"
+  },
+  "kosu": {
+   "kol": "e4_ayrik_fedavg",
+   "tur_koddan": 100,
+   "tohum": 42,
+   "cevre_gecisi": 172800,
+   "iletisim_bayt": 4939200,
+   "istemci_kurulumu": {
+    "kaynak": "CDSA-BB3: make_env(seed=7042)._sample_state() ile uretilmis sabit kayit havuzu (n=3000)",
+    "istemciler": [
+     {
+      "istemci": 0,
+      "n_kayit": 1000,
+      "kritik_pay_ham": 0.226,
+      "heterojen_agirlikli": false,
+      "kritik_pay_hedef": null
+     },
+     {
+      "istemci": 1,
+      "n_kayit": 1000,
+      "kritik_pay_ham": 0.241,
+      "heterojen_agirlikli": false,
+      "kritik_pay_hedef": null
+     },
+     {
+      "istemci": 2,
+      "n_kayit": 1000,
+      "kritik_pay_ham": 0.214,
+      "heterojen_agirlikli": false,
+      "kritik_pay_hedef": null
+     }
+    ],
+    "ayrik": true,
+    "ayrim_tohumu": 7004,
+    "n_istemci": 3
+   },
+   "e1_birincil_modalite": null
+  }
+ },
+ "veri": {
+  "yol": null,
+  "sha256": "89cdcb3f5b668821e90cf119c13793b5154b7e2fc80407995ef138fd4e435adf",
+  "n_kayit": 1800,
+  "not": "uretilmis ortam; sha256 = uretim tanimi ozeti: CDSA-BB3 e4_ayrik_fedavg tohum=42 tur=100; degerlendirme: 3x600 esdeger protokol"
+ },
+ "tahmin_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/results/e_kayit/tahmin_CDSA-BB3-E4-e4_ayrik_fedavg-t42-20260905T212551Z.json",
+ "karisiklik_matrisi": {
+  "duzen": "[true][pred]",
+  "matris": [
+   [
+    764,
+    0,
+    0,
+    193
+   ],
+   [
+    219,
+    0,
+    0,
+    187
+   ],
+   [
+    31,
+    0,
+    0,
+    13
+   ],
+   [
+    45,
+    0,
+    0,
+    348
+   ]
+  ],
+  "n": 1800,
+  "etiketler": [
+   "nominal",
+   "fatigue_alert",
+   "reduced_sa_alert",
+   "critical_overflow"
+  ]
+ },
+ "metrikler": {
+  "sinif_f1": [
+   0.7579,
+   0.0,
+   0.0,
+   0.6138
+  ],
+  "sinif_kesinlik": [
+   0.7214,
+   0.0,
+   0.0,
+   0.4696
+  ],
+  "sinif_duyarlilik": [
+   0.7983,
+   0.0,
+   0.0,
+   0.8855
+  ],
+  "makro_f1": 0.3429,
+  "dogruluk": 0.6178,
+  "duvar_saati_sn": 30.71,
+  "cevre_gecisi": 172800,
+  "iletisim_bayt": 4939200,
+  "kritik_sinif_duyarlilik": [
+   0.8855
+  ]
+ },
+ "ortam": {
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39",
+  "makine": "x86_64"
+ },
+ "notlar": {},
+ "sure_sn": 0.015
+}

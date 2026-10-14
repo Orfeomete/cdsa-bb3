@@ -1,0 +1,127 @@
+{
+ "sema_surum": "faz_e_kayit/1.0",
+ "kosu_kimligi": "CDSA-BB3-E2-sabit_hep_kritik_a3-t43-20260905T204659Z",
+ "damar": "CDSA-BB3",
+ "deney": "E2",
+ "kol": "sabit_hep_kritik_a3",
+ "tohum": 43,
+ "tarih_utc": "2026-09-05T20:46:59.338905+00:00",
+ "kod_surumu": {
+  "yontem": "git",
+  "git_head": "a659c4b82b6c547273a7b5e4c033e873dc31e2a4",
+  "kirli": true,
+  "dosya_ozetleri": null,
+  "kod_agac_ozeti": "fce84284793d83b91b62ecfe5ccc850741c4bbb874448a709185a94689dbb6da"
+ },
+ "yapilandirma_koddan": {
+  "faz_a_config": {
+   "PILLAR": "CDSA-BB3",
+   "N_ACTIONS": 4,
+   "STATE_DIM": 10,
+   "NEW_STEP_API": true,
+   "INFO_TRUE_KEY": "appropriate_action",
+   "ACTION_LABELS": [
+    "nominal",
+    "fatigue_alert",
+    "reduced_sa_alert",
+    "critical_overflow"
+   ],
+   "CRITICAL_ACTIONS": [
+    3
+   ],
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_a_config.py",
+   "_modul_sha256": "68ad2e4c9c8607a9cd93c4288bf0f13e46f25aadea55f409662aaf831d58d9f8"
+  },
+  "faz_e2_karsilastiricilar": {
+   "SEED_PROTOKOL": 42,
+   "EVAL_STEPS": 600,
+   "EVAL_REPS": 3,
+   "TOHUMLAR": [
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "N_EGITIM": 3000,
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_e2_karsilastiricilar.py",
+   "_modul_sha256": "cf09696d516066fec89a117380dbdd94952c30ec56b8de4f6a7e7ff91e13ccfe"
+  }
+ },
+ "veri": {
+  "yol": null,
+  "sha256": "4e61747f55ee7ab71b937fd422827a952d60edf20cec7f32a35ccd9af1ba5aff",
+  "n_kayit": 1800,
+  "not": "uretilmis ortam; sha256 = uretim tanimi ozeti: 1.800 karar esdeger degerlendirme (faz_e0 ile birebir) | egitim: make_env(43), n=3000"
+ },
+ "tahmin_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/results/e_kayit/tahmin_CDSA-BB3-E2-sabit_hep_kritik_a3-t43-20260905T204659Z.json",
+ "karisiklik_matrisi": {
+  "duzen": "[true][pred]",
+  "matris": [
+   [
+    0,
+    0,
+    0,
+    957
+   ],
+   [
+    0,
+    0,
+    0,
+    406
+   ],
+   [
+    0,
+    0,
+    0,
+    44
+   ],
+   [
+    0,
+    0,
+    0,
+    393
+   ]
+  ],
+  "n": 1800,
+  "etiketler": [
+   "nominal",
+   "fatigue_alert",
+   "reduced_sa_alert",
+   "critical_overflow"
+  ]
+ },
+ "metrikler": {
+  "sinif_f1": [
+   0.0,
+   0.0,
+   0.0,
+   0.3584
+  ],
+  "sinif_kesinlik": [
+   0.0,
+   0.0,
+   0.0,
+   0.2183
+  ],
+  "sinif_duyarlilik": [
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  "makro_f1": 0.0896,
+  "dogruluk": 0.2183,
+  "kritik_sinif_duyarlilik": [
+   1.0
+  ]
+ },
+ "ortam": {
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39",
+  "makine": "x86_64"
+ },
+ "notlar": {},
+ "sure_sn": 0.009
+}

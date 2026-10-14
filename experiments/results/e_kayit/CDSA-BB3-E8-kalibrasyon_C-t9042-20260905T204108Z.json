@@ -1,0 +1,177 @@
+{
+ "sema_surum": "faz_e_kayit/1.0",
+ "kosu_kimligi": "CDSA-BB3-E8-kalibrasyon_C-t9042-20260905T204108Z",
+ "damar": "CDSA-BB3",
+ "deney": "E8",
+ "kol": "kalibrasyon_C",
+ "tohum": 9042,
+ "tarih_utc": "2026-09-05T20:41:08.367814+00:00",
+ "kod_surumu": {
+  "yontem": "git",
+  "git_head": "a659c4b82b6c547273a7b5e4c033e873dc31e2a4",
+  "kirli": true,
+  "dosya_ozetleri": null,
+  "kod_agac_ozeti": "670f8a60e7220d26b3476fc1ad2a30ef53dc1e3bf65470390751900d7991b831"
+ },
+ "yapilandirma_koddan": {
+  "faz_a_config": {
+   "PILLAR": "CDSA-BB3",
+   "N_ACTIONS": 4,
+   "STATE_DIM": 10,
+   "NEW_STEP_API": true,
+   "INFO_TRUE_KEY": "appropriate_action",
+   "ACTION_LABELS": [
+    "nominal",
+    "fatigue_alert",
+    "reduced_sa_alert",
+    "critical_overflow"
+   ],
+   "CRITICAL_ACTIONS": [
+    3
+   ],
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_a_config.py",
+   "_modul_sha256": "68ad2e4c9c8607a9cd93c4288bf0f13e46f25aadea55f409662aaf831d58d9f8"
+  },
+  "faz_a_staged": {
+   "ROUNDS": 100,
+   "LOCAL_ROLLOUTS": 6,
+   "ROLLOUT_LEN": 96,
+   "ROUNDS_FED": 160,
+   "PROBE_EVERY": 8,
+   "PROBE_STEPS": 300,
+   "EVAL_STEPS": 600,
+   "SEED": 42,
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_a_staged.py",
+   "_modul_sha256": "c4ea59a3161a21e97af36ff8a6b0611d605f1f957a807d6d1d142997963bca6c"
+  },
+  "kalibrasyon": {
+   "damar": "CDSA-BB3",
+   "kaynak": "kalibrasyon kumesi (Ek 4 md 2) — korunacak veriden bagimsiz",
+   "kalibrasyon_tohumu": 9042,
+   "kalibrasyon_istemci_sayisi": 3,
+   "kalibrasyon_tur_sayisi": 5,
+   "olculen_norm_sayisi": 15,
+   "L1_norm_medyani": 9.042186,
+   "L1_norm_min": 4.464741,
+   "L1_norm_maks": 44.098516,
+   "C_dondurulmus": 9.0,
+   "yuvarlama": "iki anlamli basamak",
+   "n_ana_kosu_istemci": 3,
+   "delta1_2C_over_n": 6.0,
+   "T_tur": 160,
+   "calisma_noktalari": {
+    "eps_toplam_10": {
+     "eps_tur": 0.0625,
+     "laplace_olcek": 96.0
+    },
+    "eps_toplam_1": {
+     "eps_tur": 0.00625,
+     "laplace_olcek": 960.0
+    }
+   },
+   "tur_bazinda_normlar": [
+    [
+     32.459862,
+     44.098516,
+     40.710734
+    ],
+    [
+     4.464741,
+     14.770186,
+     19.448433
+    ],
+    [
+     8.844726,
+     8.499966,
+     9.081022
+    ],
+    [
+     5.684276,
+     6.076526,
+     9.042186
+    ],
+    [
+     10.324978,
+     8.031184,
+     7.225924
+    ]
+   ],
+   "kanit_cumlesi": "Gurultu eklenmesi tek basina DP kaniti degildir; kanit = kirpma + turetilmis duyarlilik (2C/n) + kayitli eps_toplam.",
+   "uyari": "Bu kosu bir DENEY degildir; yalniz C'yi kalibre eder ve ana kosulara girmez."
+  }
+ },
+ "veri": {
+  "yol": null,
+  "sha256": "8da55fb3b0f58d489b45a6544fc1a476eb99bb1425683ab0f25941e37d96098d",
+  "n_kayit": 15,
+  "not": "uretilmis ortam; sha256 = uretim tanimi ozeti: CDSA-BB3 kalibrasyon kumesi: make_client_envs(seed=9042), 5 tur x 3 istemci yerel egitim"
+ },
+ "tahmin_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/results/e_kayit/tahmin_CDSA-BB3-E8-kalibrasyon_C-t9042-20260905T204108Z.json",
+ "karisiklik_matrisi": {
+  "duzen": "[true][pred]",
+  "matris": [
+   [
+    15,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "n": 15,
+  "etiketler": []
+ },
+ "metrikler": {
+  "sinif_f1": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "sinif_kesinlik": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "sinif_duyarlilik": [
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "makro_f1": 0.25,
+  "dogruluk": 1.0,
+  "C_dondurulmus": 9.0,
+  "L1_medyan": 9.042186
+ },
+ "ortam": {
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39",
+  "makine": "x86_64"
+ },
+ "notlar": {
+  "kalibrasyon_kosusu": true,
+  "karisiklik_matrisi_notu": "kalibrasyon kosusunda karar verilmez; matris dejenere yazildi, hicbir tabloya girmez",
+  "ek4_uyum": "C korunacak istemci guncellemelerinden DEGIL kalibrasyon kumesinden"
+ },
+ "sure_sn": 0.01
+}

@@ -1,0 +1,164 @@
+{
+ "sema_surum": "faz_e_kayit/1.0",
+ "kosu_kimligi": "CDSA-BB3-E6-fedavg-t43-20260905T205620Z",
+ "damar": "CDSA-BB3",
+ "deney": "E6",
+ "kol": "fedavg",
+ "tohum": 43,
+ "tarih_utc": "2026-09-05T20:56:20.339687+00:00",
+ "kod_surumu": {
+  "yontem": "git",
+  "git_head": "a659c4b82b6c547273a7b5e4c033e873dc31e2a4",
+  "kirli": true,
+  "dosya_ozetleri": null,
+  "kod_agac_ozeti": "3cf160747a0e08890095ba613816f926ff97f2c48ae55f0df71044eda684fe1c"
+ },
+ "yapilandirma_koddan": {
+  "faz_a_config": {
+   "PILLAR": "CDSA-BB3",
+   "N_ACTIONS": 4,
+   "STATE_DIM": 10,
+   "NEW_STEP_API": true,
+   "INFO_TRUE_KEY": "appropriate_action",
+   "ACTION_LABELS": [
+    "nominal",
+    "fatigue_alert",
+    "reduced_sa_alert",
+    "critical_overflow"
+   ],
+   "CRITICAL_ACTIONS": [
+    3
+   ],
+   "MODALITY_GROUPS": {
+    "ppg": [
+     0,
+     1,
+     2
+    ],
+    "ecg": [
+     3,
+     4,
+     5
+    ],
+    "eeg": [
+     6,
+     7,
+     8,
+     9
+    ]
+   },
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_a_config.py",
+   "_modul_sha256": "68ad2e4c9c8607a9cd93c4288bf0f13e46f25aadea55f409662aaf831d58d9f8"
+  },
+  "faz_a_staged": {
+   "LOCAL_ROLLOUTS": 6,
+   "ROLLOUT_LEN": 96,
+   "PROBE_STEPS": 300,
+   "EVAL_STEPS": 600,
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_a_staged.py",
+   "_modul_sha256": "c4ea59a3161a21e97af36ff8a6b0611d605f1f957a807d6d1d142997963bca6c"
+  },
+  "faz_e_kampanya": {
+   "TUR_VARSAYILAN": 100,
+   "E8_TUR": 160,
+   "E8_EPS": {
+    "dp_eps10": 0.0625,
+    "dp_eps1": 0.00625
+   },
+   "E1_BIRINCIL": "ppg",
+   "_modul_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/faz_e_kampanya.py",
+   "_modul_sha256": "903ef8c4439c00cd32ad9661616b44dbafa2adb6c2d9adb51c826ae3b7807a4a"
+  },
+  "kosu": {
+   "kol": "fedavg",
+   "tur_koddan": 100,
+   "tohum": 43,
+   "cevre_gecisi": 172800,
+   "iletisim_bayt": 4939200,
+   "istemci_kurulumu": {
+    "kaynak": "faz_a_config.make_client_envs (Faz A kurulumu)",
+    "n_istemci": 3
+   },
+   "e1_birincil_modalite": null
+  }
+ },
+ "veri": {
+  "yol": null,
+  "sha256": "a4989e63053335b32e62a18ec978c11c16d5e35a67062c79bf1dbe1c0c053606",
+  "n_kayit": 1800,
+  "not": "uretilmis ortam; sha256 = uretim tanimi ozeti: CDSA-BB3 fedavg tohum=43 tur=100; degerlendirme: 3x600 esdeger protokol"
+ },
+ "tahmin_dosyasi": "/home/claude/cdsa/CDSA-BB3/12_GitHub_Repo/cdsa-bb3/experiments/results/e_kayit/tahmin_CDSA-BB3-E6-fedavg-t43-20260905T205620Z.json",
+ "karisiklik_matrisi": {
+  "duzen": "[true][pred]",
+  "matris": [
+   [
+    734,
+    0,
+    0,
+    223
+   ],
+   [
+    242,
+    0,
+    0,
+    164
+   ],
+   [
+    34,
+    0,
+    0,
+    10
+   ],
+   [
+    24,
+    0,
+    0,
+    369
+   ]
+  ],
+  "n": 1800,
+  "etiketler": [
+   "nominal",
+   "fatigue_alert",
+   "reduced_sa_alert",
+   "critical_overflow"
+  ]
+ },
+ "metrikler": {
+  "sinif_f1": [
+   0.7373,
+   0.0,
+   0.0,
+   0.6368
+  ],
+  "sinif_kesinlik": [
+   0.7099,
+   0.0,
+   0.0,
+   0.4817
+  ],
+  "sinif_duyarlilik": [
+   0.767,
+   0.0,
+   0.0,
+   0.9389
+  ],
+  "makro_f1": 0.3435,
+  "dogruluk": 0.6128,
+  "duvar_saati_sn": 28.4,
+  "cevre_gecisi": 172800,
+  "iletisim_bayt": 4939200,
+  "kritik_sinif_duyarlilik": [
+   0.9389
+  ]
+ },
+ "ortam": {
+  "python": "3.11.15",
+  "numpy": "1.26.4",
+  "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39",
+  "makine": "x86_64"
+ },
+ "notlar": {},
+ "sure_sn": 0.016
+}
