@@ -4,6 +4,20 @@ All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 and the project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.3.0] - 2026-10-14
+
+### Added
+- Faz E preregistered evaluation code (`experiments/faz_e*.py`), run records (`experiments/results/e_kayit/`) and result JSONs, the E7 observation-loss results (`experiments/results/e7/`) and the E10 and E11 run package (`experiments/faz_e10_e11/`).
+- Stage 0 and Stage 0b evidence-integrity studies on MIT-BIH and BIDMC recordings (`experiments/stage0/`), with the stream manipulation test, the seed sweep, the post-hoc single-share check and the exploratory burst-loss model. Raw PhysioNet files are not redistributed, their digests are listed.
+- Preregistration documents (`docs/preregistration/`). They were frozen as local files and carry no public timestamp, and their SHA-256 digests are listed in `docs/preregistration/SHA256SUMS.txt`.
+
+### Changed
+- Source files that were modified in the working tree when the Faz E runs were made are committed as they were run. The run records name commit a659c4b of v2.2.0 and flag these uncommitted changes.
+- README and preferred-citation notes no longer state that any manuscript is under review.
+
+### Fixed
+- `src/cryptography/shamir.py` draws the polynomial coefficient uniformly from GF(p) with `secrets.randbelow(P)`. Earlier versions drew it from 256 random bits, so a single share leaked on the order of one bit about the key. The Stage 0 and Stage 0b runs used the earlier sampler. `tests/test_shamir_uniform.py` checks the new behaviour.
+
 ## [2.2.0] — 2026-07-03
 
 ### Added (Faz B/C/D revision-preparation experiments; seeded, CPU-scale)

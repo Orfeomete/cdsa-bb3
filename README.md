@@ -47,9 +47,9 @@ Learning (FRL)** research programme:
 
 | Pillar | Domain | Companion repo | Companion journal article |
 |---|---|---|---|
-| **CDSA-BB3** (this) | Pilot biometrics | `Orfeomete/cdsa-bb3` | IJCIP (Q1, under review) |
-| **CDSA-MRO** | Maintenance safety | `Orfeomete/cdsa-mro` | EAAI (Q1, under review) |
-| **CDSA-ATM** | Air traffic management | `Orfeomete/cdsa-atm` | Journal submission in preparation |
+| **CDSA-BB3** (this) | Pilot biometrics | `Orfeomete/cdsa-bb3` | Manuscript in preparation |
+| **CDSA-MRO** | Maintenance safety | `Orfeomete/cdsa-mro` | Manuscript in preparation |
+| **CDSA-ATM** | Air traffic management | `Orfeomete/cdsa-atm` | Manuscript in preparation |
 
 A paradigm-defining umbrella article (Information Fusion Q1, target
 submission target) positions the three pillars under a common
@@ -247,7 +247,7 @@ If you use CDSA-BB3 in academic work, please cite the software:
                Investigation},
   year      = 2026,
   month     = may,
-  version   = {2.2.0},
+  version   = {2.3.0},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20649675},
   url       = {https://github.com/Orfeomete/cdsa-bb3}
