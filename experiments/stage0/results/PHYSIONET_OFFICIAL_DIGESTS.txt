@@ -1,0 +1,21 @@
+Kol B ve C veri dosyalarinin PhysioNet resmi SHA-256 ozetleriyle karsilastirmasi.
+Tarih 11 Ekim 2026. Resmi ozetler Mete Cantekin'in PhysioNet'ten kopyaladigi
+SHA256SUMS.txt dosyalarindan alinmistir (mitdb 1.0.0 ve bidmc 1.0.0).
+
+Resmi ozet (PhysioNet SHA256SUMS.txt)                              dosya
+89f826307bfc91a554021da87c17b88b843ed3d26aa9ea237fc6f7c8af00da6d  mitdb 234.dat   -> veri_b/mitdb_234.dat
+91c94c803d05f637cc29a3f353d88e1c25b20a25957c8cc25f7cbbf9fe2627c9  mitdb 234.hea   -> veri_b/mitdb_234.hea
+b1666c7f2f117be6dc04cae2e7016b3315775edb9ad7c7ee53fa9c110937560b  bidmc bidmc01.dat -> veri_b/bidmc01.dat
+f43b0b139ad8f4d45097403b7179e1e6f8bda17dfd06dba504faf39a115aa27f  bidmc bidmc01.hea -> veri_b/bidmc01.hea
+
+.dat dosyalari Mete Cantekin tarafindan tarayicidan indirilmistir. Baslik
+dosyalarini tarayici indirmek yerine metin olarak acmistir, metinleri Mete
+kopyalamis ve Claude bu metinden dosyayi yeniden yazmistir. Satir sonu
+bicimi (mitdb CRLF ve son satir sonu var, bidmc LF ve son satir sonu yok)
+resmi SHA-256 ozetiyle birebir eslesene kadar denenmistir. Asagidaki
+denetim dort dosyanin da resmi dosyayla bayt duzeyinde ayni oldugunu
+gosterir.
+89f826307bfc91a554021da87c17b88b843ed3d26aa9ea237fc6f7c8af00da6d  mitdb_234.dat
+91c94c803d05f637cc29a3f353d88e1c25b20a25957c8cc25f7cbbf9fe2627c9  mitdb_234.hea
+b1666c7f2f117be6dc04cae2e7016b3315775edb9ad7c7ee53fa9c110937560b  bidmc01.dat
+f43b0b139ad8f4d45097403b7179e1e6f8bda17dfd06dba504faf39a115aa27f  bidmc01.hea

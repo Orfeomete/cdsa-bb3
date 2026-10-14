@@ -1,0 +1,33 @@
+{
+ "n_tohum": 2000,
+ "toplam_paket": 600,
+ "ozet": {
+  "%1 / 5 s": {
+   "ortanca": 1.42,
+   "min": 0.61,
+   "maks": 2.84,
+   "ustu_1_5": 815,
+   "ustu_1_0": 1776,
+   "kaynak": 1.5,
+   "kaynak_yuzdebirlik": 59
+  },
+  "%5 / 30 s": {
+   "ortanca": 3.96,
+   "min": 1.44,
+   "maks": 7.31,
+   "ustu_1_5": 1999,
+   "ustu_1_0": 2000,
+   "kaynak": 3.85,
+   "kaynak_yuzdebirlik": 47
+  },
+  "%10 / 60 s": {
+   "ortanca": 6.59,
+   "min": 2.9,
+   "maks": 11.74,
+   "ustu_1_5": 2000,
+   "ustu_1_0": 2000,
+   "kaynak": 6.75,
+   "kaynak_yuzdebirlik": 60
+  }
+ }
+}

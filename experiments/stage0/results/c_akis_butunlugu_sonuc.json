@@ -1,0 +1,156 @@
+{
+ "kaynak_sha256": "b2ea3c250e56e48f4b7b90697832b8ecd1afa1e0bb31f2dcfea4ed6e1075a639",
+ "paket": 600,
+ "senaryo": "STAGE0B-akis-butunlugu",
+ "beklenti": {
+  "tamper_one_byte": {
+   "V1": true,
+   "V2": true
+  },
+  "delete_one": {
+   "V1": false,
+   "V2": true
+  },
+  "delete_block_10": {
+   "V1": false,
+   "V2": true
+  },
+  "swap_two": {
+   "V1": false,
+   "V2": true
+  },
+  "reverse_window_20": {
+   "V1": false,
+   "V2": true
+  },
+  "replay_one": {
+   "V1": false,
+   "V2": true
+  },
+  "truncate_tail_30": {
+   "V1": false,
+   "V2": true
+  },
+  "foreign_envelope": {
+   "V1": false,
+   "V2": true
+  }
+ },
+ "sonuc": [
+  {
+   "saldiri": "tamper_one_byte",
+   "V1_saptadi": true,
+   "V2_saptadi": true,
+   "V2_bulgu": [
+    "eksik paket kimliği: 1 adet",
+    "kimlik doğrulama hatası",
+    "paket sayısı beklenenden farklı (599/600)"
+   ],
+   "beklenti": {
+    "V1": true,
+    "V2": true
+   },
+   "beklenti_tuttu": true
+  },
+  {
+   "saldiri": "delete_one",
+   "V1_saptadi": false,
+   "V2_saptadi": true,
+   "V2_bulgu": [
+    "eksik paket kimliği: 1 adet",
+    "paket sayısı beklenenden farklı (599/600)"
+   ],
+   "beklenti": {
+    "V1": false,
+    "V2": true
+   },
+   "beklenti_tuttu": true
+  },
+  {
+   "saldiri": "delete_block_10",
+   "V1_saptadi": false,
+   "V2_saptadi": true,
+   "V2_bulgu": [
+    "eksik paket kimliği: 10 adet",
+    "paket sayısı beklenenden farklı (590/600)"
+   ],
+   "beklenti": {
+    "V1": false,
+    "V2": true
+   },
+   "beklenti_tuttu": true
+  },
+  {
+   "saldiri": "swap_two",
+   "V1_saptadi": false,
+   "V2_saptadi": true,
+   "V2_bulgu": [
+    "paket sırası bozulmuş"
+   ],
+   "beklenti": {
+    "V1": false,
+    "V2": true
+   },
+   "beklenti_tuttu": true
+  },
+  {
+   "saldiri": "reverse_window_20",
+   "V1_saptadi": false,
+   "V2_saptadi": true,
+   "V2_bulgu": [
+    "paket sırası bozulmuş"
+   ],
+   "beklenti": {
+    "V1": false,
+    "V2": true
+   },
+   "beklenti_tuttu": true
+  },
+  {
+   "saldiri": "replay_one",
+   "V1_saptadi": false,
+   "V2_saptadi": true,
+   "V2_bulgu": [
+    "eksik paket kimliği: 1 adet",
+    "yinelenen paket kimliği: [299]"
+   ],
+   "beklenti": {
+    "V1": false,
+    "V2": true
+   },
+   "beklenti_tuttu": true
+  },
+  {
+   "saldiri": "truncate_tail_30",
+   "V1_saptadi": false,
+   "V2_saptadi": true,
+   "V2_bulgu": [
+    "eksik paket kimliği: 30 adet",
+    "paket sayısı beklenenden farklı (570/600)"
+   ],
+   "beklenti": {
+    "V1": false,
+    "V2": true
+   },
+   "beklenti_tuttu": true
+  },
+  {
+   "saldiri": "foreign_envelope",
+   "V1_saptadi": false,
+   "V2_saptadi": true,
+   "V2_bulgu": [
+    "AAD beklenen bağlamla uyuşmuyor",
+    "eksik paket kimliği: 1 adet",
+    "paket sayısı beklenenden farklı (599/600)"
+   ],
+   "beklenti": {
+    "V1": false,
+    "V2": true
+   },
+   "beklenti_tuttu": true
+  }
+ ],
+ "V1_saptadi": 1,
+ "V2_saptadi": 8,
+ "beklentinin_tamami_tuttu": true
+}

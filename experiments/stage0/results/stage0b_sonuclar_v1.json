@@ -1,0 +1,708 @@
+{
+ "schema": "bb3-stage0b-v1",
+ "preregistration": "00_ONKAYIT_STAGE0_IKINCI_VERI_v1.md",
+ "created_at_utc": "2026-10-11T02:39:04.582351+00:00",
+ "seed": 20260910,
+ "seed_note": "kaynak çalışmanın 20260823 tohumu bilerek yeniden kullanılmadı; aynı tohum aynı kayıp desenini verir ve pencere değerleri kayıttan bağımsız olarak birebir aynı çıkardı",
+ "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+ "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+ "processor": "x86_64",
+ "numpy": "2.2.6",
+ "cryptography": "50.0.1",
+ "crypto_source": "cdsa-bb3 deposu",
+ "ratio_threshold_s0b2": 1.5,
+ "arms": [
+  {
+   "arm": "B_mitdb_234",
+   "description": "MIT-BIH Arrhythmia 1.0.0 kayit 234, ayni veri tabani, farkli denek",
+   "dataset": "mitdb-1.0.0-record-234",
+   "sampling_hz": 360,
+   "duration_seconds": 600,
+   "s0b2_uygulanir": true,
+   "packet_samples": 360,
+   "source_files": [
+    {
+     "file": "mitdb_234.dat",
+     "url": "https://physionet.org/files/mitdb/1.0.0/234.dat",
+     "bytes": 1950000,
+     "sha256": "89f826307bfc91a554021da87c17b88b843ed3d26aa9ea237fc6f7c8af00da6d",
+     "downloaded_at_utc": "2026-10-11T02:38:57.886343+00:00"
+    },
+    {
+     "file": "mitdb_234.hea",
+     "url": "https://physionet.org/files/mitdb/1.0.0/234.hea",
+     "bytes": 156,
+     "sha256": "91c94c803d05f637cc29a3f353d88e1c25b20a25957c8cc25f7cbbf9fe2627c9",
+     "downloaded_at_utc": "2026-10-11T02:38:57.896363+00:00"
+    },
+    {
+     "file": "nstdb_bw.dat",
+     "url": "https://physionet.org/files/nstdb/1.0.0/bw.dat",
+     "bytes": 1950000,
+     "sha256": "15f68280aba8b006f5497c14da44b558e68caaabc2afc5c4b710eea779b7512c",
+     "downloaded_at_utc": "2026-10-11T02:38:57.926120+00:00"
+    },
+    {
+     "file": "nstdb_bw.hea",
+     "url": "https://physionet.org/files/nstdb/1.0.0/bw.hea",
+     "bytes": 93,
+     "sha256": "e3ea3b09fb8d65877cf6ae4dec213b9693243c435333a150c14f6b551f7b7d61",
+     "downloaded_at_utc": "2026-10-11T02:38:57.933686+00:00"
+    }
+   ],
+   "key_sha256": "7144c524d43a45a6e5bbc10678988e4df983178fa5fc5f06537aea5b278e6bdb",
+   "shamir_pair_results": [
+    true,
+    true,
+    true
+   ],
+   "single_share_rejected": [
+    true,
+    true,
+    true
+   ],
+   "results": [
+    {
+     "scenario": "clean",
+     "input_packets": 600,
+     "verified_packets": 600,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 600,
+     "crypto_latency_median_ms": 0.11321500000000001,
+     "crypto_latency_p95_ms": 0.20137319999999997,
+     "plaintext_bytes": 2511682,
+     "stored_json_bytes": 5977964,
+     "storage_ratio": 2.380064036768986,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "noise_24db",
+     "input_packets": 600,
+     "verified_packets": 600,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 600,
+     "crypto_latency_median_ms": 0.1203615,
+     "crypto_latency_p95_ms": 0.22633054999999996,
+     "plaintext_bytes": 2487056,
+     "stored_json_bytes": 5931712,
+     "storage_ratio": 2.3850335497069626,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "noise_12db",
+     "input_packets": 600,
+     "verified_packets": 600,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 600,
+     "crypto_latency_median_ms": 0.10348450000000001,
+     "crypto_latency_p95_ms": 0.22311879999999987,
+     "plaintext_bytes": 2464547,
+     "stored_json_bytes": 5886694,
+     "storage_ratio": 2.388550106774186,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "noise_6db",
+     "input_packets": 600,
+     "verified_packets": 600,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 600,
+     "crypto_latency_median_ms": 0.1011475,
+     "crypto_latency_p95_ms": 0.28693994999999994,
+     "plaintext_bytes": 2464552,
+     "stored_json_bytes": 5886104,
+     "storage_ratio": 2.388305866542885,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "loss_1pct",
+     "input_packets": 594,
+     "verified_packets": 594,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 0.99,
+     "longest_contiguous_seconds": 225,
+     "crypto_latency_median_ms": 0.1134045,
+     "crypto_latency_p95_ms": 0.20362539999999993,
+     "plaintext_bytes": 2486142,
+     "stored_json_bytes": 5919714,
+     "storage_ratio": 2.3810844271968374,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "loss_5pct",
+     "input_packets": 570,
+     "verified_packets": 570,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 0.95,
+     "longest_contiguous_seconds": 77,
+     "crypto_latency_median_ms": 0.1087295,
+     "crypto_latency_p95_ms": 0.19856130000000002,
+     "plaintext_bytes": 2386388,
+     "stored_json_bytes": 5681926,
+     "storage_ratio": 2.3809732533016423,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "loss_10pct",
+     "input_packets": 540,
+     "verified_packets": 540,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 0.9,
+     "longest_contiguous_seconds": 45,
+     "crypto_latency_median_ms": 0.1080685,
+     "crypto_latency_p95_ms": 0.22628319999999982,
+     "plaintext_bytes": 2259240,
+     "stored_json_bytes": 5380320,
+     "storage_ratio": 2.3814734158389546,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "disconnect_5s",
+     "input_packets": 595,
+     "verified_packets": 595,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 0.9916666666666667,
+     "longest_contiguous_seconds": 298,
+     "crypto_latency_median_ms": 0.109348,
+     "crypto_latency_p95_ms": 0.2642432499999999,
+     "plaintext_bytes": 2490453,
+     "stored_json_bytes": 5932311,
+     "storage_ratio": 2.3820208612649987,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "disconnect_30s",
+     "input_packets": 570,
+     "verified_packets": 570,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 0.95,
+     "longest_contiguous_seconds": 285,
+     "crypto_latency_median_ms": 0.10775799999999999,
+     "crypto_latency_p95_ms": 0.1894407999999999,
+     "plaintext_bytes": 2386399,
+     "stored_json_bytes": 5684798,
+     "storage_ratio": 2.382165765238755,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "disconnect_60s",
+     "input_packets": 540,
+     "verified_packets": 540,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 0.9,
+     "longest_contiguous_seconds": 270,
+     "crypto_latency_median_ms": 0.1241535,
+     "crypto_latency_p95_ms": 0.21199854999999998,
+     "plaintext_bytes": 2262889,
+     "stored_json_bytes": 5389778,
+     "storage_ratio": 2.3818128065495037,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "delay_50ms",
+     "input_packets": 600,
+     "verified_packets": 600,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 600,
+     "crypto_latency_median_ms": 0.11589450000000001,
+     "crypto_latency_p95_ms": 0.18798805,
+     "plaintext_bytes": 2515282,
+     "stored_json_bytes": 5988164,
+     "storage_ratio": 2.380712778924987,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "delay_250ms",
+     "input_packets": 600,
+     "verified_packets": 600,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 600,
+     "crypto_latency_median_ms": 0.117064,
+     "crypto_latency_p95_ms": 0.20853544999999993,
+     "plaintext_bytes": 2516482,
+     "stored_json_bytes": 5991164,
+     "storage_ratio": 2.3807696617738574,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "delay_1000ms",
+     "input_packets": 600,
+     "verified_packets": 600,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 600,
+     "crypto_latency_median_ms": 0.1185795,
+     "crypto_latency_p95_ms": 0.27619689999999997,
+     "plaintext_bytes": 2517682,
+     "stored_json_bytes": 5994164,
+     "storage_ratio": 2.380826490398708,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "tamper_one_byte",
+     "input_packets": 600,
+     "verified_packets": 0,
+     "rejected_packets": 600,
+     "integrity_rate": 0.0,
+     "rejection_rate": 1.0,
+     "recoverable_timeline_rate": 0.0,
+     "longest_contiguous_seconds": 0,
+     "crypto_latency_median_ms": 0.08496100000000001,
+     "crypto_latency_p95_ms": 0.20103989999999972,
+     "plaintext_bytes": 2517682,
+     "stored_json_bytes": 5995964,
+     "storage_ratio": 2.3815414337473912,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    }
+   ],
+   "acceptance": {
+    "delivered_integrity_100pct": true,
+    "tamper_rejection_100pct": true,
+    "all_shamir_pairs_reconstruct": true,
+    "single_share_access_rejected": true,
+    "p95_crypto_under_100ms": true,
+    "no_silent_corruption": true
+   },
+   "overall_pass": true,
+   "matched_pairs": [
+    {
+     "pair": "loss_1pct / disconnect_5s",
+     "delivered": [
+      594,
+      595
+     ],
+     "timeline_rate": [
+      0.99,
+      0.9917
+     ],
+     "longest_window_s": [
+      225,
+      298
+     ],
+     "ratio": 1.32,
+     "ongoruye_konu": false,
+     "esit_teslim": false,
+     "ongoru_tuttu": null
+    },
+    {
+     "pair": "loss_5pct / disconnect_30s",
+     "delivered": [
+      570,
+      570
+     ],
+     "timeline_rate": [
+      0.95,
+      0.95
+     ],
+     "longest_window_s": [
+      77,
+      285
+     ],
+     "ratio": 3.7,
+     "ongoruye_konu": true,
+     "esit_teslim": true,
+     "ongoru_tuttu": true
+    },
+    {
+     "pair": "loss_10pct / disconnect_60s",
+     "delivered": [
+      540,
+      540
+     ],
+     "timeline_rate": [
+      0.9,
+      0.9
+     ],
+     "longest_window_s": [
+      45,
+      270
+     ],
+     "ratio": 6.0,
+     "ongoruye_konu": true,
+     "esit_teslim": true,
+     "ongoru_tuttu": true
+    }
+   ],
+   "s0b2_prediction_held": true
+  },
+  {
+   "arm": "C_bidmc_01",
+   "description": "BIDMC PPG and Respiration 1.0.0 kayit bidmc01, farkli veri tabani, PPG modalitesi, 125 Hz",
+   "dataset": "bidmc-1.0.0-record-bidmc01",
+   "sampling_hz": 125,
+   "duration_seconds": 480,
+   "s0b2_uygulanir": false,
+   "packet_samples": 125,
+   "source_files": [
+    {
+     "file": "bidmc01.dat",
+     "url": "https://physionet.org/files/bidmc/1.0.0/bidmc01.dat",
+     "bytes": 600010,
+     "sha256": "b1666c7f2f117be6dc04cae2e7016b3315775edb9ad7c7ee53fa9c110937560b",
+     "downloaded_at_utc": "2026-10-11T02:39:02.872060+00:00"
+    },
+    {
+     "file": "bidmc01.hea",
+     "url": "https://physionet.org/files/bidmc/1.0.0/bidmc01.hea",
+     "bytes": 595,
+     "sha256": "f43b0b139ad8f4d45097403b7179e1e6f8bda17dfd06dba504faf39a115aa27f",
+     "downloaded_at_utc": "2026-10-11T02:39:02.881389+00:00"
+    },
+    {
+     "file": "nstdb_bw.dat",
+     "url": "https://physionet.org/files/nstdb/1.0.0/bw.dat",
+     "bytes": 1950000,
+     "sha256": "15f68280aba8b006f5497c14da44b558e68caaabc2afc5c4b710eea779b7512c",
+     "downloaded_at_utc": "2026-10-11T02:39:02.899356+00:00"
+    },
+    {
+     "file": "nstdb_bw.hea",
+     "url": "https://physionet.org/files/nstdb/1.0.0/bw.hea",
+     "bytes": 93,
+     "sha256": "e3ea3b09fb8d65877cf6ae4dec213b9693243c435333a150c14f6b551f7b7d61",
+     "downloaded_at_utc": "2026-10-11T02:39:02.907061+00:00"
+    }
+   ],
+   "key_sha256": "aa7eb24556431134f2bcb1d1c196404c40c1f4d01be5e51bf0d795ffafabfc2a",
+   "shamir_pair_results": [
+    true,
+    true,
+    true
+   ],
+   "single_share_rejected": [
+    true,
+    true,
+    true
+   ],
+   "results": [
+    {
+     "scenario": "clean",
+     "input_packets": 480,
+     "verified_packets": 480,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 480,
+     "crypto_latency_median_ms": 0.061455499999999996,
+     "crypto_latency_p95_ms": 0.10223655,
+     "plaintext_bytes": 914239,
+     "stored_json_bytes": 2140958,
+     "storage_ratio": 2.3417924634586798,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "noise_24db",
+     "input_packets": 480,
+     "verified_packets": 480,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 480,
+     "crypto_latency_median_ms": 0.059352,
+     "crypto_latency_p95_ms": 0.14980084999999999,
+     "plaintext_bytes": 916652,
+     "stored_json_bytes": 2148184,
+     "storage_ratio": 2.343510950720666,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "noise_12db",
+     "input_packets": 480,
+     "verified_packets": 480,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 480,
+     "crypto_latency_median_ms": 0.044946,
+     "crypto_latency_p95_ms": 0.0754679,
+     "plaintext_bytes": 917708,
+     "stored_json_bytes": 2150296,
+     "storage_ratio": 2.343115675138497,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "noise_6db",
+     "input_packets": 480,
+     "verified_packets": 480,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 480,
+     "crypto_latency_median_ms": 0.0551135,
+     "crypto_latency_p95_ms": 0.08801035,
+     "plaintext_bytes": 916372,
+     "stored_json_bytes": 2147144,
+     "storage_ratio": 2.343092106699026,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "loss_1pct",
+     "input_packets": 475,
+     "verified_packets": 475,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 0.9895833333333334,
+     "longest_contiguous_seconds": 321,
+     "crypto_latency_median_ms": 0.05564,
+     "crypto_latency_p95_ms": 0.13050555,
+     "plaintext_bytes": 904134,
+     "stored_json_bytes": 2119393,
+     "storage_ratio": 2.3441138149876015,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "loss_5pct",
+     "input_packets": 456,
+     "verified_packets": 456,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 0.95,
+     "longest_contiguous_seconds": 60,
+     "crypto_latency_median_ms": 0.0485605,
+     "crypto_latency_p95_ms": 0.10583384999999987,
+     "plaintext_bytes": 867838,
+     "stored_json_bytes": 2034356,
+     "storage_ratio": 2.3441656161633855,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "loss_10pct",
+     "input_packets": 432,
+     "verified_packets": 432,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 0.9,
+     "longest_contiguous_seconds": 30,
+     "crypto_latency_median_ms": 0.053600999999999996,
+     "crypto_latency_p95_ms": 0.11430749999999999,
+     "plaintext_bytes": 821911,
+     "stored_json_bytes": 1927214,
+     "storage_ratio": 2.344796456063978,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "disconnect_5s",
+     "input_packets": 475,
+     "verified_packets": 475,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 0.9895833333333334,
+     "longest_contiguous_seconds": 238,
+     "crypto_latency_median_ms": 0.048251,
+     "crypto_latency_p95_ms": 0.11388854999999998,
+     "plaintext_bytes": 904194,
+     "stored_json_bytes": 2121413,
+     "storage_ratio": 2.3461922994401645,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "disconnect_30s",
+     "input_packets": 450,
+     "verified_packets": 450,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 0.9375,
+     "longest_contiguous_seconds": 225,
+     "crypto_latency_median_ms": 0.0622165,
+     "crypto_latency_p95_ms": 0.14888844999999995,
+     "plaintext_bytes": 856531,
+     "stored_json_bytes": 2010062,
+     "storage_ratio": 2.3467475199379826,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "disconnect_60s",
+     "input_packets": 420,
+     "verified_packets": 420,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 0.875,
+     "longest_contiguous_seconds": 210,
+     "crypto_latency_median_ms": 0.045084,
+     "crypto_latency_p95_ms": 0.11353999999999996,
+     "plaintext_bytes": 799349,
+     "stored_json_bytes": 1875898,
+     "storage_ratio": 2.346782194010376,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "delay_50ms",
+     "input_packets": 480,
+     "verified_packets": 480,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 480,
+     "crypto_latency_median_ms": 0.0501435,
+     "crypto_latency_p95_ms": 0.07164264999999997,
+     "plaintext_bytes": 917119,
+     "stored_json_bytes": 2149118,
+     "storage_ratio": 2.3433360338189484,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "delay_250ms",
+     "input_packets": 480,
+     "verified_packets": 480,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 480,
+     "crypto_latency_median_ms": 0.0395645,
+     "crypto_latency_p95_ms": 0.05549485,
+     "plaintext_bytes": 918079,
+     "stored_json_bytes": 2151518,
+     "storage_ratio": 2.3434998513199843,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "delay_1000ms",
+     "input_packets": 480,
+     "verified_packets": 480,
+     "rejected_packets": 0,
+     "integrity_rate": 1.0,
+     "rejection_rate": 0.0,
+     "recoverable_timeline_rate": 1.0,
+     "longest_contiguous_seconds": 480,
+     "crypto_latency_median_ms": 0.058275,
+     "crypto_latency_p95_ms": 0.12196074999999999,
+     "plaintext_bytes": 919039,
+     "stored_json_bytes": 2153918,
+     "storage_ratio": 2.343663326583529,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    },
+    {
+     "scenario": "tamper_one_byte",
+     "input_packets": 480,
+     "verified_packets": 0,
+     "rejected_packets": 480,
+     "integrity_rate": 0.0,
+     "rejection_rate": 1.0,
+     "recoverable_timeline_rate": 0.0,
+     "longest_contiguous_seconds": 0,
+     "crypto_latency_median_ms": 0.0463035,
+     "crypto_latency_p95_ms": 0.06765834999999999,
+     "plaintext_bytes": 919039,
+     "stored_json_bytes": 2155358,
+     "storage_ratio": 2.3452301806560985,
+     "raw_crypto_overhead_per_packet_bytes": 28
+    }
+   ],
+   "acceptance": {
+    "delivered_integrity_100pct": true,
+    "tamper_rejection_100pct": true,
+    "all_shamir_pairs_reconstruct": true,
+    "single_share_access_rejected": true,
+    "p95_crypto_under_100ms": true,
+    "no_silent_corruption": true
+   },
+   "overall_pass": true,
+   "matched_pairs": [
+    {
+     "pair": "loss_1pct / disconnect_5s",
+     "delivered": [
+      475,
+      475
+     ],
+     "timeline_rate": [
+      0.9896,
+      0.9896
+     ],
+     "longest_window_s": [
+      321,
+      238
+     ],
+     "ratio": 0.74,
+     "ongoruye_konu": false,
+     "esit_teslim": true,
+     "ongoru_tuttu": null
+    },
+    {
+     "pair": "loss_5pct / disconnect_30s",
+     "delivered": [
+      456,
+      450
+     ],
+     "timeline_rate": [
+      0.95,
+      0.9375
+     ],
+     "longest_window_s": [
+      60,
+      225
+     ],
+     "ratio": 3.75,
+     "ongoruye_konu": false,
+     "esit_teslim": false,
+     "ongoru_tuttu": null
+    },
+    {
+     "pair": "loss_10pct / disconnect_60s",
+     "delivered": [
+      432,
+      420
+     ],
+     "timeline_rate": [
+      0.9,
+      0.875
+     ],
+     "longest_window_s": [
+      30,
+      210
+     ],
+     "ratio": 7.0,
+     "ongoruye_konu": false,
+     "esit_teslim": false,
+     "ongoru_tuttu": null
+    }
+   ],
+   "s0b2_prediction_held": true
+  }
+ ],
+ "s0b1_pipeline_generality": true,
+ "s0b2_prediction_held": true
+}

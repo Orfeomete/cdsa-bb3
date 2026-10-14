@@ -1,0 +1,16 @@
+{
+ "tarih_utc": "2026-10-14T04:31:28.837897+00:00",
+ "onkayitli": false,
+ "not": "Shamir modulu pay sayisini denetlemez, tek pay verildiginde f(x_i) dondurur. Red uygulama katmaninda degil, yanlis anahtarin GCM dogrulamasinda gerceklesir.",
+ "tekrar_anahtar": 1000,
+ "tek_pay_deneme": 3000,
+ "tek_pay_anahtardan_farkli": 3000,
+ "tek_pay_desifre_reddedildi": 3000,
+ "tek_pay_diger_hata": {},
+ "ikili_deneme": 3000,
+ "ikili_dogru_anahtar": 3000,
+ "python": "3.10.12",
+ "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+ "cryptography": "50.0.1",
+ "betik_sha256": "b7fc3ac9537f00f54f24850d0a3a6801a1fead321d95d877ab64765df722f763"
+}

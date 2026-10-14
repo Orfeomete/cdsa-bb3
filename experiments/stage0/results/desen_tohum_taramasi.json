@@ -1,0 +1,122 @@
+{
+ "toplam_paket": 600,
+ "n_tohum": 2000,
+ "esit_teslim_her_tohumda": false,
+ "ozet": {
+  "%1 / 5s": {
+   "ortanca": 1.419,
+   "min": 0.614,
+   "maks": 2.838,
+   "p05": 0.9,
+   "oran_1_5_ustu_yuzde": 40.8,
+   "oran_3_ustu_yuzde": 0.0,
+   "her_zaman_1_ustu": false
+  },
+  "%5 / 30s": {
+   "ortanca": 3.958,
+   "min": 1.439,
+   "maks": 7.308,
+   "p05": 2.591,
+   "oran_1_5_ustu_yuzde": 100.0,
+   "oran_3_ustu_yuzde": 85.2,
+   "her_zaman_1_ustu": true
+  },
+  "%10 / 60s": {
+   "ortanca": 6.585,
+   "min": 2.903,
+   "maks": 11.739,
+   "p05": 4.286,
+   "oran_1_5_ustu_yuzde": 100.0,
+   "oran_3_ustu_yuzde": 99.9,
+   "her_zaman_1_ustu": true
+  }
+ },
+ "kaynak_tohum": {
+  "tohum": 20260823,
+  "ciftler": [
+   {
+    "cift": "%1 / 5s",
+    "teslim": [
+     594,
+     595
+    ],
+    "esit_teslim": false,
+    "pencere": [
+     199,
+     298
+    ],
+    "oran": 1.4974874371859297
+   },
+   {
+    "cift": "%5 / 30s",
+    "teslim": [
+     570,
+     570
+    ],
+    "esit_teslim": true,
+    "pencere": [
+     74,
+     285
+    ],
+    "oran": 3.8513513513513513
+   },
+   {
+    "cift": "%10 / 60s",
+    "teslim": [
+     540,
+     540
+    ],
+    "esit_teslim": true,
+    "pencere": [
+     40,
+     270
+    ],
+    "oran": 6.75
+   }
+  ]
+ },
+ "uzanti_tohum": {
+  "tohum": 20260910,
+  "ciftler": [
+   {
+    "cift": "%1 / 5s",
+    "teslim": [
+     594,
+     595
+    ],
+    "esit_teslim": false,
+    "pencere": [
+     225,
+     298
+    ],
+    "oran": 1.3244444444444445
+   },
+   {
+    "cift": "%5 / 30s",
+    "teslim": [
+     570,
+     570
+    ],
+    "esit_teslim": true,
+    "pencere": [
+     77,
+     285
+    ],
+    "oran": 3.7012987012987013
+   },
+   {
+    "cift": "%10 / 60s",
+    "teslim": [
+     540,
+     540
+    ],
+    "esit_teslim": true,
+    "pencere": [
+     45,
+     270
+    ],
+    "oran": 6.0
+   }
+  ]
+ }
+}
