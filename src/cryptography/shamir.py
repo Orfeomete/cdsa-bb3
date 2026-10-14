@@ -14,6 +14,7 @@ Reference: Shamir A. How to share a secret. Communications of the ACM,
 """
 
 import os
+import secrets
 
 
 # 257-bit prime modulus (NIST SP 800-57 compatible field).
@@ -46,7 +47,7 @@ def anahtari_paylaristir(ana_anahtar_int: int, n: int = 3, k: int = 2) -> list:
     if k < 1 or n < k:
         raise ValueError("Require n >= k >= 1.")
     katsayilar = [ana_anahtar_int] + [
-        int.from_bytes(os.urandom(32), "big") % P for _ in range(k - 1)
+        secrets.randbelow(P) for _ in range(k - 1)
     ]
     return [(i + 1, _polinomla_deger(katsayilar, i + 1)) for i in range(n)]
 
