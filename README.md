@@ -38,6 +38,22 @@ reference dataset** (byte-reproducible with `seed=42`).
 
 ---
 
+## Current status (v2.4.0, 22 October 2026)
+
+This repository is one of the three code archives of the CDSA research programme. Since 10 September 2026 the programme has consisted of three manuscripts, none of which is under review at present. They are listed by topic below, and their full citations will be added here once they are published.
+
+| Manuscript (topic) | Material used from the three repositories |
+|---|---|
+| Preregistered evaluation of federated deep reinforcement learning in three synthetic aviation decision tasks | Faz E code and run records, the transition-dependence test, the E12 positive control and the E13 external test (cdsa-atm), and the 18 October 2026 validation diagnostic study |
+| Dual anchoring of aviation occurrence taxonomies to Part-IS information-security events | the E15 coverage audit, the frozen coding book and the maintenance record schema (cdsa-mro), and the air traffic record schema (cdsa-atm) |
+| Threshold key custody for physiological recording in aviation investigation | the AES-256-GCM and Shamir modules and the Stage 0 and Stage 0b studies (cdsa-bb3) |
+
+The earlier pillar articles and the umbrella (paradigm) article were retired on 10 September 2026, and their content was carried into these three manuscripts. Release v2.4.0 adds two items that the manuscripts already describe. `experiments/transition_dependence/` holds the transition-dependence test with the SHA-256 digest recorded by the E12 and E13 run files, together with its result for the three environments. `experiments/validation_diagnostic_20261018/` holds the 18 October 2026 validation diagnostic study as one archive with 30 models, 270 checkpoints frozen before testing, TensorBoard event files and per-class test scores.
+
+Sections further down that describe the May 2026 scaffold stage, earlier articles or planned funding are kept as historical notes. `CHANGELOG.md` is the authoritative record of what each release contains.
+
+---
+
 ## Paradigm Context — CDSA Scenario C (v2 update, 22 May 2026)
 
 Following the **CDSA Methodological Unification Decision (Scenario C,
@@ -51,14 +67,12 @@ Learning (FRL)** research programme:
 | **CDSA-MRO** | Maintenance safety | `Orfeomete/cdsa-mro` | Manuscript in preparation |
 | **CDSA-ATM** | Air traffic management | `Orfeomete/cdsa-atm` | Manuscript in preparation |
 
-A paradigm-defining umbrella article (Information Fusion Q1, target
-submission target) positions the three pillars under a common
-diagnostic-safety paradigm with convergent validation evidence across
-the three aviation domains.
+The umbrella (paradigm) article planned in May 2026 was retired on
+10 September 2026 (see Current status above).
 
 The current `src/` layout retains the cryptographic-biometric core
 (synthetic data, anonymization, AES-GCM + Shamir SSS) and adds five
-**scaffolded FRL modules** for the paradigm extension:
+**FRL modules** for the paradigm extension:
 
 ```
 src/
@@ -72,17 +86,14 @@ src/
 └── xai/                 Module 8 — SHAP + counterfactual reasoning (v2 scaffolded)
 ```
 
-The v2 modules are **scaffolds**: `__init__.py` + placeholder docstrings
-documenting the planned interface. Full implementations are deferred to
-a single consolidated **TÜBİTAK 1001** application (planned; September
-2026 target). Treat v2 modules as **architectural commitments**, not as
-runnable code at v1.0.0.
+The v2 modules were first published as scaffolds in May 2026. Since
+v2.2.0 (3 July 2026) they are full NumPy reference implementations with
+unit tests, and their v2.3.0 versions are the code that the Faz E runs used.
 
 For the paradigm-defining argument, refer to:
 - `docs/scenario_c_paradigm_context.md` (paradigm context summary)
 - The CDSA Methodological Unification Decision document (internal,
   cited as `[Cantekin 2026, CDSA Scenario C]`)
-- The umbrella article (Information Fusion Q1, in preparation)
 
 ---
 
@@ -247,16 +258,16 @@ If you use CDSA-BB3 in academic work, please cite the software:
                Investigation},
   year      = 2026,
   month     = may,
-  version   = {2.3.0},
+  version   = {2.4.0},
   publisher = {Zenodo},
   doi       = {10.5281/zenodo.20649675},
   url       = {https://github.com/Orfeomete/cdsa-bb3}
 }
 ```
 
-A journal article on this pillar is currently under peer review;
-the preprint will be deposited and citable once the review process
-concludes.
+No manuscript that uses this repository is under review at present.
+Citations of the related manuscripts will be added here once they are
+published.
 
 `CITATION.cff` provides the same metadata in a machine-readable form
 recognized by Zenodo, GitHub, and academic indexers.
@@ -306,15 +317,14 @@ xai) have been scaffolded for the FRL paradigm extension. A new
 The CHANGELOG, CITATION.cff
 and `.zenodo.json` have been updated to reflect the paradigm context.
 
-The v1.0.0 release tag remains valid and reproducible; v2.0.0 release
-is planned following the outcome of the consolidated TÜBİTAK 1001
-application.
+The v1.0.0 release tag remains valid and reproducible. Later releases
+(v2.1.0 to v2.4.0) are listed in `CHANGELOG.md`.
 
 ---
 
 ## Acknowledgements
 
-This software supports the doctoral thesis in preparation at **Istanbul
+This software supports preliminary doctoral research at **Istanbul
 Beykent University, Department of Computer Engineering**, under the
 supervision of Assoc. Prof. Dr. Ibrahim Furkan INCE.
 

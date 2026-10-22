@@ -4,6 +4,16 @@ All notable changes to this project are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 and the project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.4.0] - 2026-10-22
+
+### Added
+- Transition-dependence test `experiments/transition_dependence/gecis_bagimliligi_testi.py` (SHA-256 `b3bc5b76…`, the digest recorded by the E12 and E13 run files of cdsa-atm) with its result file `gecis_bagimliligi_sonuc.json` for the BB3, MRO and ATM environments. The script is published as it was run, and its folder README explains the path layout it expects.
+- Validation diagnostic study of 18 October 2026 as one archive, `experiments/validation_diagnostic_20261018/CDSA_VALIDATION_DIAGNOSTIC_20261018_R1.zip` (SHA-256 `278448ee…`), with 30 models over three tasks, two PPO arms and five seeds, 270 checkpoints frozen before any test pass, TensorBoard event files, per-class test scores and figures. The study is diagnostic and changes no preregistered decision rule.
+
+### Changed
+- README: a current-status section lists the three manuscripts of the programme, none of which is under review, and replaces the statements about retired pillar and umbrella articles. The v2 modules are described as implemented code rather than scaffolds.
+- CITATION.cff: the preferred citation of a retired article and the umbrella-article reference are removed, so the software itself is the citation.
+
 ## [2.3.0] - 2026-10-14
 
 ### Added

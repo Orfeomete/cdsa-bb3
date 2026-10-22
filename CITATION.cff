@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use CDSA-BB3 in academic work, please cite the software (this file), the accompanying arXiv preprint, and the accompanying journal manuscript."
+message: "If you use CDSA-BB3 in academic work, please cite the software (this file)."
 type: software
 title: "CDSA-BB3: Pilot Biometric Pillar of the CDSA Federated Reinforcement Learning Paradigm — Synthetic Biometric Data, Anonymization, Cryptographic Multi-Signature, and Scaffolded FRL Extension"
-version: "2.3.0"
-date-released: "2026-10-14"
+version: "2.4.0"
+date-released: "2026-10-22"
 doi: "10.5281/zenodo.20649675"
 authors:
   - family-names: "Cantekin"
@@ -43,36 +43,16 @@ keywords:
   - CDSA paradigm
   - Scenario C
 abstract: >
-  CDSA-BB3 is the reference implementation of the pilot-biometrics
-  pillar of the Complementary Diagnostic Safety Approach (CDSA), a
-  third-generation aviation safety paradigm formalised as a Federated
-  Reinforcement Learning (FRL) framework following the CDSA
-  Methodological Unification Decision (Scenario C, 21 May 2026, frozen
-  status). The v1.0.0 release provides three Python modules:
-  (1) a deterministic generator producing 1179 synthetic biometric
-  records across eight long-haul routes and two shift types,
-  (2) two-layer anonymization combining k-Anonymity (k=5) with
-  Laplace differential privacy (epsilon=1.0), and
-  (3) a cryptographic multi-signature scheme combining AES-256-GCM
-  encryption with Shamir 2/3 secret sharing over a 257-bit prime field.
-  The v2 scaffold (22 May 2026) adds five Python modules
-  (rl_agents, rl_environment, federated, multimodal, xai) for the
-  FRL paradigm extension; full implementations are deferred to TÜBİTAK
-  1001 ARDEB Projects 1 + 2 (Sept 2026 application cycle). The
-  reference dataset is byte-reproducible with numpy seed 42 and carries
-  no special-category data under GDPR Article 9 or KVKK Article 6.
-preferred-citation:
-  type: article
-  title: "Beyond the Flight Recorder: A Cryptographic Biometric Framework for Bridging Individual and Organizational Aviation Risk"
-  authors:
-    - family-names: "Cantekin"
-      given-names: "Mete"
-      orcid: "https://orcid.org/0009-0001-6990-6340"
-      affiliation: "Department of Computer Engineering, Istanbul Beykent University"
-  year: 2026
-  month: 5
-  journal: "International Journal of Critical Infrastructure Protection"
-  notes: "manuscript in preparation, not under review"
+  CDSA-BB3 is the reference implementation of the pilot biometric
+  pillar of the Complementary Diagnostic Safety Approach (CDSA). It
+  contains the synthetic biometric data generator, anonymisation, the
+  AES-256-GCM and Shamir threshold modules and NumPy reference
+  implementations of the federated reinforcement learning modules
+  (v2.2.0), the Faz E preregistered evaluation code and run records and
+  the Stage 0 and Stage 0b evidence-integrity studies (v2.3.0). Release
+  v2.4.0 adds the transition-dependence test and the 18 October 2026
+  validation diagnostic study. All data are synthetic or public, and no
+  real pilot data are included.
 references:
   # Cryptographic-biometric foundations
   - type: book
@@ -171,11 +151,3 @@ references:
     notes: "Internal frozen decision document, Istanbul Beykent University"
     year: 2026
     month: 5
-  - type: article
-    authors:
-      - family-names: "Cantekin"
-        given-names: "Mete"
-    title: "Complementary Diagnostic Safety Approach (CDSA): A Federated Reinforcement Learning Paradigm for Three-Pillar Aviation Safety Convergent Validation"
-    journal: "Information Fusion (target)"
-    notes: "v1 paradigm-defining article, September 2026 submission target"
-    year: 2026
